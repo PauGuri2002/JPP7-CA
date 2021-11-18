@@ -1,0 +1,28 @@
+MAIN(Venedor Telefònic): Estaria interessat o interessada en la nostra assegurança de rèptils? 
+-NOTHANKS-> No gràcies, ja tinc la meva iguana assegurada.
+-GOON-> Sona interessant, explica'm més
+-MARK-> I tant, he de protegir la meva petita sargantana!
+-DONOTCALL-> Ves a pastar, estafador!
+
+
+NOTHANKS(Venedor Telefònic): La teva amabilitat em desconcerta. Millor penjo. 
+-SUCCESS-> Mentir és la millor opció!
+
+
+GOON(Venedor Telefònic): Oh no, mai he arribat tan lluny...emm...emm...tu t'hauries de quedar els MEUS diners!
+-SUCCESS-> Abracadabra!
+
+
+MARK(Venedor Telefònic): Excel·lent, doncs comencarem amb una cobertura escalable de 100.000€ per animal...
+-FAILURE-> Cada minut en neix un de nou...
+
+
+DONOTCALL(Venedor Telefònic): Oh, no ho diràs en serio, no?
+-SUCCESS-> Penjaré tan fort que ho notarà fins i tot te àvia!
+-TRYAGAIN-> Fantàstic, ara em sento malament. 
+
+
+TRYAGAIN(Venedor Telefònic): Estaria interessat o interessada en la nostra assegurança de rèptils?
+-NOTHANKS-> No gràcies, ja tinc la meva iguana assegurada.
+-GOON-> Sona interessant, explica'm més
+-MARK-> I tant, he de protegir la meva petita sargantana!

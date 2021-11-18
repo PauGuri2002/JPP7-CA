@@ -1,0 +1,28 @@
+MAIN(Nemesis): Quina alegria veure't, veí! Sóc jo, el teu nemesis! Estàs preparat pel nostre últim enfrontament, covard?
+-ENGAGE-> Entoma això, malvat!
+-RUNAWAY-> Mai m'atraparàs, trist ignorant!
+-TRICK-> Sé que tu ho estàs, però qui soc jo?
+-FORGOT-> Espera, qui ets tu?
+
+
+ENGAGE(Nemesis): La meva venjança estarà servida! Espases, pati, cinc minuts!
+-SUCCESS-> Bona sort, la necessitaràs!
+
+
+RUNAWAY(Nemesis): No et pots escapar! La meva ira és eterna! 
+-FAILURE-> Hora de tocar el dos!
+
+
+TRICK(Nemesis): Jo soc...jo soc...déu méu, QUI SÓC?? Trenta anys, malgastats!!
+-SUCCESS-> Els jocs de paraules guanyen de nou! 
+
+
+FORGOT(Nemesis): Sóc jo! El teu nemesis? Un antic amic convertit en rival després d'una gran traïció?
+-SUCCESS-> Hmmm, no em sona gens. Encantat de conèixe't, però!
+-TRYAGAIN-> Ahhh, sí! És nou aquest pedaç de l'ull?
+
+
+TRYAGAIN(Nemesis): No. És el mateix de sempre. I ara, estàs preparat pel nostre últim enfrontament, o no?
+-ENGAGE-> Entoma això, malvat!
+-RUNAWAY-> Mai m'atraparàs, trist ignorant! 
+-TRICK-> Sé que tu ho estàs, però qui soc jo?

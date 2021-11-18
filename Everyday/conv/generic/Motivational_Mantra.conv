@@ -1,0 +1,16 @@
+MAIN(Cassette Motivacional): Tens una gran bellesa tant interior com exterior.
+-REASSURE-> Tinc una gran bellesa interior i exterior.
+-DOUBT-> No valc per res.
+
+DOUBT(Cassette Motivacional):*apagat*
+-FAILURE-> No em sento gens millor, per alguna raó.
+
+REASSURE(Cassette Motivacional): Pots aconseguir qualsevol cosa que et proposis.
+-DESPAIR-> La meva vida està pels terres.
+-BELIEVEINYOURSELF-> Puc aconseguir qualsevol cosa.
+
+DESPAIR(Cassette Motivacional):*apagat*
+-FAILURE-> Sento que la meva motivació segueix igual.
+
+BELIEVEINYOURSELF(Cassette Motivacional): Demà serà un nou dia. Tot anirà bé.
+-SUCCESS-> Demà serà un nou dia. Tot m'anirà bé.

@@ -1,0 +1,647 @@
+REM : Dialog Neighbor
+CLONE DEED "DialogBase" "NeighborDialog"
+    SET INSTRUCTIONS "Parla amb el visitant"
+    SET CATEGORY "NEIGHBOR"        
+END
+
+DEF TASK "NeighborAtDoor"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+    SET NAME "Hi ha algú a la porta"
+    SET THEME "TALKING"
+    SET CATEGORY "MEDIUM"
+    
+    STEP "First" "NeighborDialog"
+    
+    NEXT "First" SUCCESS FAILURE
+END
+
+REM : Ice Cream Man
+CLONE DEED "DialogBase" "IceCreamDialog"
+    SET INSTRUCTIONS "Compra un gelat"
+    SET CONTENT_ID "ICE_CREAM_VAN"
+END
+
+DEF TASK "IceCreamMan"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+    SET NAME "Camió de gelats! Camió de gelats!"
+    SET THEME "TALKING"
+    SET CATEGORY "MEDIUM"
+
+    STEP "First" "IceCreamDialog"
+    
+    NEXT "First" SUCCESS FAILURE
+END
+
+
+REM : Vegan Pizza
+CLONE DEED "DialogBase" "VeganPizzaDialog"
+    SET INSTRUCTIONS "Demana Pizza"
+    SET CONTENT_ID "PIZZA_ORDER"
+END
+
+CLONE DEED "PhoneBase" "PhoneVeganPizza"
+    SET INSTRUCTIONS "Truca a Pepper-Phonies Vegan Pizza"
+    SET CONTENT_ID "PEPPER-VEGAN"
+END
+
+DEF TASK "PizzaOrder"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+    SET NAME "Demana pizza"
+    SET THEME "TALKING"
+    SET CATEGORY "HIGH"
+    
+    STEP "1" "PhoneVeganPizza"
+    STEP "2" "VeganPizzaDialog"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Fridge Repair
+CLONE DEED "DialogBase" "FixFridgeDialog"
+    SET INSTRUCTIONS "Parla amb la botiga de reparacions"
+    SET CONTENT_ID "FRIDGE_REPAIR"
+END
+
+CLONE DEED "PhoneBase" "PhoneRepairShop"
+    SET INSTRUCTIONS "Truca a Quite-A-Repair"
+    SET CONTENT_ID "QUITE-A-REPA"
+END
+
+DEF TASK "FridgeRepair"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+    SET NAME "Truca perquè vinguin a arreglar la nevera"
+    SET THEME "TALKING"
+    SET CATEGORY "HIGH"
+    SET CAPTAIN "MATURE"
+  
+    STEP "1" "PhoneRepairShop"
+    STEP "2" "FixFridgeDialog"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+
+
+REM : Fix the Wifi
+CLONE DEED "PhoneBase" "PhoneISP"
+    SET INSTRUCTIONS "Truca a BigBand Internet Service"
+    SET CONTENT_ID "BIGBAND_INTE"
+END
+
+CLONE DEED "Nothing5" "Wait"
+    SET INSTRUCTIONS "Estàs en espera..."
+END
+
+CLONE DEED "SwipeLeft" "Unplug"
+    SET INSTRUCTIONS "Hmmm...potser desendollant el router?"
+END
+
+CLONE DEED "SwipeRight" "PlugIn"
+    SET INSTRUCTIONS "Ara torna'l a endollar"
+END
+
+CLONE DEED "SwipeDown" "Works"
+    SET INSTRUCTIONS "Funciona. Penja el telèfon."
+END
+
+DEF TASK "FixWifi"
+    SET NAME "Arregla el Wifi"
+    SET THEME "TALKING"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "HIGH"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "PhoneISP"
+    STEP "2" "Wait"
+    STEP "3" "Unplug"
+    STEP "4" "PlugIn"
+    STEP "5" "Works"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Fix Car
+CLONE DEED "SwipeUp" "OpenHood"
+    SET INSTRUCTIONS "Obre el capó"
+END
+
+CLONE DEED "Hold3" "Look"
+    SET INSTRUCTIONS "Fes-li un cop d'ull"
+END
+
+CLONE DEED "Tap5" "Hit"
+    SET INSTRUCTIONS "Fes-li un cop de martell aleatori al motor"
+END
+
+CLONE DEED "Nothing3" "Realize"
+    SET INSTRUCTIONS "Adona-te'n que ho has empitjorat"
+END
+
+CLONE DEED "PhoneCategory" "Call"
+    SET INSTRUCTIONS "Truca el mecànic"
+    SET CATEGORY "CAR"
+END
+
+DEF TASK "CarSound"
+    SET NAME "El cotxe fa un soroll extrany"
+    SET THEME "TALKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "HIGH"
+    SET DURATION <1H>
+
+    STEP "1" "OpenHood"
+    STEP "2" "Look"
+    STEP "3" "Hit"
+    STEP "4" "Realize"
+    STEP "5" "Call"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM Oh No Ants v1
+CLONE DEED "Hold3" "LookClose"
+    SET INSTRUCTIONS "Mira-les d'aprop per veure de quin tipus són"
+END
+
+CLONE DEED "Nothing2" "Remember"
+    SET INSTRUCTIONS "Recorda que no saps res sobre formigues"
+END
+
+CLONE DEED "PhoneCategory" "Exterminator"
+    SET INSTRUCTIONS "Truca l'exterminador"
+    SET CATEGORY "EXTERMINATOR"
+END
+
+DEF TASK "OhNoAnts1"
+    SET NAME "Oh no! Formigues!"
+    SET THEME "MISC"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "HIGH"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "LookClose"
+    STEP "2" "Remember"
+    STEP "3" "Exterminator"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Food Prank
+
+CLONE DEED "PhoneCategory" "FoodPrank1"
+    SET INSTRUCTIONS "Fes la broma de trucar per demanar menjar pels veïns"
+    SET CATEGORY "FOOD"
+END
+
+CLONE DEED "Nothing3" "ThinkPrank1"
+    SET INSTRUCTIONS "Probablement no ho hauria de tornar a fer..."
+END
+
+CLONE DEED "PhoneCategory" "FoodPrank2"
+    SET INSTRUCTIONS "Fes la broma de trucar per demanar menjar pels veïns"
+    SET CATEGORY "FOOD"
+END
+
+CLONE DEED "Nothing3" "ThinkPrank2"
+    SET INSTRUCTIONS "Només una més..."
+END
+
+CLONE DEED "PhoneCategory" "FoodPrank3"
+    SET INSTRUCTIONS "Fes la broma de trucar per demanar menjar pels veïns"
+    SET CATEGORY "FOOD"
+END
+
+DEF TASK "Prank1"
+    SET NAME "Fes la típica broma de demanar menjar"
+    SET THEME "TALKING"
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "ULTRA"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "FoodPrank1"
+    STEP "2" "ThinkPrank1"
+    STEP "3" "FoodPrank2"
+    STEP "4" "ThinkPrank2"
+    STEP "5" "FoodPrank3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : Sleepover call
+
+CLONE DEED "PhoneCategory" "SleepoverPickupCall"
+    SET INSTRUCTIONS "Truca als pares perquè et recullin de la festa de pijames"
+    SET CONTENT_ID "DEVILS_FAMIL"
+END
+
+DEF TASK "SleepoverPickup"
+    SET NAME "Truca als pares perquè et recullin de la festa de pijames"
+    SET THEME "TALKING"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "HIGH"
+    SET DURATION <1H>
+
+    STEP "1" "SleepoverPickupCall"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : Call Roofer
+CLONE DEED "PhoneCategory" "CallRooferTask"
+    SET INSTRUCTIONS "Truca perquè arreglin les goteres"
+    SET CATEGORY "CONTRACTOR"
+END
+
+DEF TASK "CallRoofer"
+    SET NAME "Truca perquè arreglin les goteres"
+    SET THEME "TALKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "HIGH"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "CallRooferTask"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Order a cake
+
+CLONE DEED "PhoneBase" "OrderCake1"
+    SET INSTRUCTIONS "Truca a Caked n' Loaded"
+    SET CONTENT_ID "CAKED_N_LOAD"
+END
+
+CLONE DEED "Tap1" "OrderCake2"
+    SET INSTRUCTIONS "Encarrega un pastís amb Cap Text"
+END
+
+CLONE DEED "Tap1" "OrderCake3"
+    SET INSTRUCTIONS "Clarifica que ha de posar 'Cap Text'"
+END
+
+CLONE DEED "Nothing4" "OrderCake4"
+    SET INSTRUCTIONS "Perquè és un acudit intern"
+END
+
+DEF TASK "OrderCake"
+    SET NAME "Encarrega un pastís"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "HIGH"
+    SET THEME "TALKING"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "OrderCake1"
+    STEP "2" "OrderCake2"
+    STEP "3" "OrderCake3"
+    STEP "4" "OrderCake4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Negotiate Cable Bundle
+
+CLONE DEED "PhoneBase" "CableBundle1"
+    SET INSTRUCTIONS "Truca a BigBand Internet Service"
+    SET CONTENT_ID "BIGBAND_INTE"
+END
+
+CLONE DEED "Nothing3" "CableBundle2"
+    SET INSTRUCTIONS "Ets el 1r de la cua"
+END
+
+CLONE DEED "Nothing3" "CableBundle3"
+    SET INSTRUCTIONS "Ets el 3r de la cua"
+END
+
+CLONE DEED "Nothing3" "CableBundle4"
+    SET INSTRUCTIONS "Amb prou feines estàs a la cua"
+END
+
+CLONE DEED "Tap1" "CableBundle5"
+    SET INSTRUCTIONS "Tria la tarifa Premium"
+END
+
+DEF TASK "CableBundle"
+    SET NAME "Negocia la tarifa telefònica"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "HIGH"
+    SET THEME "RECREATION"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "CableBundle1"
+    STEP "2" "CableBundle2"
+    STEP "3" "CableBundle3"
+    STEP "4" "CableBundle4"
+    STEP "5" "CableBundle5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Cancel dinner plans
+
+CLONE DEED "SwipeUp" "CancelDinner1"
+    SET INSTRUCTIONS "Oh no, és aquesta nit? Revisa el calendari"
+END
+
+CLONE DEED "Nothing4" "CancelDinner2"
+    SET INSTRUCTIONS "Considera seriosament cancel·lar la interacció social..."
+END
+
+CLONE DEED "PhoneCategory" "CancelDinner3"
+    SET INSTRUCTIONS "Truca als teus veïns per cancel·lar els plans a l'últim minut"
+    SET CATEGORY "RESIDENCE"
+END
+
+DEF TASK "CancelDinner"
+    SET NAME "Cancel·la els plans per sopar"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "HIGH"
+    SET THEME "GUESTS"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "CancelDinner1"
+    STEP "2" "CancelDinner2"
+    STEP "3" "CancelDinner3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Angry opossum in the backyard! Call animal control!
+
+CLONE DEED "Hold2" "AnimalControl1"
+    SET INSTRUCTIONS "Investiga aquell soroll"
+END
+
+CLONE DEED "SwipeDown" "AnimalControl2"
+    SET INSTRUCTIONS "Aah! Torna a dins!"
+END
+
+CLONE DEED "SwipeLeft" "AnimalControl3"
+    SET INSTRUCTIONS "Tanca la porta!"
+END
+
+CLONE DEED "PhoneBase" "AnimalControl4"
+    SET INSTRUCTIONS "Truca a Control d'Animals, JA!!!"
+    SET CATEGORY "ANIMALCONTROL"
+END
+
+DEF TASK "AnimalControl"
+    SET NAME "Fura enrabiada! Truca a Control d'Animals!"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "HIGH"
+    SET THEME "YARD_WORK"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "AnimalControl1"
+    STEP "2" "AnimalControl2"
+    STEP "3" "AnimalControl3"
+    STEP "4" "AnimalControl4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Cancel magazine subscriptions
+
+CLONE DEED "SwipeDown" "CancelMagazine1"
+    SET INSTRUCTIONS "Llença piles de revistes"
+END
+
+CLONE DEED "SwipeDown" "CancelMagazine2"
+    SET INSTRUCTIONS "Perquè estem subscrits a totes aquestes coses?"
+END
+
+CLONE DEED "PhoneCategory" "CancelMagazine3"
+    SET INSTRUCTIONS "Truca per cancel·lar les subscripcions"
+    SET CATEGORY "MAGAZINE"
+END
+
+DEF TASK "CancelMagazine"
+    SET NAME "Cancel·la subscripcions a revistes"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "HIGH"
+    SET THEME "PAPERWORK"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "CancelMagazine1"
+    STEP "2" "CancelMagazine2"
+    STEP "3" "CancelMagazine3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Make restaurant reservation
+
+CLONE DEED "Hold2" "RestaurantReservation1"
+    SET INSTRUCTIONS "Hm, on podriem menjar?"
+END
+
+CLONE DEED "PhoneCategory" "RestaurantReservation2"
+    SET INSTRUCTIONS "Truca al restaurant per reservar taula"
+    SET CATEGORY "FOOD"
+END
+
+CLONE DEED "Hold2" "RestaurantReservation3"
+    SET INSTRUCTIONS "Resulta que no accepten reserves"
+END
+
+DEF TASK "RestaurantReservation"
+    SET NAME "Reserva taula a un restaurant"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "HIGH"
+    SET THEME "TALKING"
+    SET DURATION <5H>
+    REM : TALKING TIMEOUT
+
+    STEP "1" "RestaurantReservation1"
+    STEP "2" "RestaurantReservation2"
+    STEP "3" "RestaurantReservation3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Answer the phone
+
+CLONE DEED "DialogBase" "AnswerPhone"
+    SET INSTRUCTIONS "Parla amb qui t'ha trucat"
+    SET CATEGORY "ANSWERPHONE"
+END
+
+DEF TASK "AnswerPhone"
+    SET NAME "El telèfon està sonant"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "HIGH"
+    SET THEME "TALKING"
+    SET DURATION <3H>
+
+    STEP "1" "AnswerPhone"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Make dentist appointment
+CLONE DEED "DialogID" "DentistAppt"
+    SET INSTRUCTIONS "Demana cita"
+    SET CONTENT_ID "DENTIST"
+END
+
+DEF TASK "DentistAppt"
+    SET NAME "Demana cita amb el dentista"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "MEDIUM"
+    SET THEME "TALKING"
+    SET DURATION <3H>
+
+    STEP "1" "DentistAppt"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Call cable company to add a channel
+CLONE DEED "DialogID" "AddCableChannel"
+    SET INSTRUCTIONS "Parla amb la teleoperadora"
+    SET CONTENT_ID "CABLECO"
+END
+
+DEF TASK "AddCableChannel"
+    SET NAME "Trucar a la teleoperadora per afegir un canal"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "MEDIUM"
+    SET THEME "TALKING"
+    SET DURATION <3H>
+
+    STEP "1" "AddCableChannel"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Pretend action figures are talking
+CLONE DEED "DialogID" "ActionFigures"
+    SET INSTRUCTIONS "Fes veure que les figures d'acció estan parlant"
+    SET CONTENT_ID "ACTION_FIGURES"
+END
+
+DEF TASK "ActionFigures"
+    SET NAME "Fes veure que les teves figures d'acció estan parlant"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "TALKING"
+    SET DURATION <3H>
+
+    STEP "1" "ActionFigures"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Get invited to classmate's birthday
+CLONE DEED "DialogID" "BirthdayInvite"
+    SET INSTRUCTIONS "Autoconvida't"
+    SET CONTENT_ID "BIRTHDAY_INVITE"
+END
+
+DEF TASK "BirthdayInvite"
+    SET NAME "Un company de classe no t'ha convidat al seu aniversari"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "TALKING"
+    SET DURATION <3H>
+
+    STEP "1" "BirthdayInvite"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Compliment neighbor's petunias
+CLONE DEED "DialogID" "Petunias"
+    SET INSTRUCTIONS "Elogia les petúnies del veí"
+    SET CONTENT_ID "COMPLIMENT_PETUNIAS"
+END
+
+DEF TASK "Petunias"
+    SET NAME "Elogia les petúnies del veí"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "MEDIUM"
+    SET THEME "TALKING"
+    SET DURATION <3H>
+
+    STEP "1" "Petunias"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "PhoneDialog"
+    SET MAX_SPAWNS 5
+
+    ADDTASK "NeighborAtDoor"
+    ADDTASK "IceCreamMan"
+    ADDTASK "PizzaOrder"
+    ADDTASK "FridgeRepair"
+    ADDTASK "FixWifi"
+    ADDTASK "CarSound"
+    ADDTASK "OhNoAnts1"
+    ADDTASK "Prank1"
+    ADDTASK "CallRoofer"
+    ADDTASK "OrderCake"
+    ADDTASK "CableBundle"
+    ADDTASK "CancelDinner"
+    ADDTASK "AnimalControl"
+    ADDTASK "CancelMagazine"
+    ADDTASK "RestaurantReservation"
+    ADDTASK "AnswerPhone"
+    ADDTASK "DentistAppt"
+    ADDTASK "AddCableChannel"
+    ADDTASK "ActionFigures"
+    ADDTASK "BirthdayInvite"
+    ADDTASK "Petunias"
+END

@@ -1,0 +1,1140 @@
+{
+    "payload": [
+        {
+            "id": "WALLET",
+            "category": "WALLET",
+            "name": "la cartera dels pares",
+            "locations": [
+                {
+                    "id": "FRIDGETOP",
+                    "name": "sobre la nevera"
+                },
+                {
+                    "id": "UNDERCOUCH",
+                    "name": "sota el sofà"
+                },
+                {
+                    "id": "NEXTTOTOILET",
+                    "name": "costat del vàter"
+                },
+                {
+                    "id": "YARD",
+                    "name": "pati"
+                },
+                {
+                    "id": "PANTS",
+                    "name": "butxaca dels pantalons d'ahir"
+                },
+                {
+                    "id": "CAR",
+                    "name": "cotxe"
+                }
+            ]
+        },
+        {
+            "id": "LIPBALM",
+            "category": "LIPBALM",
+            "name": "pintallavis",
+            "locations": [
+                {
+                    "id": "CUSIONS",
+                    "name": "entre els coixins del sofà"
+                },
+                {
+                    "id": "COUCH",
+                    "name": "sota el sofà"
+                },
+                {
+                    "id": "STAIRS",
+                    "name": "a les escales"
+                },
+                {
+                    "id": "CLOSET",
+                    "name": "armari d'utilitats"
+                },
+                {
+                    "id": "FRIDGE",
+                    "name": "nevera"
+                },
+                {
+                    "id": "LAUNDRY",
+                    "name": "cistell de la roba bruta"
+                },
+                {
+                    "id": "TOILET",
+                    "name": "costat del vàter"
+                }
+            ]
+        },
+        {
+            "id": "DINNERWARE",
+            "category": "DINNERWARE",
+            "name": "la vaixella xina",
+            "locations": [
+                {
+                    "id": "DISHWASHER",
+                    "name": "dins el rentaplats"
+                },
+                {
+                    "id": "HIGHCAB",
+                    "name": "armari alt"
+                },
+                {
+                    "id": "GARAGE",
+                    "name": "al garatge"
+                },
+                {
+                    "id": "PROMO",
+                    "name": "darrere els gots promocionals"
+                },
+                {
+                    "id": "CUTTERS",
+                    "name": "sota la pila de motllos de galetes"
+                },
+                {
+                    "id": "ATTIC",
+                    "name": "a les golfes"
+                }
+            ]
+        },
+        {
+            "id": "THERMOMETER",
+            "category": "THERMOMETER",
+            "name": "el termòmete",
+            "locations": [
+                {
+                    "id": "CABINET",
+                    "name": "armariet del lavabo"
+                },
+                {
+                    "id": "DRAWER",
+                    "name": "calaix dels trastos"
+                },
+                {
+                    "id": "PLASTIC",
+                    "name": "calaixos organitzadors de plàstic"
+                },
+                {
+                    "id": "TOILETTHERM",
+                    "name": "darrere el vàter"
+                },
+                {
+                    "id": "BIN",
+                    "name": "caixa amb l'etiqueta 'termòmetres'"
+                },
+                {
+                    "id": "PILE",
+                    "name": "pila de coses de l'última malaltia"
+                }
+            ]
+        },
+        {
+            "id": "ADAPTERS",
+            "category": "ADAPTERS",
+            "name": "adaptadors internacionals",
+            "locations": [
+                {
+                    "id": "ATTIC2",
+                    "name": "golfes"
+                },
+                {
+                    "id": "BACKCLOSET",
+                    "name": "darrere del tot de l'armari"
+                },
+                {
+                    "id": "SUITCASES",
+                    "name": "dins les maletes velles"
+                },
+                {
+                    "id": "KID",
+                    "name": "pila de coses amb les que els nens jugaven"
+                },
+                {
+                    "id": "UNDERWEAR",
+                    "name": "calaix de la roba interior"
+                },
+                {
+                    "id": "DUFFEL",
+                    "name": "al fons d'aquesta bossa esportiva"
+                }
+            ]
+        },
+        {
+            "id": "GORBO",
+            "category": "GORBO",
+            "name": "el rebut de l'hipoteca",
+            "locations": [
+                {
+                    "id": "SUITCASE",
+                    "name": "sota la maleta de Gorbo"
+                },
+                {
+                    "id": "CLOTHES",
+                    "name": "sota la roba de Gorbo"
+                },
+                {
+                    "id": "CANDY",
+                    "name": "sota els embolcalls de caramel de Gorbo"
+                },
+                {
+                    "id": "CREAMS",
+                    "name": "sota les cremes anti-picades de Gorbo"
+                },
+                {
+                    "id": "GORBO",
+                    "name": "sota de Gorbo"
+                }
+            ]
+        },
+        {
+            "id": "LOOSECHANGE",
+            "category": "LOOSECHANGE",
+            "name": "calderilla",
+            "locations": [
+                {
+                    "id": "LEFTCOUCH",
+                    "name": "sota coixí esquerre del sofà"
+                },
+                {
+                    "id": "CENTERCOUCH",
+                    "name": "sota coixí central del sofà"
+                },
+                {
+                    "id": "RIGHTCOUCH",
+                    "name": "sota coixí dret del sofà"
+                },
+                {
+                    "id": "ARMCHAIR",
+                    "name": "sota la butaca"
+                },
+                {
+                    "id": "BLANKET",
+                    "name": "dins la manta plegada"
+                },
+                {
+                    "id": "FUND",
+                    "name": "pot marcat \"DINERS D'EMERGÈNCIA NO TOCAR\""
+                }
+            ]
+        },
+        {
+            "id": "ASTEROIDLASER",
+            "category": "ASTEROIDLASER",
+            "name": "el làser",
+            "locations": [
+                {
+                    "id": "ENGINE",
+                    "name": "dins el motor del cotxe"
+                },
+                {
+                    "id": "ROBOT",
+                    "name": "dins el robot de joguina"
+                },
+                {
+                    "id": "HVAC",
+                    "name": "dins la caldera"
+                },
+                {
+                    "id": "RADIO",
+                    "name": "dins la radio"
+                },
+                {
+                    "id": "GARAGELASER",
+                    "name": "dins el motor de la porta del garatge"
+                }
+            ]
+        },
+        {
+            "id": "CLUES",
+            "category": "CLUES",
+            "name": "pistes importants",
+            "locations": [
+                {
+                    "id": "CULDESAC",
+                    "name": "silenciós carrer sense sortida"
+                },
+                {
+                    "id": "AMUSE",
+                    "name": "parc d'atraccions abandonat"
+                },
+                {
+                    "id": "BASKETBALL",
+                    "name": "pista de tennis vella que ningú utilitza"
+                },
+                {
+                    "id": "OLDMAN",
+                    "name": "pati de l'home vell"
+                },
+                {
+                    "id": "HIGHSCHOOL",
+                    "name": "aparcament de l'institut"
+                }
+            ]
+        },
+        {
+            "id": "NEWCAR",
+            "category": "NEWCAR",
+            "name": "trastos per vendre",
+            "locations": [
+                {
+                    "id": "OLDCLOTHES",
+                    "name": "armari de roba"
+                },
+                {
+                    "id": "OLDPHONES",
+                    "name": "pila de telèfons vells"
+                },
+                {
+                    "id": "ACTIONFIGURES",
+                    "name": "colecció vintage de figures d'acció"
+                },
+                {
+                    "id": "UNLABELED",
+                    "name": "caixa sense etiqueta del garatge"
+                },
+                {
+                    "id": "APPLIANCES",
+                    "name": "armari d'estris rarament utilitzats"
+                }
+            ]
+        },
+        {
+            "id": "DANCESNACKS",
+            "category": "DANCESNACKS",
+            "name": "els bons snacks",
+            "locations": [
+                {
+                    "id": "BLEACHERS",
+                    "name": "sota les graderies"
+                },
+                {
+                    "id": "DJ",
+                    "name": "al costat del DJ"
+                },
+                {
+                    "id": "PHOTOBOOTH",
+                    "name": "cabina de fotos"
+                },
+                {
+                    "id": "JANITOR",
+                    "name": "armari del conserge"
+                }
+            ]
+        },
+        {
+            "id": "SLUMBERSEARCH",
+            "category": "SLUMBERSEARCH",
+            "name": "els nens que s'han escapat",
+            "locations": [
+                {
+                    "id": "GARAGESLUMBER",
+                    "name": "garatge"
+                },
+                {
+                    "id": "NEIGHBORYARD",
+                    "name": "pati del veí"
+                },
+                {
+                    "id": "STORMDRAIN",
+                    "name": "desaigue del carrer"
+                },
+                {
+                    "id": "CONVENIENCE",
+                    "name": "aparcament del supermercat"
+                },
+                {
+                    "id": "CIRCUS",
+                    "name": "circ viatger"
+                },
+                {
+                    "id": "HOUSE",
+                    "name": "a casa un altre cop"
+                }
+            ]
+        },
+        {
+            "id": "MAKEUPWORK",
+            "category": "MAKEUPWORK",
+            "name": "feina de compensació que has perdut",
+            "locations": [
+                {
+                    "id": "ATTICKWORK",
+                    "name": "golfes"
+                },
+                {
+                    "id": "BACKCLOSETWORK",
+                    "name": "darrere del tot de l'armari"
+                },
+                {
+                    "id": "SUITCASESWORK",
+                    "name": "dins les maletes velles"
+                },
+                {
+                    "id": "KIDWORK",
+                    "name": "pila de coses amb les que els nens jugaven"
+                },
+                {
+                    "id": "UNDERWEARWORK",
+                    "name": "calaix de la roba interior"
+                },
+                {
+                    "id": "DUFFELWORK",
+                    "name": "fons d'aquesta bossa esportiva"
+                }
+            ]
+        },
+        {
+            "id": "GUITAR",
+            "category": "GUITAR",
+            "name": "aquella guitarra vella",
+            "locations": [
+                {
+                    "id": "CLOSETGUITAR",
+                    "name": "armari"
+                },
+                {
+                    "id": "PLAYROOM",
+                    "name": "habitació de jugar"
+                },
+                {
+                    "id": "BASEMENT",
+                    "name": "soterrani"
+                },
+                {
+                    "id": "SECRETBASE",
+                    "name": "soterrani secret"
+                },
+                {
+                    "id": "ATTICGUITAR",
+                    "name": "golfes"
+                }
+            ]
+        },
+        {
+            "id": "GRONK",
+            "category": "GRONK",
+            "name": "gronking paraphernalia",
+            "locations": [
+                {
+                    "id": "BEDGRONK",
+                    "name": "sota el llit"
+                },
+                {
+                    "id": "DESKGRONK",
+                    "name": "dins els calaixos de l'escriptori"
+                },
+                {
+                    "id": "BOOKGRONK",
+                    "name": "llibres buits"
+                },
+                {
+                    "id": "CANDYGRONK",
+                    "name": "sota la pila d'embolcalls de caramel"
+                },
+                {
+                    "id": "CLOSETGRONK",
+                    "name": "el fons de l'armari"
+                },
+                {
+                    "id": "LIZARDGRONK",
+                    "name": "dins el terrari del camaleó"
+                }
+            ]
+        },
+        {
+            "id": "DIGSITE",
+            "category": "DIGSITE",
+            "name": "un bon lloc per la càpsula del temps",
+            "locations": [
+                {
+                    "id": "OAK",
+                    "name": "sota l'ombra del roure"
+                },
+                {
+                    "id": "ANTHILL",
+                    "name": "cau de formigues amenaçador"
+                },
+                {
+                    "id": "CLOTHESLINE",
+                    "name": "sota l'estenedor"
+                },
+                {
+                    "id": "HAMMOCK",
+                    "name": "al costat de l'hamaca"
+                },
+                {
+                    "id": "CHAINLINK",
+                    "name": "aprop de la valla"
+                },
+                {
+                    "id": "GRAVEL",
+                    "name": "el tros raro sense herba"
+                }
+            ]
+        },
+        {
+            "id": "ROMPO",
+            "category": "ROMPO",
+            "name": "L'estimat joc de la boleta del cosí Rompo",
+            "locations": [
+                {
+                    "id": "VACUUM",
+                    "name": "dins l'aspirador que Rompo ha destruit"
+                },
+                {
+                    "id": "ROOF",
+                    "name": "la teulada on Rompo es va quedar atrapat"
+                },
+                {
+                    "id": "KITCHENWRECK",
+                    "name": "les restes de la destrossa de la cuina"
+                },
+                {
+                    "id": "HAND",
+                    "name": "a la mà de Rompo tota l'estona"
+                }
+            ]
+        },
+        {
+            "id": "SCARLETLETTER",
+            "category": "SCARLETLETTER",
+            "name": "el tema dominant a 'The Scarlet Letter'",
+            "locations": [
+                {
+                    "id": "MORAL",
+                    "name": "moral i justícia"
+                },
+                {
+                    "id": "REVENGE",
+                    "name": "el concepte de venjança"
+                },
+                {
+                    "id": "FEMININITY",
+                    "name": "la noció de la feminitat de la societat"
+                },
+                {
+                    "id": "FORGIVE",
+                    "name": "la idea del perdó"
+                }
+            ]
+        },
+        {
+            "id": "COALS",
+            "category": "COALS",
+            "name": "la tria de carbons de l'inframón",
+            "locations": [
+                {
+                    "id": "SHED",
+                    "name": "rebost"
+                },
+                {
+                    "id": "COALSGARAGE",
+                    "name": "garatge"
+                },
+                {
+                    "id": "BOX",
+                    "name": "caixa de reliquies familiars"
+                },
+                {
+                    "id": "TARP",
+                    "name": "sota la tenda vella"
+                },
+                {
+                    "id": "DUNGEON",
+                    "name": "la masmorra de casa"
+                }
+            ]
+        },
+        {
+            "id": "HOTSAUCE",
+            "category": "HOTSAUCE",
+            "name": "salsa picant",
+            "locations": [
+                {
+                    "id": "KITCHENCAB",
+                    "name": "armari de la cuina"
+                },
+                {
+                    "id": "GRILLDRAWER",
+                    "name": "calaix de la graella"
+                },
+                {
+                    "id": "CATBED",
+                    "name": "llit del gat"
+                },
+                {
+                    "id": "GRAMPASTASH",
+                    "name": "la reserva secreta de la Iaia"
+                },
+                {
+                    "id": "SAUCEHOLE",
+                    "name": "el Forat de la Salsa"
+                }
+            ]
+        },
+        {
+            "id": "OUTSIDE",
+            "category": "OUTSIDE",
+            "name": "el gat",
+            "locations": [
+                {
+                    "id": "CATROOF",
+                    "name": "la teulada"
+                },
+                {
+                    "id": "NEIGHBORS_HOUSE",
+                    "name": "la casa del veí"
+                },
+                {
+                    "id": "PETUNIA_PATCH",
+                    "name": "el test de les petúnies"
+                },
+                {
+                    "id": "UNDER_DECK",
+                    "name": "sota el porxo"
+                },
+                {
+                    "id": "GARBAGE",
+                    "name": "les escombraries"
+                },
+                {
+                    "id": "IN_TREE",
+                    "name": "dalt de l'arbre"
+                },
+                {
+                    "id": "CAR_HOOD",
+                    "name": "el capó d'un cotxe"
+                }
+            ]
+        },
+        {
+            "id": "INSOLES",
+            "category": "INSOLES",
+            "name": "plantilles de les sabates dels pares",
+            "locations": [
+                {
+                    "id": "UNDERBED",
+                    "name": "sota el llit"
+                },
+                {
+                    "id": "CATSTUFF",
+                    "name": "amb les coses del gat"
+                },
+                {
+                    "id": "REMOTEBASKET",
+                    "name": "el cistell dels  mandos"
+                },
+                {
+                    "id": "UNDERTABLE",
+                    "name": "sota la taula del menjador"
+                },
+                {
+                    "id": "INSHOES",
+                    "name": "dins les sabates on pertanyen"
+                }
+            ]
+        },
+        {
+            "id": "PROMISERING",
+            "category": "PROMISERING",
+            "name": "anell de compromís",
+            "locations": [
+                {
+                    "id": "ONDRESSER",
+                    "name": "el vestidor"
+                },
+                {
+                    "id": "CLOSET3",
+                    "name": "l'armari"
+                },
+                {
+                    "id": "FISHBOWL",
+                    "name": "la peixera"
+                },
+                {
+                    "id": "JEANSHORTS",
+                    "name": "butxaca del texans curts"
+                },
+                {
+                    "id": "JEWELRYBOX",
+                    "name": "joier"
+                }
+            ]
+        },
+        {
+            "id": "CANDLES",
+            "category": "CANDLES",
+            "name": "espelmes d'aniversari",
+            "locations": [
+                {
+                    "id": "JUNKDRAWER",
+                    "name": "calaix dels trastos"
+                },
+                {
+                    "id": "PURSE",
+                    "name": "bolso"
+                },
+                {
+                    "id": "PANTRY",
+                    "name": "traster"
+                },
+                {
+                    "id": "CRAFTCLOSET",
+                    "name": "armari de manualitats"
+                },
+                {
+                    "id": "GARAGE2",
+                    "name": "garatge"
+                },
+                {
+                    "id": "CAKE",
+                    "name": "pastís de l'any passat"
+                }
+            ]
+        },
+        {
+            "id": "RABBITFOOT",
+            "category": "RABBITFOOT",
+            "name": "pota de conill de la sort",
+            "locations": [
+                {
+                    "id": "UNDERLADDER",
+                    "name": "sota les escales"
+                },
+                {
+                    "id": "BROKENMIRROR",
+                    "name": "al costat del mirall trencat"
+                },
+                {
+                    "id": "BLACKCAT",
+                    "name": "al costat del camí d'un gat negre"
+                },
+                {
+                    "id": "CRACK",
+                    "name": "en una esquerda de la vorera"
+                },
+                {
+                    "id": "OTHERFEET",
+                    "name": "al costat de tretze altres potes"
+                }
+            ]
+        },
+        {
+            "id": "DRIVERSLICENSE",
+            "category": "DRIVERSLICENSE",
+            "name": "carnet de conduir",
+            "locations": [
+                {
+                    "id": "WALLET",
+                    "name": "cartera"
+                },
+                {
+                    "id": "DESKDRAWER",
+                    "name": "calaix de l'escriptori"
+                },
+                {
+                    "id": "GLOVECOMPARTMENT",
+                    "name": "calaix dels guants"
+                },
+                {
+                    "id": "FILING",
+                    "name": "armariet dels arxivadors"
+                },
+                {
+                    "id": "MICROWAVE",
+                    "name": "dins el microones"
+                }
+            ]
+        },
+        {
+            "id": "STUDENTID",
+            "category": "STUDENTID",
+            "name": "carnet d'estudiant",
+            "locations": [
+                {
+                    "id": "UNDERBED2",
+                    "name": "sota el llit"
+                },
+                {
+                    "id": "KHAKIS",
+                    "name": "butxaques dels pantalons caqui"
+                },
+                {
+                    "id": "LAVALAMP",
+                    "name": "al costat de la làmpara de lava"
+                },
+                {
+                    "id": "COMICBOOK",
+                    "name": "dins un comic"
+                },
+                {
+                    "id": "BLACKLIGHT",
+                    "name": "sota un poster psicodèlic"
+                }
+            ]
+        },
+        {
+            "id": "HAIRTIE",
+            "category": "HAIRTIE",
+            "name": "una goma de cabells",
+            "locations": [
+                {
+                    "id": "CLOSET4",
+                    "name": "armari"
+                },
+                {
+                    "id": "BATHROOMDRAWER",
+                    "name": "calaix del lavabo"
+                },
+                {
+                    "id": "VANITY",
+                    "name": "la vanitat"
+                },
+                {
+                    "id": "COUCHCUSHIONS",
+                    "name": "entre els coixins del sofà"
+                },
+                {
+                    "id": "HIGHPILE",
+                    "name": "sobre l'alfombra gruixuda"
+                }
+            ]
+        },
+        {
+            "id": "BASEBALL",
+            "category": "BASEBALL",
+            "name": "pilota de baseball perduda",
+            "locations": [
+                {
+                    "id": "NEIGHBORYARD2",
+                    "name": "pati del veí"
+                },
+                {
+                    "id": "NEIGHBORPORCH",
+                    "name": "porxo del veí"
+                },
+                {
+                    "id": "NEIGHBORFLOWERS",
+                    "name": "testos de flors del veí"
+                },
+                {
+                    "id": "NEIGHBORDRIVE",
+                    "name": "davant del garatge del veí"
+                },
+                {
+                    "id": "NEIGHBORWINDOW",
+                    "name": "l'altre banda de la finestra trencada del veí"
+                }
+            ]
+        },
+        {
+            "id": "DENTURES",
+            "category": "DENTURES",
+            "name": "dentadura de l'Avi",
+            "locations": [
+                {
+                    "id": "KITCHENSINK",
+                    "name": "pica de la cuina"
+                },
+                {
+                    "id": "LIVINGROOMFLOOR",
+                    "name": "terra del menjador"
+                },
+                {
+                    "id": "TOILETTANK",
+                    "name": "dipòsit del vàter"
+                },
+                {
+                    "id": "DININGROOMTABLE",
+                    "name": "taula del menjador"
+                },
+                {
+                    "id": "INFRIDGE",
+                    "name": "dins la nevera"
+                }
+            ]
+        },
+        {
+            "id": "BEEPING",
+            "category": "BEEPING",
+            "name": "el que sigui que fa aquest pito",
+            "locations": [
+                {
+                    "id": "SMOKEDETECTOR",
+                    "name": "detector de fum"
+                },
+                {
+                    "id": "CO2ALARM",
+                    "name": "alarma de monòxid de carboni"
+                },
+                {
+                    "id": "SECURITY",
+                    "name": "sistema de seguretat"
+                },
+                {
+                    "id": "CABLEBOX",
+                    "name": "quadre elèctric"
+                },
+                {
+                    "id": "COMPUTER",
+                    "name": "ordinador"
+                },
+                {
+                    "id": "METALBOX",
+                    "name": "misteriosa caixa metàlica que no havies vist mai"
+                }
+            ]
+        },
+        {
+            "id": "INKCARTRIDGE",
+            "category": "INKCARTRIDGE",
+            "name": "cartutx de tinta blava",
+            "locations": [
+                {
+                    "id": "CLOSET5",
+                    "name": "armari"
+                },
+                {
+                    "id": "GARAGE3",
+                    "name": "garatge"
+                },
+                {
+                    "id": "SHED2",
+                    "name": "traster"
+                },
+                {
+                    "id": "DESKDRAWER2",
+                    "name": "calaix de l'escriptori"
+                },
+                {
+                    "id": "ATTIC3",
+                    "name": "golfes"
+                },
+                {
+                    "id": "BASEMENT2",
+                    "name": "soterrani"
+                }
+            ]
+        },
+        {
+            "id": "GLASSEYE",
+            "category": "GLASSEYE",
+            "name": "ull de vidre de la Iaia",
+            "locations": [
+                {
+                    "id": "UNDERBED3",
+                    "name": "sota el llit"
+                },
+                {
+                    "id": "UNDERCOUCH2",
+                    "name": "sota el sofà"
+                },
+                {
+                    "id": "UNDERTABLE2",
+                    "name": "sota la taula"
+                },
+                {
+                    "id": "UNDERTV",
+                    "name": "sota la tele"
+                },
+                {
+                    "id": "CATSMOUTH",
+                    "name": "la boca del gat"
+                }
+            ]
+        },
+        {
+            "id": "WORDJUMBLE",
+            "category": "WORDJUMBLE",
+            "name": "la paraula elefant a la sopa de lletres",
+            "locations": [
+                {
+                    "id": "HORIZONTAL",
+                    "name": "horitzontalment"
+                },
+                {
+                    "id": "VERTICAL",
+                    "name": "verticalment"
+                },
+                {
+                    "id": "DIAGONAL",
+                    "name": "diagonalment"
+                },
+                {
+                    "id": "FORWARDS",
+                    "name": "del dret"
+                },
+                {
+                    "id": "BACKWARDS",
+                    "name": "del revés"
+                }
+            ]
+        },
+        {
+            "id": "THUMBTACK",
+            "category": "THUMBTACK",
+            "name": "xinxeta perduda",
+            "locations": [
+                {
+                    "id": "CARPET",
+                    "name": "catifa"
+                },
+                {
+                    "id": "DOORMAT",
+                    "name": "alfombreta de la porta"
+                },
+                {
+                    "id": "THROWRUG",
+                    "name": "estora antirelliscant"
+                },
+                {
+                    "id": "BATHMAT",
+                    "name": "alfombreta de bany"
+                },
+                {
+                    "id": "SHOESOLE",
+                    "name": "sola de la sabata"
+                }
+            ]
+        },
+        {
+            "id": "QUARTERS",
+            "category": "QUARTERS",
+            "name": "colecció de monedes de 20c",
+            "locations": [
+                {
+                    "id": "COINDESK",
+                    "name": "taula de les monedes"
+                },
+                {
+                    "id": "STAMPDRAWER",
+                    "name": "calaix dels segells"
+                },
+                {
+                    "id": "COMICBOOKSHELF",
+                    "name": "prestatge dels còmics"
+                },
+                {
+                    "id": "ROCKDISPLAY",
+                    "name": "armari dels vinils"
+                },
+                {
+                    "id": "FIGUREINENOOK",
+                    "name": "vitrina de les figuretes"
+                }
+            ]
+        },
+        {
+            "id": "THINGY",
+            "category": "THINGY",
+            "name": "la coseta aquella per posar a les claus per no perdre-les",
+            "locations": [
+                {
+                    "id": "JUNKDRAWER2",
+                    "name": "calaix dels trastos"
+                },
+                {
+                    "id": "DOODADDRAWER",
+                    "name": "calaix de les andròmines"
+                },
+                {
+                    "id": "LOSTITEMLEDGE",
+                    "name": "prestatge de les coses perdudes"
+                },
+                {
+                    "id": "ATTIC4",
+                    "name": "golfes"
+                },
+                {
+                    "id": "BASEMENT3",
+                    "name": "soterrani"
+                },
+                {
+                    "id": "PILEBOXES",
+                    "name": "pila de caixes de cartró"
+                }
+            ]
+        },
+        {
+            "id": "TIMEMIME",
+            "category": "TIMEMIME",
+            "name": "el 6è DVD de l'edició especial de \"Time Mime\"",
+            "locations": [
+                {
+                    "id": "DEN",
+                    "name": "estudi"
+                },
+                {
+                    "id": "BASEMENT4",
+                    "name": "soterrani"
+                },
+                {
+                    "id": "FIREPLACE",
+                    "name": "llar de foc"
+                },
+                {
+                    "id": "TRASH",
+                    "name": "escombraries"
+                },
+                {
+                    "id": "BEHINDSOFA",
+                    "name": "darrere el sofà"
+                }
+            ]
+        },
+        {
+            "id": "MOTIVATIONALNOTE",
+            "category": "MOTIVATIONALNOTE",
+            "name": "nota motivacional vergonyosa (és MOLT vergonyosa!)",
+            "locations": [
+                {
+                    "id": "TRASH2",
+                    "name": "escombraries"
+                },
+                {
+                    "id": "BATHROOMMIRROR",
+                    "name": "mirall del lavabo"
+                },
+                {
+                    "id": "DESKDRAWER3",
+                    "name": "calaix de l'escriptori"
+                },
+                {
+                    "id": "BACKPACK",
+                    "name": "motxilla"
+                },
+                {
+                    "id": "FRONTPORCH",
+                    "name": "porxo"
+                }
+            ]
+        },
+        {
+            "id": "RUINEDSALAD",
+            "category": "RUINEDSALAD",
+            "name": "un lloc per enterrar l'amanida arruinada",
+            "locations": [
+                {
+                    "id": "HOLE1",
+                    "name": "forat del pati de darrere"
+                },
+                {
+                    "id": "HOLE2",
+                    "name": "un altre forat del pati de darrere"
+                },
+                {
+                    "id": "HOLE3",
+                    "name": "forat del pati de davant"
+                },
+                {
+                    "id": "ATTIC5",
+                    "name": "golfes"
+                },
+                {
+                    "id": "SALADTREE",
+                    "name": "l'arbre de les amanides"
+                }
+            ]
+        }
+    ]
+}

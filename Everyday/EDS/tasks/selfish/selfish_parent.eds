@@ -1,0 +1,909 @@
+REM : Stare Blankly Out Window
+
+CLONE DEED "Nothing2" "StareBlanklyOutWindow"
+    SET INSTRUCTIONS "Reflexiona sobre diversos aspectes de la vida i la mort"
+    SET PARTICIPATION "SOLO"
+END
+
+
+DEF TASK "StareBlanklyOutWindow"
+    SET NAME "Mira per la finestra de manera pensativa"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "StareBlanklyOutWindow"
+    
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+
+REM : Spend Romantic Time with Partner
+
+CLONE DEED "Rotate90" "RomanceTimeStep1"
+    SET INSTRUCTIONS "Tanca el bladó"
+END
+
+CLONE DEED "Tap3" "RomanceTimeStep2"
+    SET INSTRUCTIONS "Encén les espelmes"
+END
+
+CLONE DEED "Hold5" "RomanceTimeStep3"
+    SET INSTRUCTIONS "Gaudiu d'aquesta estona tranquila"
+END
+
+CLONE DEED "Tap1" "RomanceTimeStep4"
+    SET INSTRUCTIONS "Èxit! Xoca-la!"
+END
+
+CLONE DEED "Rotate90Counter" "RomanceTimeStep5"
+    SET INSTRUCTIONS "Obre el baldó"
+END
+
+DEF TASK "RomanceTime"
+    SET NAME "Passa una estona romàntica amb la parella"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET LEWD TRUE
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "RomanceTimeStep1"
+    STEP "Step2" "RomanceTimeStep2"
+    STEP "Step3" "RomanceTimeStep3"
+    STEP "Step4" "RomanceTimeStep4"
+    STEP "Step5" "RomanceTimeStep5"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" SUCCESS FAILURE
+END
+
+
+REM : Yell Swear Words in Closet
+
+CLONE DEED "Rotate90" "SwearWordStep1"
+    SET INSTRUCTIONS "Tanca el baldó"
+END
+
+CLONE DEED "Hold5" "SwearWordStep2"
+    SET INSTRUCTIONS "Crida el teu insult PREFERIT"
+END
+
+CLONE DEED "Hold5" "SwearWordStep3"
+    SET INSTRUCTIONS "Respira profundament"
+END
+
+CLONE DEED "Rotate90Counter" "SwearWordStep4"
+    SET INSTRUCTIONS "Obre el baldó"
+END
+
+DEF TASK "SwearWord"
+    SET NAME "Crida insults a l'armari"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET LEWD TRUE
+
+    STEP "Step1" "SwearWordStep1"
+    STEP "Step2" "SwearWordStep2"
+    STEP "Step3" "SwearWordStep3"
+    STEP "Step4" "SwearWordStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Pour a *Sizable* Glass of Wine
+
+CLONE DEED "Tap1" "PourWineStep1"
+    SET INSTRUCTIONS "Destapa l'ampolla"
+END
+
+CLONE DEED "Hold5" "PourWineStep2"
+    SET INSTRUCTIONS "Omple el got... bastant ple"
+END
+
+CLONE DEED "SwipeUp" "PourWineStep3"
+    SET INSTRUCTIONS "Llença l'ampolla"
+END
+
+DEF TASK "PourWine"
+    SET NAME "Serveix-te un *considerable* got de vi"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET LEWD TRUE
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "PourWineStep1"
+    STEP "Step2" "PourWineStep2"
+    STEP "Step3" "PourWineStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+REM : Change Radio to Adult Contemporary
+
+CLONE DEED "Rotate270" "AdultRadioStep1"
+    SET INSTRUCTIONS "Busca l'emissora per adults"
+END
+
+CLONE DEED "Rotate90Counter" "AdultRadioStep2"
+    SET INSTRUCTIONS "Uff... l'han mogut"
+END
+
+CLONE DEED "Rotate270" "AdultRadioStep3"
+    SET INSTRUCTIONS "On és?!?!"
+END
+
+CLONE DEED "Nothing5" "AdultRadioStep4"
+    SET INSTRUCTIONS "Aquí està! Gaudeix de les dolces balades"
+END
+
+DEF TASK "AdultContemp"
+    SET NAME "Canvia la ràdio a una emissora d'adults"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "AdultRadioStep1"
+    STEP "Step2" "AdultRadioStep2"
+    STEP "Step3" "AdultRadioStep3"
+    STEP "Step4" "AdultRadioStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Hide too well in Hide & Seek
+
+CLONE DEED "Hold5" "HideAndSeek1"
+    SET INSTRUCTIONS "Corre a l'armari"
+END
+
+CLONE DEED "Tap1" "HideAndSeek2"
+    SET INSTRUCTIONS "Tanca la porta"
+END
+
+CLONE DEED "NothingBase" "HideAndSeek3"
+    SET INSTRUCTIONS "Gaudeix del silenci"
+    SET DURATION 5S
+END
+
+DEF TASK "HideAndSeek"
+    SET NAME "Amaga't massa bé al Fet i Amagar"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "HideAndSeek1"
+    STEP "2" "HideAndSeek2"
+    STEP "3" "HideAndSeek3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Ignore calls from in-laws
+
+CLONE DEED "Tap1" "IgnoreInLaws1"
+    SET INSTRUCTIONS "Agafa el telèfon, el teu sogre et truca!"
+END
+
+CLONE DEED "Hold5" "IgnoreInLaws2"
+    SET INSTRUCTIONS "Fes veure que no hi ets"
+END
+
+CLONE DEED "SwipeBase" "IgnoreInLaws3"
+    SET INSTRUCTIONS "Revisa les possibles excuses"
+    SET DIRECTION "DOWN,DOWN,DOWN"
+END
+
+CLONE DEED "QuickTap5" "IgnoreInLaws4"
+    SET INSTRUCTIONS "Ha saltat el contestador! Hurra! Ara pots posar-te a jugar amb el mòbil!"
+END
+
+DEF TASK "IgnoreInLaws"
+    SET NAME "Ingora una trucada dels sogres"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "IgnoreInLaws1"
+    STEP "2" "IgnoreInLaws2"
+    STEP "3" "IgnoreInLaws3"
+    STEP "4" "IgnoreInLaws4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Call old friend to catch-up
+
+CLONE DEED "PhoneBase" "CatchUpCall1"
+    SET CATEGORY "RESIDENCE"
+END
+
+CLONE DEED "Nothing5" "CatchUpCall2"
+    SET INSTRUCTIONS "Intercanvia formalitats"
+END
+
+CLONE DEED "NothingBase" "CatchUpCall3"
+    SET DURATION 5S
+    SET INSTRUCTIONS "No calla... porta una bona estona..."
+END
+
+CLONE DEED "Hold3" "CatchUpCall4"
+    SET INSTRUCTIONS "Inventa't una excusa per penjar"
+END
+
+DEF TASK "CatchUpCall"
+    SET NAME "Truca un vell amic per posar-te al dia"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "CatchUpCall1"
+    STEP "2" "CatchUpCall2"
+    STEP "3" "CatchUpCall3"
+    STEP "4" "CatchUpCall4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Brew a nice cup of tea
+
+CLONE DEED "Tap1" "BrewTea1"
+    SET INSTRUCTIONS "Agafa una bossa de camamilla de l'armari"
+END
+
+CLONE DEED "Rotate90Counter" "BrewTea2"
+    SET INSTRUCTIONS "Engega el foc"
+END
+
+CLONE DEED "Nothing5" "BrewTea3"
+    SET INSTRUCTIONS "Deixa que es filtri"
+END
+
+CLONE DEED "SwipeUp" "BrewTea4"
+    SET INSTRUCTIONS "Fes un glop lent i llarg"
+END
+
+DEF TASK "BrewTea"
+    SET NAME "Prepara't una bona tassa de te"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "BrewTea1"
+    STEP "2" "BrewTea2"
+    STEP "3" "BrewTea3"
+    STEP "4" "BrewTea4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Enjoy a boring book about the Navy
+
+CLONE DEED "SwipeLeft" "BoringBook1"
+    SET INSTRUCTIONS "Fulleja les pàgines"
+END
+
+CLONE DEED "SwipeRight" "BoringBook2"
+    SET INSTRUCTIONS "Torna a l'índex"
+END
+
+CLONE DEED "Tap1" "BoringBook3"
+    SET INSTRUCTIONS "Assenteix sabiament"
+END
+
+CLONE DEED "Hold5" "BoringBook4"
+    SET INSTRUCTIONS "Considera les implicacions històriques del que acabes de llegir"
+END
+
+DEF TASK "BoringBook"
+    SET NAME "Gaudeix un llibre avorrit sobre l'exèrcit"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "BoringBook1"
+    STEP "2" "BoringBook2"
+    STEP "3" "BoringBook3"
+    STEP "4" "BoringBook4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Have a midlife crisis
+
+CLONE DEED "Nothing2" "MidlifeCrisis1"
+    SET INSTRUCTIONS "Adona-te'n que has passat ja mitja vida"
+END
+
+CLONE DEED "Hold2" "MidlifeCrisis2"
+    SET INSTRUCTIONS "Adona-te'n que has malgastat moltes oportunitats"
+END
+
+CLONE DEED "Tap5" "MidlifeCrisis3"
+    SET INSTRUCTIONS "Sent temor"
+END
+
+CLONE DEED "SwipeUp" "MidlifeCrisis4"
+    SET INSTRUCTIONS "Posa't una jaqueta de cuir que ja no et va bé"
+END
+
+CLONE DEED "PhoneCategory" "MidlifeCrisis5"
+    SET INSTRUCTIONS "Truca un venedor de cotxes per comprar una moto"
+    SET CATEGORY "CAR"
+END
+
+DEF TASK "MidlifeCrisis"
+    SET NAME "Tingues una crisi dels 40"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "MidlifeCrisis1"
+    STEP "2" "MidlifeCrisis2"
+    STEP "3" "MidlifeCrisis3"
+    STEP "4" "MidlifeCrisis4"
+    STEP "5" "MidlifeCrisis5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Read steamy romance novel
+
+CLONE DEED "SwipeLeft" "SteamyRomanceNovel1"
+    SET INSTRUCTIONS "Obre 'Pous de Desig'"
+END
+
+CLONE DEED "Nothing5" "SteamyRomanceNovel2"
+    SET INSTRUCTIONS "Llegeix l'apassionada història"
+END
+
+CLONE DEED "Hold5" "SteamyRomanceNovel3"
+    SET INSTRUCTIONS "Posa't la mà contra el pit"
+END
+
+CLONE DEED "SwipeRight" "SteamyRomanceNovel4"
+    SET INSTRUCTIONS "Tanca ràpidament el llibre i exhala"
+END
+
+DEF TASK "SteamyRomanceNovel"
+    SET NAME "Llegeix una candent novela romàntica"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    SET LEWD TRUE
+
+    STEP "1" "SteamyRomanceNovel1"
+    STEP "2" "SteamyRomanceNovel2"
+    STEP "3" "SteamyRomanceNovel3"
+    STEP "4" "SteamyRomanceNovel4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Watch a telenovela
+
+CLONE DEED "Rotate180" "WatchTelenovela1"
+    SET INSTRUCTIONS "Engega la TV"
+END
+
+CLONE DEED "Tap4" "WatchTelenovela2"
+    SET INSTRUCTIONS "Mira al Rafel discutir amb la Glòria sobre aquell misteriós incendi"
+END
+
+CLONE DEED "Nothing2" "WatchTelenovela3"
+    SET INSTRUCTIONS "Descobreix que l'Esteve no va morir a l'incendi"
+END
+
+CLONE DEED "Tap4" "WatchTelenovela4"
+    SET INSTRUCTIONS "Oh! En Rafel es treu la màscara. Era l'Esteve tot aquest temps!"
+END
+
+DEF TASK "WatchTelenovela"
+    SET NAME "Mira una telenovela"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "WatchTelenovela1"
+    STEP "2" "WatchTelenovela2"
+    STEP "3" "WatchTelenovela3"
+    STEP "4" "WatchTelenovela4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Stash bag of candy in your secret hiding spot
+
+CLONE DEED "SwipeUp" "StashCandy1"
+    SET INSTRUCTIONS "Puja't a una cadira"
+END
+
+CLONE DEED "Rotate720Counter" "StashCandy2"
+    SET INSTRUCTIONS "Descargola el panell de ventilació"
+END
+
+CLONE DEED "Hold2" "StashCandy3"
+    SET INSTRUCTIONS "Posa la bossa de llaminadures dins el conducte"
+END
+
+DEF TASK "StashCandy"
+    SET NAME "Amaga la bossa de llaminadures al teu amagatall secret"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "StashCandy1"
+    STEP "2" "StashCandy2"
+    STEP "3" "StashCandy3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Quiety sneak old toys into donation box
+
+CLONE DEED "Hold2" "DonateToys1"
+    SET INSTRUCTIONS "Espera a que els nens estiguin distrets"
+END
+
+CLONE DEED "SwipeDown" "DonateToys2"
+    SET INSTRUCTIONS "Llença el peluix esfilagarssat"
+END
+
+CLONE DEED "SwipeDown" "DonateToys3"
+    SET INSTRUCTIONS "Llença els legos que no pares de trepitjar"
+END
+
+CLONE DEED "SwipeDown" "DonateToys4"
+    SET INSTRUCTIONS "Llença els còmics que no saps que són edició limitada"
+END
+
+CLONE DEED "Hold2" "DonateToys5"
+    SET INSTRUCTIONS "Arronsa les espatlles quan els nens et pregunten on son aquelles coses"
+END
+
+DEF TASK "DonateToys"
+    SET NAME "Posa joguines velles a la caixa de donacions d'amagat"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "DonateToys1"
+    STEP "2" "DonateToys2"
+    STEP "3" "DonateToys3"
+    STEP "4" "DonateToys4"
+    STEP "5" "DonateToys5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Dump entire stack of mail in the trash
+
+CLONE DEED "Hold2" "TrashMail1"
+    SET INSTRUCTIONS "Mira l'enorme pila de sobres sense obrir"
+END
+
+CLONE DEED "SwipeUp" "TrashMail2"
+    SET INSTRUCTIONS "Agafa'ls tots entre els braços"
+END
+
+CLONE DEED "SwipeDown" "TrashMail3"
+    SET INSTRUCTIONS "Ulls que no veuen, cor que no sent"
+END
+
+DEF TASK "TrashMail"
+    SET NAME "Tira la pila sencera de cartes a les escombraries"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "TrashMail1"
+    STEP "2" "TrashMail2"
+    STEP "3" "TrashMail3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Order garish novelty wind chime
+
+CLONE DEED "PhoneBase" "OrderWindChime1"
+    SET INSTRUCTIONS "Compra el carilló més sorollós que tinguin"
+    SET CONTENT_ID "PORCH_DEBRIS"
+END
+
+DEF TASK "OrderWindChime"
+    SET NAME "Compra un nou carilló estrident"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "OrderWindChime1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Post embarrassing baby photos of your teen child online
+
+CLONE DEED "Tap3" "PostBabyPhotos1"
+    SET INSTRUCTIONS "Inicia sessió a les xarxes"
+END
+
+CLONE DEED "SwipeUp" "PostBabyPhotos2"
+    SET INSTRUCTIONS "Publica foto d'un bebé amb un gorro adorable"
+END
+
+CLONE DEED "SwipeUp" "PostBabyPhotos3"
+    SET INSTRUCTIONS "Publica foto d'un bebé a la banyera"
+END
+
+CLONE DEED "SwipeUp" "PostBabyPhotos4"
+    SET INSTRUCTIONS "Publica foto d'un bebé plorant perquè té el bolquer ple"
+END
+
+CLONE DEED "QuickTap3" "PostBabyPhotos5"
+    SET INSTRUCTIONS "Etiqueta el teu fill"
+END
+
+DEF TASK "PostBabyPhotos"
+    SET NAME "Penja fotos vergonyoses del teu fill adolescent a Internet"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "PostBabyPhotos1"
+    STEP "2" "PostBabyPhotos2"
+    STEP "3" "PostBabyPhotos3"
+    STEP "4" "PostBabyPhotos4"
+    STEP "5" "PostBabyPhotos5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Complain about kids these days
+
+CLONE DEED "DialogBase" "KidsTheseDays1"
+    SET INSTRUCTIONS "Queixa't de la quitxalla d'avui dia"
+    SET CONTENT_ID "COMPLAIN_ABOUT_KIDS"
+END
+
+DEF TASK "KidsTheseDays"
+    SET NAME "Queixa't de la quitxalla d'avui dia"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "KidsTheseDays1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Recite a motivational mantra to yourself
+
+CLONE DEED "DialogBase" "MotivationalMantra1"
+    SET INSTRUCTIONS "Recita't un mantra motivacional a tu mateix"
+    SET CONTENT_ID "MOTIVATIONAL_MANTRA"
+END
+
+DEF TASK "MotivationalMantra"
+    SET NAME "Recita't un mantra motivacional a tu mateix"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "MotivationalMantra1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Stand out in yard to be alone for a minute
+
+CLONE DEED "SwipeUp" "AloneInYard1"
+    SET INSTRUCTIONS "Ves a fora"
+END
+
+CLONE DEED "Nothing2" "AloneInYard2"
+    SET INSTRUCTIONS "Gaudeix de la solitud"
+END
+
+CLONE DEED "Hold2" "AloneInYard3"
+    SET INSTRUCTIONS "Ignora el xivarri de dins de casa"
+END
+
+CLONE DEED "Nothing2" "AloneInYard4"
+    SET INSTRUCTIONS "Escolta el xiuxiueig del vent entre les fulles dels arbres"
+END
+
+DEF TASK "AloneInYard"
+    SET NAME "Surt al pati per gaudir de la tranquilitat una estona"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "AloneInYard1"
+    STEP "2" "AloneInYard2"
+    STEP "3" "AloneInYard3"
+    STEP "4" "AloneInYard4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Sign up for a beef jerky of the month club
+
+CLONE DEED "PhoneBase" "BeefJerkyClub1"
+    SET INSTRUCTIONS "Subscriu-te a una caixa de vedella mensual"
+    SET CONTENT_ID "CLEARANCE-ME"
+END
+
+DEF TASK "BeefJerkyClub"
+    SET NAME "Inscriu-te al club de la vedella mensual"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "BeefJerkyClub1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Disobey doctor's diet recommendations
+
+CLONE DEED "SwipeUp" "DisobeyDiet1"
+    SET INSTRUCTIONS "Agafa les patates plenes de sal i colesterol"
+END
+
+CLONE DEED "Tap1" "DisobeyDiet2"
+    SET INSTRUCTIONS "Aguanta la bossa sobre la boca"
+END
+
+CLONE DEED "Rotate180" "DisobeyDiet3"
+    SET INSTRUCTIONS "Gira la bossa cara avall"
+END
+
+CLONE DEED "Hold5" "DisobeyDiet4"
+    SET INSTRUCTIONS "Inhala"
+END
+
+DEF TASK "DisobeyDiet"
+    SET NAME "Desobeeix les recomanacions dietaries del metge"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "DisobeyDiet1"
+    STEP "2" "DisobeyDiet2"
+    STEP "3" "DisobeyDiet3"
+    STEP "4" "DisobeyDiet4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Buy useless crap from TV
+
+CLONE DEED "PhoneCategory" "UselessCrap1"
+    SET INSTRUCTIONS "Truca per comprar andròmines innecessaries de la TV"
+    SET CATEGORY "SHOPPING"
+END
+
+DEF TASK "UselessCrap"
+    SET NAME "Compra andròmines innecessaries anunciades a la TV"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    SET LEWD TRUE
+
+    STEP "1" "UselessCrap1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Take a Loooooong Bath
+CLONE DEED "Tap1" "LongBath1"
+    SET INSTRUCTIONS "Tanca el baldó"
+END
+
+CLONE DEED "Rotate180Counter" "LongBath2"
+    SET INSTRUCTIONS "Engega l'aigua"
+END
+
+CLONE DEED "QuickTap3" "LongBath3"
+    SET INSTRUCTIONS "Tira-hi les bombes d'escuma"
+END
+
+CLONE DEED "Nothing3" "LongBath4"
+    SET INSTRUCTIONS "Ignora els nens i relaxa't"
+END
+
+DEF TASK "LongBath"
+    SET NAME "Fes-te un llaaaaarg bany"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "LongBath1"
+    STEP "2" "LongBath2"
+    STEP "3" "LongBath3"
+    STEP "4" "LongBath4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "SelfishParent"
+    ADDTASK "StareBlanklyOutWindow"
+    ADDTASK "RomanceTime"
+    ADDTASK "SwearWord"
+    ADDTASK "PourWine"
+    ADDTASK "AdultContemp"
+    ADDTASK "HideAndSeek"
+    ADDTASK "IgnoreInLaws"
+    ADDTASK "CatchUpCall"
+    ADDTASK "BrewTea"
+    ADDTASK "BoringBook"
+    ADDTASK "MidlifeCrisis"
+    ADDTASK "SteamyRomanceNovel"
+    ADDTASK "WatchTelenovela"
+    ADDTASK "StashCandy"
+    ADDTASK "DonateToys"
+    ADDTASK "TrashMail"
+    ADDTASK "OrderWindChime"
+    ADDTASK "PostBabyPhotos"
+    ADDTASK "MotivationalMantra"
+    ADDTASK "AloneInYard"
+    ADDTASK "BeefJerkyClub"
+    ADDTASK "DisobeyDiet"
+    ADDTASK "UselessCrap"
+    ADDTASK "LongBath"
+END

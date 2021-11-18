@@ -1,0 +1,23 @@
+MAIN(Company): Ei, em pots deixar el teu llibre? El meu m'ha caigut en un bassal de fang.
+-ANGRY-> Veig que la meva invitació a la teva festa també t'ha caigut al fang.
+-SURE-> I tant! Faria qualsevol cosa per un amic. Som amics, oi?
+
+ANGRY(Company): Oh, ho sento. És com una festa una mica exclusiva només per unes quantes persones.
+-BYE-> Bé, el meu llibre de text també és una mica exclusiu. Adéu!
+-HINT-> Si vingués a la teva festa, podria portar els meus deures perquè te'ls copiessis...
+
+SURE(Company): Gràcies o el que sigui. Ara he d'anar a fer aquests deures estúpids.
+-BYE-> Sí, això sembla. Adéu!
+-HINT-> Podries copiar$-te els meus. Potser te'ls podria donar a la teva festa d'aniversari...
+
+BYE(Company): Pff, adéu pringat.
+-FAILURE-> Vés a cagar, caracul!
+-HINT-> Un moment. I si et deixo copiar els meus deures... a la teva festa?
+
+HINT(Company): Ugh, d'acord. Pots venir, però no cridis molt l'atenció.
+-SUCCESS-> Gràcies, millor amic! Ens veiem allà!
+
+
+
+
+

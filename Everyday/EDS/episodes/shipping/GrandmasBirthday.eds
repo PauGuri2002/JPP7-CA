@@ -1,0 +1,284 @@
+DEF EPISODE "GrandmasBirthday"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Un Dimoni Per Sopar"
+    SET DESCRIPTION "És <font color='#AF0000'>el 666è aniversari de la Iaia Pazuzu</font>, i tot i que sigui un dimoni horrorós de tres caps, la família li farà una festa."
+    SET SUCCESS_MESSAGE "Ens alegra saber que el 666è aniversari de la Iaia Pazuzu ha anat com la seda. Celebrar l'aniversari d'un familiar que no els hi cau bé és una llarga tradició, com els picnics d'oficina o pretendre que t'agraden els jerseis casolans."
+    SET FAILURE_MESSAGE "Ens ha arribat que la festa d'aniversari de la Iaia Pazuzu ha sigut un total desastre. Els treballadors de la seva residència ens han dit que no es parava de queixar de lo malament que ho ha passat. Així que ja sabeu, no espereu cap dels vostres noms al seu testament."
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "TravelPartySupplies" <1 8:00>
+    SCHEDULE TASK "CallFriendGrandma" <1 10:00>
+    SCHEDULE TASK "CleanParty" <1 13:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "TravelGrammaPresent" <2 8:00>
+    SCHEDULE TASK "GatherGrandmaBouquet" <2 10:00>
+    SCHEDULE TASK "GrandmaHandmadeGift" <2 15:00>
+    SCHEDULE TASK "WrapGrandmasGift" <2 18:00>
+    
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "GatherGrandmaMeal" <3 8:00>
+    SCHEDULE TASK "TravelPickupGrandma" <3 11:00>
+    SCHEDULE TASK "GrandmaSmallTalk" <3 15:00>
+    SCHEDULE TASK "GrandmaBlowCandles" <3 18:00>
+        
+END
+
+
+REM : ------------------------------
+
+
+REM : Get Party Supplies
+CLONE DEED "TravelCategory" "TravelGrammaSupplies"
+    SET INSTRUCTIONS "Condueix a la botiga a per les coses de la festa"
+    SET CONTENT_ID "PARTYTOWNSHIP"
+END
+
+DEF TASK "TravelPartySupplies"
+    SET DURATION <8H>
+    SET NAME "Condueix a la botiga a per les coses de la festa"
+    SET ASKER_NAME "Ves amb algú més gran per comprar les coses de la festa"
+    SET HELPER_NAME "Condueix a la botiga amb <ASKER> per comprar les coses de la festa"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "YOUNG"
+    
+    STEP "1" "TravelGrammaSupplies"
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Buy Grandma's Present
+CLONE DEED "TravelCategory" "TravelGrammaPresent"
+    SET INSTRUCTIONS "Ves a comprar un regal per la iaia"
+    SET CATEGORY "SHOPPING"
+END
+
+DEF TASK "TravelGrammaPresent"
+    SET DURATION <8H>
+    SET NAME "Ves a comprar un regal per la iaia"
+    SET ASKER_NAME "Que algú et porti a la botiga a comprar un regal per la iaia"
+    SET HELPER_NAME "Porta <ASKER> a la botiga per comprar un regal per la iaia"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "CHILDREN"
+
+    
+    STEP "1" "TravelGrammaPresent"
+    
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Pick up Grandma
+CLONE DEED "TravelCategory" "TravelPickupGrandma"
+    SET INSTRUCTIONS "Recull la iaia de la residència"
+    SET CONTENT_ID "EERIEACRES"
+END
+
+DEF TASK "TravelPickupGrandma"
+    SET DURATION <8H>
+    SET NAME "Recull la iaia de la residència"
+    SET ASKER_NAME "Ves amb algú més gran per recollir la iaia"
+    SET HELPER_NAME "Ves amb <ASKER> a recollir la iaia"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "CHILDREN"
+
+
+    STEP "1" "TravelPickupGrandma"
+    
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Call Friend
+
+CLONE DEED "PhoneID" "CallHecuba"
+    SET INSTRUCTIONS "Truca a Aunt Hecuba"
+    SET CONTENT_ID "HECUBA"
+END
+
+CLONE DEED "DialogBase" "GrandmaCallFriend"
+    SET INSTRUCTIONS "Parla amb Aunt Hecuba"
+    SET CONTENT_ID "GRANDMAS_FRIEND"
+END
+
+DEF TASK "CallFriendGrandma"
+    SET DURATION <8H>
+    SET NAME "Convida a Aunt Hecuba a la festa"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+
+    STEP "1" "CallHecuba"
+    STEP "2" "GrandmaCallFriend"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Clean the house
+CLONE TASK "CleanHouse" "CleanParty"
+    SET NAME "Neteja la casa per la festa"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+END
+
+REM : Handmade present
+CLONE TASK "MakeSlimeMess" "GrandmaHandmadeGift"
+    SET NAME "Fes un regal manual per la iaia"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAIN "CHILDREN"
+    SET DURATION <8H>
+
+END
+
+REM : Wrap present
+CLONE DEED "SwipeBase" "WrapGift"
+    SET INSTRUCTIONS "Embolica el regal"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT,LEFT,RIGHT"
+END
+
+CLONE DEED "Rotate360Counter" "UnspoolRibbon"
+    SET INSTRUCTIONS "Desenrolla la cinta"
+END
+
+CLONE DEED "Hold3" "TapeDown"
+    SET INSTRUCTIONS "Enganxa les cantonades"    
+END
+
+CLONE DEED "Tap1" "Bow"
+    SET INSTRUCTIONS "Posa un llaç"
+END
+
+DEF TASK "WrapGrandmasGift"
+    SET DURATION <8H>
+    SET NAME "Embolica el regal"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+
+    STEP "1" "WrapGift"
+    STEP "2" "TapeDown"
+    STEP "3" "UnspoolRibbon"
+    STEP "4" "Bow"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Gramma Meal Cook
+CLONE DEED "GatherMeal" "GrammaMealIngredients"
+    SET INSTRUCTIONS "Recolecta ingredients per l'àpat preferit de la iaia"
+    SET CATEGORY "DINNER"
+
+END
+
+DEF TASK "GatherGrandmaMeal"
+    SET DURATION <8H>
+    SET NAME "Recolecta ingredients per l'àpat preferit de la iaia"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+    
+    STEP "1" "GrammaMealIngredients"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "CookGrandmaMeal"
+END
+
+
+REM : Gramma Meal Gather
+CLONE DEED "Tap3" "CramGrandmaMeal"
+    SET INSTRUCTIONS "Encasta'l a la nevera fins la festa"
+END
+
+DEF TASK "CookGrandmaMeal"
+    SET DURATION <8H>
+    SET NAME "Prepara l'àpat preferit de la iaia"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+
+    STEP "1" "Stir"
+    STEP "2" "CramGrandmaMeal"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+    
+    CONSEQUENCE SUCCESS "EatLunch"
+END
+
+REM : Blow out candles
+CLONE DEED "Hold5" "GrandmaBlowCandles"
+    SET INSTRUCTIONS "Bufa fort!"
+END
+
+DEF TASK "GrandmaBlowCandles"
+    SET NAME "Ajuda a la iaia a bufar espelmes"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "GrandmaBlowCandles"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : Make small talk with Grandma
+CLONE DEED "DialogID" "GrandmaSmallTalk"
+    SET INSTRUCTIONS "Parla una mica amb la iaia"
+    SET CONTENT_ID "GRANDMAS_SMALLTALK"
+END
+
+DEF TASK "GrandmaSmallTalk"
+    SET NAME "Parla una mica amb la iaia"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "GrandmaSmallTalk"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Make Grandma a bouquet
+CLONE DEED "GatherBase" "GatherGrandmaBouquet"
+    SET INSTRUCTIONS "Recolecta ingredients pel ram"
+    SET CONTENT_ID "GRANDMAS_FLOWERS"
+END
+
+DEF TASK "GatherGrandmaBouquet"
+    SET DURATION <3H>
+    SET NAME "Fes un ram per la iaia"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+
+    STEP "1" "GatherGrandmaBouquet"
+
+    NEXT "1" SUCCESS FAILURE
+END

@@ -1,0 +1,18 @@
+MAIN(Supertremendous Man): Salutacions, heroi! Necessito la teva ajuda per vèncer al Dr. Plamalvat.          
+-YES-> El partiré en dos amb la meva espasa làser!          
+-NAH-> Hmm, prefereixo anar a veure la tele.          
+
+NAH(Supertremendous Man): Si us plau no abandonis la Ciutat Gratacel en aquests moments de necessitat!          
+-FAILURE-> Soc massa gran per jugar amb figures d'acció. On està el mando?          
+-YES-> Ok, dispararé al Dr. Plamalvat amb la meva mirada flamejant.          
+
+YES(Dr Plamalvat): Muahaha! Un cop alliberi la meva Mecha$-Vaca, la Ciutat Gratacel estarà acabada!          
+-DOOMED-> Suposo que el Dr. Plamalvat guanya aquest cop, doncs.          
+-NOTSOFAST-> No tan ràpid, doctor. Blam! Pam! Kabum!          
+
+DOOMED(Dr Plamalvat): De veritat? Simplement em deixaràs guanyar i ja està?          
+-NOTSOFAST-> No, t'estava enganyanr... per poder$-te destruïr amb el meu ultra-raig! ZZZORCH!          
+-FAILURE-> Ja no vull jugar a superherois. On està el mando?          
+
+NOTSOFAST(Supertremendous Man): Hurra! Has matat al Dr. Plamalvat i has salvat la ciutat!          
+-SUCCESS-> No és res, així és el dia a dia d'un superheroi!          

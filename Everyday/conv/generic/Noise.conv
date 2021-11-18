@@ -1,0 +1,18 @@
+MAIN(Veí): Teniu la música una mica massa alta, no creieu?
+-WHAT-> QUÈ!?
+-SORRY-> HO SENTO!
+-JAM-> ET VOLS UNIR?
+-BAD-> MATA ELS MALS SENTIMENTS!
+
+
+WHAT(Veí): Em mudaré d'aquí
+-SUCCESS-> QUÈ?!?!?
+
+SORRY(Veí): NO PASSA RES!
+-SUCCESS-> M'ALEGRA HAVER$-HO PARLAT!
+
+JAM(Veí): ...PERQUÈ NO!!!
+-SUCCESS-> AGAFA UN LLAÜT I SOM$-HI!
+
+BAD(Veí): Vols que en parlem?
+-SUCCESS-> ...sí, si us plau.

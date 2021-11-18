@@ -1,0 +1,228 @@
+REM : Ignore Chores, Play Video Games
+
+CLONE DEED "Nothing5" "VideoGameStep1"
+    SET INSTRUCTIONS "Ignora les feines de la casa"
+END
+
+CLONE DEED "QuickTap10" "VideoGameStep2"
+    SET INSTRUCTIONS "Juga a aquell videojoc tan guapo"
+END
+
+DEF TASK "VideoGames"
+    SET NAME "Ignora els deures, juga a videojocs"
+    SET THEME "SELFISH"
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "VideoGameStep1"
+    STEP "Step2" "VideoGameStep2"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" SUCCESS FAILURE
+END
+
+
+REM : Shoot a spitball at your sibling
+
+CLONE DEED "Hold3" "ShootSpitball1"
+    SET INSTRUCTIONS "Apunta..."
+END
+
+CLONE DEED "SwipeUp" "ShootSpitball2"
+    SET INSTRUCTIONS "Dispara!"
+END
+
+DEF TASK "ShootSpitball"
+    SET NAME "Dispara una bola de paper als teus germans"
+    SET CAPTAIN "YOUNG"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "ShootSpitball1"
+    STEP "2" "ShootSpitball2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Put "kick me" sign on parent's back
+
+CLONE DEED "Nothing3" "KickMeSign1"
+    SET INSTRUCTIONS "Espera que baixin la guàrdia..."
+END
+
+CLONE DEED "SwipeUp" "KickMeSign2"
+    SET INSTRUCTIONS "Esmunyeix-te darrere seu"
+END
+
+CLONE DEED "Rotate180" "KickMeSign3"
+    SET INSTRUCTIONS "Posiciona el cartell"
+END
+
+CLONE DEED "Tap1" "KickMeSign4"
+    SET INSTRUCTIONS "Enganxa'l!"
+END
+
+DEF TASK "KickMeSign"
+    SET NAME "Posa un cartell de 'pega'm' a l'esquena dels pares"
+    SET CAPTAIN "YOUNG"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "KickMeSign1"
+    STEP "2" "KickMeSign2"
+    STEP "3" "KickMeSign3"
+    STEP "4" "KickMeSign4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Leave milk out
+
+CLONE DEED "SwipeUp" "LeaveMilkOut1"
+    SET INSTRUCTIONS "Beu del bric de llet"
+END
+
+CLONE DEED "Tap1" "LeaveMilkOut2"
+    SET INSTRUCTIONS "Deixa el bric al marbre"
+END
+
+CLONE DEED "Hold5" "LeaveMilkOut3"
+    SET INSTRUCTIONS "Ves-te'n"
+END
+
+DEF TASK "LeaveMilkOut"
+    SET NAME "Deixa la llet a fora"
+    SET CAPTAIN "YOUNG"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "LeaveMilkOut1"
+    STEP "2" "LeaveMilkOut2"
+    STEP "3" "LeaveMilkOut3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Alter bad report card
+
+CLONE DEED "SwipeRight" "AlterReportCard1"
+    SET INSTRUCTIONS "Fes servir boli vermell per convertir la 'D' en una 'B'"
+END
+
+CLONE DEED "SwipeUp" "AlterReportCard2"
+    SET INSTRUCTIONS "Fes la teva nota encara millor"
+END
+
+CLONE DEED "SwipeLeft" "AlterReportCard3"
+    SET INSTRUCTIONS "B+. Tampoc ens passem"
+END
+
+DEF TASK "AlterReportCard"
+    SET NAME "Modifica la nota d'un mal examen"
+    SET CAPTAIN "YOUNG"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "AlterReportCard1"
+    STEP "2" "AlterReportCard2"
+    STEP "3" "AlterReportCard3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Disrespect your elders
+
+CLONE DEED "SwipeDown" "DisrespectElders1"
+    SET INSTRUCTIONS "Mira sense respecte"
+END
+
+CLONE DEED "SwipeUp" "DisrespectElders2"
+    SET INSTRUCTIONS "Burla't d'ells"
+END
+
+CLONE DEED "Rotate360" "DisrespectElders3"
+    SET INSTRUCTIONS "Fes rodar els ulls"
+END
+
+DEF TASK "DisrespectElders"
+    SET NAME "Falta-li els respecte als avis"
+    SET CAPTAIN "YOUNG"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "DisrespectElders1"
+    STEP "2" "DisrespectElders2"
+    STEP "3" "DisrespectElders3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Prank call teacher 
+
+CLONE DEED "DialogBase" "PrankCallTeacher1"
+    SET INSTRUCTIONS "Fes una broma al teu professor"
+    SET CONTENT_ID "TEACHER_PRANK_CALL"
+END
+
+DEF TASK "PrankCallTeacher"
+    SET NAME "Fes una broma al teu professor"
+    SET CAPTAIN "YOUNG"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "PrankCallTeacher1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "SelfishYoung"
+    ADDTASK "VideoGames"
+    ADDTASK "ShootSpitball"
+    ADDTASK "KickMeSign"
+    ADDTASK "LeaveMilkOut"
+    ADDTASK "AlterReportCard"
+    ADDTASK "DisrespectElders"
+    ADDTASK "PrankCallTeacher"
+END

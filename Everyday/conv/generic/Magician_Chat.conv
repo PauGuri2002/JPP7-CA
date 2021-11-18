@@ -1,0 +1,22 @@
+Main(Mag): Hola, sóc un mag de carrer! T'agradaria triar una carta? 
+-YES-> I tant, m'encanta triar coses!
+-NO-> No gràcies, la meva vida ja és prou màgica.
+-REVERSE-> Sí, però primer, observa el que passa si poso la mà a sobre d'aquest barret de copa...
+-NOTSURE-> No ho sé, no em fio massa.
+
+
+YES(Mag): Fantàstic! Ara les barrejaré i...és AQUESTA la teva carta? No? Merda. 
+-SUCCESS-> Tothom s'ho ha passat més o menys bé!
+
+
+NO(Mag): Tens raó. Hauria de tornar a la meva feina de banquer. 
+-SUCCESS-> Una victòria per la seguretat financera!
+
+
+REVERSE(Mag): Això ha sigut increïble!! M'ho podries ensenyar? T'ho agraïria MOLTÍSSIM!
+-FAILURE-> Ara resulta que he de fer classes de màgia.
+
+
+NOTSURE(Mag): I si et dono 10€? Veuries el truc així?
+-SUCCESS-> No pots comprar la meva atenció! Adéu i fins mai!
+-YES-> Deu euracos?? Tens tota la meva atenció!

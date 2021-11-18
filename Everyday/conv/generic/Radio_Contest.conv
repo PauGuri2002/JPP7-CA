@@ -1,0 +1,24 @@
+MAIN(Presentadora de Radio): Estàs en directe a la ràdio! Estàs només a unes preguntes de guanyar una increïble rentadora$-assecadora!
+-EXCITED-> Woo, visca!
+-EXCITED-> Visca, woo!
+
+EXCITED(Presentadora de Radio): Quin animal australià és conegut pels seus salts?
+-WRONG-> Fàcil, és un gos.
+-WRONG-> Cavall. Ha de ser un cavall.
+-KANGAROO-> El cangur?
+
+KANGAROO(Presentadora de Radio): Correcte! Següent pregunta, H2O és la formula química de quin líquid?
+-WRONG-> Ketchup!
+-WRONG-> Ehmm...vinagre?
+-WATER-> Ostres, aquesta me la sé... um... ooh, és aigua!
+
+WATER(Presentadora de Radio): Última pregunta! Segons els mites, quins monstres banyuts viuen en un inframón subterrani ple de foc?
+-WIN-> Dimonis.
+-WIN-> Ooh aquesta és difícil. Potser són els dimonis.
+-WIN-> No ho sé segur, però diré els dimonis.
+
+WRONG(Presentadora de Radio): Uau, no em puc creure que hagis fallat aquesta. Has perdut.
+-FAILURE-> Merda, tenia moltes ganes de tenir la meva rentadora$-assecadora.
+
+WIN(Presentadora de Radio): Felicitats, tenim un guanyador!
+-SUCCESS-> Per fi, la meva pròpia rentadora$-assecadora que no hauré de compartir amb la família!

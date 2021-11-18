@@ -1,0 +1,17 @@
+MAIN(Carnissera): No tindreu pas lloc per una persona més?
+-COURSE-> I tant!
+-FAMILY-> És només per la família.
+-CHAIRS-> Ens hem quedat sense cadires.
+-NOT-> Sí, però no per a tu.
+
+COURSE(Carnissera): Genial! Portaré els nens.
+-SUCCESS-> El pati s'està omplint...
+
+FAMILY(Carnissera): Ah, entenc.
+-SUCCESS-> Oblida$-ho, sí que pots venir!
+
+CHAIRS(Carnissera): Puc seure al terra.
+-SUCCESS-> Ok, pots venir!
+
+NOT(Carnissera): Puc portar$-hi només els nens?
+-SUCCESS->...d'acord.

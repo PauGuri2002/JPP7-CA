@@ -1,0 +1,329 @@
+REM : MAKE BREAKFAST----------------------------------
+
+REM : Gather Breakfast
+
+CLONE DEED "GatherMeal" "BreakfastIngredients"
+    SET INSTRUCTIONS "Recol·lecta ingredients per l'esmorzar"
+    SET CATEGORY "BREAKFAST"
+
+END
+
+DEF TASK "GatherBreakfast"
+    SET DURATION <3H>
+    SET NAME "Recol·lecta ingredients per l'esmorzar"
+    SET THEME "SEARCH_FIND"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+
+    STEP "1" "BreakfastIngredients"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "CookBreakfast"
+    CONSEQUENCE FAILURE "OrderBreakfast"
+
+END
+
+
+REM : Cook Breakfast
+
+CLONE DEED "Rotate1080" "Stir"
+    SET INSTRUCTIONS "Remena"
+END
+
+DEF TASK "CookBreakfast"
+    SET DURATION <3H>
+    SET NAME "Fes l'esmorzar"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+
+    STEP "1" "Stir"
+
+    NEXT "1" SUCCESS FAILURE
+    
+    CONSEQUENCE SUCCESS "EatBreakfast"
+END
+
+
+REM : Eat Breakfast
+
+CLONE DEED "Nothing5" "EatBreakfast"
+    SET INSTRUCTIONS "Esmorza amb tothom"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "EatBreakfast"
+    SET DURATION <5H>
+    SET NAME "Esmorza amb tothom"
+    SET THEME "FAMILY_TASK"
+    SET CATEGORY "ULTRA"
+
+    STEP "1" "EatBreakfast"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+REM : MAKE LUNCH----------------------------------
+
+REM : Gather Lunch
+
+CLONE DEED "GatherMeal" "LunchIngredients"
+    SET INSTRUCTIONS "Recol·lecta ingredients pel dinar"
+    SET CATEGORY "LUNCH"
+
+END
+
+DEF TASK "GatherLunch"
+    SET DURATION <3H>
+    SET NAME "Recol·lecta ingredients pel dinar"
+    SET THEME "SEARCH_FIND"
+
+    STEP "1" "LunchIngredients"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "CookLunch"
+    CONSEQUENCE FAILURE "OrderLunch"
+END
+
+
+REM : Cook Lunch
+
+DEF TASK "CookLunch"
+    SET DURATION <3H>
+    SET NAME "Fes el dinar"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+
+    STEP "1" "Stir"
+
+    NEXT "1" SUCCESS FAILURE
+    
+    CONSEQUENCE SUCCESS "EatLunch"
+END
+
+
+REM : Eat Lunch
+
+CLONE DEED "Nothing5" "EatLunch"
+    SET INSTRUCTIONS "Dina amb tothom"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "EatLunch"
+    SET DURATION <5H>
+    SET NAME "Dina amb tothom"
+    SET THEME "FAMILY_TASK"
+    SET CATEGORY "ULTRA"
+
+    STEP "1" "EatLunch"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : MAKE DINNER----------------------------------
+
+REM : Gather Dinner
+
+CLONE DEED "GatherMeal" "DinnerIngredients"
+    SET INSTRUCTIONS "Recol·lecta ingredients pel sopar"
+    SET CATEGORY "DINNER"
+
+END
+
+DEF TASK "GatherDinner"
+    SET DURATION <3H>
+    SET NAME "Recol·lecta ingredients pel sopar"
+    SET THEME "SEARCH_FIND"
+
+    STEP "1" "DinnerIngredients"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "CookDinner"
+    CONSEQUENCE FAILURE "OrderDinner"
+END
+
+
+REM : Cook Dinner
+
+DEF TASK "CookDinner"
+    SET DURATION <3H>
+    SET NAME "Fes el Sopar"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+
+    STEP "1" "Stir"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "EatDinner"
+END
+
+
+REM : Eat Dinner
+
+CLONE DEED "Nothing5" "EatDinner"
+    SET INSTRUCTIONS "Sopa amb tothom"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "EatDinner"
+    SET DURATION <5H>
+    SET NAME "Sopa amb tothom"
+    SET THEME "FAMILY_TASK"
+    SET CATEGORY "ULTRA"
+
+    STEP "1" "EatDinner"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+
+
+REM : -------------------------------------------------
+
+REM : Order Breakfast
+
+CLONE DEED "PhoneFood" "OrderBreakfast"
+    SET INSTRUCTIONS "Demana l'esmorzar"
+    SET CATEGORY "FOOD"
+END
+
+DEF TASK "OrderBreakfast"
+    SET DURATION <3H>
+    SET NAME "Cuinar no ha anat bé. Demana l'esmorzar"
+    SET THEME "TALKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "OrderBreakfast"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "EatBreakfast"
+END
+
+
+REM : -------------------------------------------------
+
+REM : Order Lunch
+
+CLONE DEED "PhoneFood" "OrderLunch"
+    SET INSTRUCTIONS "Demana el dinar"
+    SET CATEGORY "FOOD"
+END
+
+DEF TASK "OrderLunch"
+    SET DURATION <3H>
+    SET NAME "Cuinar no ha anat bé. Demana el dinar"
+    SET THEME "TALKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "OrderLunch"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "EatLunch"
+END
+
+REM : -------------------------------------------------
+
+REM : Order Dinner
+
+CLONE DEED "PhoneFood" "OrderDinner"
+    SET INSTRUCTIONS "Demana el sopar"
+    SET CATEGORY "FOOD"
+END
+
+DEF TASK "OrderDinner"
+    SET DURATION <3H>
+    SET NAME "Cuinar no ha anat bé. Demana el sopar"
+    SET THEME "TALKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "OrderDinner"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "EatDinner"
+END
+
+
+REM : -------------------------------------------------
+
+
+REM : Frost the cake
+
+CLONE DEED "SwipeBase" "FrostCake1"
+    SET INSTRUCTIONS "Aplicar Glacejat"
+    SET DIRECTION "LEFT,RIGHT"
+END
+
+CLONE DEED "Hold3" "FrostCake2"
+    SET INSTRUCTIONS "Exprimeix una mica de glacejat"
+END
+
+CLONE DEED "Nothing5" "FrostCake3"
+    SET INSTRUCTIONS "Fes un pas enrere i admira la teva feina"
+END
+
+DEF TASK "FrostCake"
+    SET NAME "Glaceja el pastís"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    SET THEME "COOKING"
+
+    STEP "1" "FrostCake1"
+    STEP "2" "FrostCake2"
+    STEP "3" "FrostCake3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Gather Flower Shop
+
+CLONE DEED "GatherBase" "GatherFlowers"
+    SET INSTRUCTIONS "Recol·lecta ítems per un ram de flors"
+    SET CATEGORY "FLOWERS"
+END
+
+DEF TASK "GatherFlowers"
+    SET DURATION <3H>
+    SET NAME "Fes un bon ram de flors"
+    SET THEME "SEARCH_FIND"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+
+    STEP "1" "GatherFlowers"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+REM : Gather Video Store
+
+CLONE DEED "GatherBase" "GatherVideo"
+    SET INSTRUCTIONS "Tria les películes correctes"
+    SET CATEGORY "MOVIENIGHT"
+END
+
+DEF TASK "GatherVideo"
+    SET DURATION <3H>
+    SET NAME "Agafa les películes de la botiga de pelis"
+    SET THEME "SEARCH_FIND"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+
+    STEP "1" "GatherVideo"
+
+    NEXT "1" SUCCESS FAILURE
+END

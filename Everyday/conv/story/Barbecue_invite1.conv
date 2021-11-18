@@ -1,0 +1,17 @@
+MAIN(Veí): Puc portar alguna cosa?
+-MAC-> Olives, escopinyes i amistat
+-BEAN-> Pizza 4 formatges
+-KEG-> Un pot de mostassa
+-HUNGRY-> Només amics amb gana!
+
+MAC(Veí): En tinc dos dels tres!
+-SUCCESS-> Tot està anant com esperava.
+
+BEAN(Veí): Tinc els formatges justos!
+-SUCCESS-> Tot està anant com esperava.
+
+KEG(Veí): Picant o a la mel?
+-SUCCESS> Les dues! Que la festa no pari!
+
+HUNGRY(Veí): Genial! La meva coral de 30 membres us visitarà!
+-SUCCESS-> Oh no.

@@ -1,0 +1,17 @@
+MAIN(Veí): Bones, crec que he rebut el vostre correu per error. Aquí teniu.
+-THANKS-> Gràcies, bon amic
+-KEEPIT-> Ja te'l pots quedar
+-THIEF-> Lladre!
+-REWARD-> Aquí tens una recompensa!
+
+THANKS(Neighbor): Cap problema!
+-SUCCESS-> Que bona és la bona gent
+
+KEEPIT(Neighbor): Gràcies! Hi ha cupons aquí!
+-SUCCESS-> He sigut bona persona, però m'he perdut uns bons descomptes
+
+THIEF(Neighbor): Com pots dir això! Em quedaré aquest tríptic per eixugar$-me les llàgrimes!
+-SUCCESS-> Quin tio més irascible
+
+REWARD(Neighbor): Ohh...gràcies.
+-SUCCESS-> El veí totalment necessitava aquells 2€ en cèntims

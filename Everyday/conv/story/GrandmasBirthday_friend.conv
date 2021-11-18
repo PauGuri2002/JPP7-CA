@@ -1,0 +1,48 @@
+MAIN(Aunt Hecuba): Hola? Qui truca?
+-GRANDMA-> Estàs convidada a la festa de la Iaia Pazuzu
+-MURDER-> Estàs convidada a una festa de misteri ambientada en els 40
+-SCAM-> T'estàs perdent increïbles ofertes per millorar la teva connexió!
+
+GRANDMA(Aunt Hecuba): Pazuzu? Odio aquesta vella podrida! Oblida-ho!
+-REASON-> He dit Pazuzu? Volia dir... algú que et cau bé?
+-PIECE-> Llavors vine a la festa i dona-li un troç del teu cervell!
+
+REASON(Aunt Hecuba): Si clar. Dona'm una bona raó per la que hauria de venir.
+-CAKE-> Pastís gratis
+-PIECE-> Finalment li podras donar un troç del teu cervell
+-TWENTY-> Et dono 20€
+
+CAKE(Aunt Hecuba): No és massa, però accepto. Allà estaré.
+-SUCCESS-> Em serveix
+
+PIECE(Aunt Hecuba): Ha! Ara t'escolto. Allà estaré.
+-SUCCESS-> He deixat d'escoltar
+
+TWENTY(Aunt Hecuba): Que siguin 50.
+-FINE-> Pff. Vale.
+-NOWAY-> Ni de conya!
+
+NOWAY(Aunt Hecuba): Llavors oblida-ho!
+-FINE-> Espera! Pagaré!
+-FINE-> Espera! Faré veure que et pagaré!
+
+FINE(Aunt Hecuba): Fantastic! Ens veiem.
+-SUCCESS-> Més val que valgui la pena.
+
+MURDER(Aunt Hecuba): Odio aquestes coses per frikis! I sempre acaba sent el majordom!
+-GRANDMA-> Era broma, és l'aniversari de la Iaia Pazuzu
+-ESCAPEROOM-> Què tal un escape room llavors?
+
+ESCAPEROOM(Aunt Hecuba): No sé que es això.
+-GRANDMA-> És igual. T'estic intentant convidar a l'aniversari de la Iaia Pazuzu.
+
+SCAM(Aunt Hecuba): De debò? Explica'm més!
+-BIGBAND-> BigBand Internet Service té una tarifa que s'ajusta a les teves necessitats!
+-GRANDMA-> Era broma, és l'aniversari de la Iaia Pazuzu
+
+BIGBAND(Aunt Hecuba): Hi ha limit de dades?
+-LIMITS-> Tot i que alguns plans tenen límits, la majoria dels usuaris mai hi arriben.
+-GRANDMA-> És igual. T'estic intentant convidar a l'aniversari de la Iaia Pazuzu.
+
+LIMITS(Aunt Hecuba): Això és el que diuen tots! Bon intent, estafador! *CLICK*
+-SUCCESS-> Ja li enviaré un missatge després

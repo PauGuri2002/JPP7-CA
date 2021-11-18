@@ -1,0 +1,17 @@
+MAIN(Veí): Em podries deixar una tassa de sucre?
+-SURE-> Esclar
+-NOPE-> Nop
+-ONE-> Només una?
+-BORROW-> Deixar?
+
+SURE(Veí): Ets tan amable!
+-SUCCESS-> Em sobren els sobres de sucre dels bars.
+
+NOPE(Veí): ...ho sento
+-FAILURE-> El meu gran magatzem de sucre m'ha costat moltes amistats.
+
+ONE(Veí): Doncs, em puc quedar dos quilos si et sobren?
+-SUCCESS-> I tant!
+
+BORROW(Veí): Ja te'l tornaré
+-SUCCESS-> Ho apunto a la llista de deutes, no se m'oblidarà. 

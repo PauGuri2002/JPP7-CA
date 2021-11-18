@@ -1,0 +1,17 @@
+MAIN(Dentista): Quina és la raó de la teva visita?
+-CLEAN-> Necessito una neteja
+-PAIN-> Tota la boca em fa mal
+-HUM-> Les dents em brunzeixen
+-MISS-> Només et trobo a faltar
+
+CLEAN(Dentista): Genial! Ens veiem dilluns
+-SUCCESS-> Espero que no semblés massa desesperat
+
+PAIN(Dentista): Ai ai! Ens veiem dilluns
+-SUCCESS-> Gràcie..uaghgaAAAHH!!!!
+
+HUM(Dentista): Sí, ja les sento.
+-SUCCESS-> Ens veiem dilluns! Bzzzzzzzzz
+
+MISS(Dentista): Això... no és una raó per fer una visita.
+-FAILURE-> Maleïdes dents sanes. 

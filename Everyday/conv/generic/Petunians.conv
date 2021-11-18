@@ -1,0 +1,21 @@
+MAIN(Veí): Bon dia!
+-INSULT-> Hola, odio les teves petúnies!
+-BEAUTIFUL-> Si se'm permet, les teves petúnies estan maquíssimes.
+-INSULT-> Les teves petúnies em treuen de polleguera!
+
+INSULT(Veí): Què els hi passa?
+-COMPLAINT-> Són massa colorides!
+-BEAUTIFUL-> Res! Només tinc enveja de lo maques que són.
+
+BEAUTIFUL(Veí): Moltes gràcies! Estan creixent molt bé.
+-OFFEND-> Sempre havia pensat que eres un idiota sense talent, però sembla que ets un bon jardiner.
+-FLATTER-> Si m'encarregués de donar els Premis Nobel, guanyaries la medalla per les millors petúnies.
+
+FLATTER(Veí): Ooohh em fas posar vermell. Moltíssimes gràcies!
+-SUCCESS-> No, gràcies a TU per deixar$-me veure aquestes encisadores petúnies!
+
+OFFEND(Veí): ...
+-FAILURE-> Ja marxes? Ha estat bé parlar amb tu!
+
+COMPLAINT(Veí): Bé, hmph. Crec que aniré tirant.
+-FAILURE-> Bona manera de desempellegar$-se de mi, decepció de petúnies.

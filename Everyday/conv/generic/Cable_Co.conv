@@ -1,0 +1,18 @@
+MAIN(Cable Rep): Quin canal tens més interés en afegir
+-SNACK-> Snack 3
+-VOYEUR-> Voyeur TV
+-BIRD-> Canal Ocells Guais
+-SPORT-> Esport Max
+
+
+SNACK(Cable Rep): Just a temps per la setmana de les crispetes!
+-SUCCESS-> Vaig a preparar les meves, doncs!
+
+VOYEUR(Cable Rep): Aquest canal no existeix. 
+-FAILURE-> Crec que m'arriba la senyal de les càmeres del veí.
+
+BIRD(Cable Rep): Just a temps per la setmana de les codorneres!
+-SUCCESS-> Mai tinc prou codornera!
+
+SPORT(Cable Rep): Just a temps per la setmana del cricket!
+-SUCCESS-> Sip! M'encanta el cricket!

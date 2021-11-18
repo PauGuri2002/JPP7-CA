@@ -1,0 +1,16 @@
+MAIN(Professor): Hola, qui truca?
+-HONEST-> Sóc jo, el teu alumne preferit.
+-PRANK-> Sóc del banc. Truquem per dir$-te que tots els teus diners han desaparegut.
+
+HONEST(Professor): Oh hola, què vols?
+-FAILURE-> Res, només volia saludar perquè m'encanta l'escola. Adéu.
+
+PRANK(Professor): Què! Com ha pogut passar?!
+-MESSUP-> *riure*
+-PRANKDONE-> El teu compte ha sigut suspès per haver fet un P.U.D d'or.
+
+MESSUP(Professor): Espera, la teva veu em sona...
+-SUCCESS->*penja ràpidament*
+
+PRANKDONE(Professor): Jo no he fet pudor... Espera... Ei!
+-SUCCESS-> Hahahaha! *penja*

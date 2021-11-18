@@ -1,0 +1,17 @@
+MAIN(Veí): Ei, no he rebut el diari aquest matí. Vosaltres l'heu vist?
+-YES-> Sí. Aquí el tens!
+-NO-> No. Odio les notícies
+-PAPERBOY-> Estúpid repartidor!
+-STOLEPAPER-> TU has robat el MEU diari!
+
+YES(Veí): Oh gràcies!
+-SUCCESS-> Genial. No ha sospitat ni una mica...
+
+NO(Veí): Llavors què és això?
+-SUCCESS-> El meu barret de paper de diari m'ha delatat
+
+PAPERBOY(Veí): Jo també l'odio!
+-SUCCESS-> He fet un nou aliat a la meva guerra contra el repartidor
+
+STOLEPAPER(Veí): Tens raó, aquí el tens. 
+-SUCCESS-> He guanyat un diari, però he perdut un veí.

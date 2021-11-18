@@ -1,0 +1,398 @@
+DEF EPISODE "Barbecue"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Barbacaos"
+    SET DESCRIPTION "Ha arribat l'estiu i és hora de fer una <font color='#AF0000'>barbacoa</font> amb els veïns. Podrà la família superar aquesta tradició humana sense convidar a tot el veïnat o seran passats per la graella?"
+    SET SUCCESS_MESSAGE "Els nostres contactes ens han informat que el vostre esdeveniment culinari ha sigut sucós, gustós i amb la quantitat perfecta de sal! En termes de cuinar a la brasa, aquesta família està al punt. Ja m'enteneu."
+    SET FAILURE_MESSAGE "Els nostres contactes han sentit que la vostra BBQ ha sigut enganxifosa, plena de gent, i sense ni tan sols una opció decent de kebab! Passeu-vos-ho bé reformant el vostre jardí esparracat, acompanyat de salmonel·la."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "InviteNeighborsBBQ" <1 8:00>
+    SCHEDULE TASK "SecretMarinade" <1 10:00>
+    SCHEDULE TASK "MeatGuy" <1 13:00>
+    SCHEDULE TASK "TeenInviteSO" <1 15:00>
+
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "UnfoldTable" <2 8:00>
+    SCHEDULE TASK "SearchForCoals" <2 10:00>
+    SCHEDULE TASK "BarbecuePotatoSalad" <2 13:00>
+    SCHEDULE TASK "MeatRun" <2 15:00>
+
+    REM : ROUND 3 STORY TASKSSCHEDULE TASK "LightUpGrill" <3 ##:00>
+    SCHEDULE TASK "BurnReportCard" <3 8:00>
+    SCHEDULE TASK "SearchHotSauce" <3 10:00>
+    SCHEDULE TASK "WorkTheGrill" <3 13:00>
+    SCHEDULE TASK "HideMeatShortage" <3 15:00>
+
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+CLONE DEED "DialogID" "InviteNeighborsBBQ"
+    SET INSTRUCTIONS "Convida els veïns a la BBQ"
+    SET CONTENT_ID "BARBECUE_INVITE1"
+END
+
+DEF TASK "InviteNeighborsBBQ"
+    SET NAME "Convida els veïns a la BBQ"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "InviteNeighborsBBQ"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Mix up the family secret marinade
+CLONE DEED "Hold3" "SecretMarinade1"
+    SET INSTRUCTIONS "Tira-hi els ingredients líquids"
+END
+
+CLONE DEED "QuickTap5" "SecretMarinade2"
+    SET INSTRUCTIONS "Afegeix les espècies secretes"
+END
+
+CLONE DEED "Nothing3" "SecretMarinade3"
+    SET INSTRUCTIONS "Deixa-ho marinar"
+END
+
+CLONE DEED "Nothing4" "SecretMarinade4"
+    SET INSTRUCTIONS "Segueix marinant"
+END
+
+CLONE DEED "Nothing5" "SecretMarinade5"
+    SET INSTRUCTIONS "Deixa-ho reposar una setmana més per si de cas"
+END
+
+DEF TASK "SecretMarinade"
+    SET NAME "Prepara la marinada secreta de la família"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SecretMarinade1"
+    STEP "2" "SecretMarinade2"
+    STEP "3" "SecretMarinade3"
+    STEP "4" "SecretMarinade4"
+    STEP "5" "SecretMarinade5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Call your meet guy
+CLONE DEED "PhoneID" "MeatGuy1"
+    SET INSTRUCTIONS "Truca l'home de la carn"
+    SET CONTENT_ID "THE_BACON_BA"
+END
+
+CLONE DEED "DialogCategory" "MeatGuy2"
+    SET INSTRUCTIONS "Parleu de carn"
+    SET CONTENT_ID "BARBECUE_INVITE2"
+END
+
+DEF TASK "MeatGuy"
+    SET NAME "Truca l'home de la carn"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MeatGuy1"
+    STEP "2" "MeatGuy2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Invite a date without permission
+CLONE DEED "DialogID" "TeenInviteSO"
+    SET INSTRUCTIONS "Convida la teva parella a la BBQ sense permís"
+    SET CONTENT_ID "BARBECUE_INVITE3"
+END
+
+DEF TASK "TeenInviteSO"
+    SET NAME "Convida la teva parella a la BBQ sense permís"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TeenInviteSO"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------------
+
+REM : Unfold the backyard table
+CLONE DEED "Instructions4" "UnfoldTable"
+    SET INSTRUCTIONS "Desplega la taula del pati"
+
+    SET MECHANIC_0 "SWIPE_DOWN"
+    SET INSTRUCTIONS_0 "Estira d'aquí"
+    SET MECHANIC_1 "TAP"
+    SET INSTRUCTIONS_1 "Posa els pius per aquí"
+    SET MECHANIC_2 "ROTATE_CLOCK"
+    SET INSTRUCTIONS_2 "Cargola aquella coseta"
+    SET MECHANIC_3 "TAP_HOLD"
+    SET INSTRUCTIONS_3 "Espero que s'aguanti"
+END
+
+DEF TASK "UnfoldTable"
+    SET NAME "Desplega la taula del pati"
+    SET ASKER_NAME "Demana ajuda per desplegar la taula del pati"
+    SET HELPER_NAME "Ajuda <ASKER> a desplegar la taula del pati"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "UnfoldTable"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Find the good coals
+CLONE DEED "SearchID" "SearchForCoals"
+    SET INSTRUCTIONS "Busca el millor carbó de l'inframón"
+    SET CONTENT_ID "COALS"
+END
+
+DEF TASK "SearchForCoals"
+    SET NAME "Busca el millor carbó de l'inframón"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SearchForCoals"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Gather ingredients for potato salad
+CLONE DEED "GatherID" "BarbecuePotatoSalad"
+    SET INSTRUCTIONS "Recol·lecta ingredients per l'amanida de patata"
+    SET CONTENT_ID "POTATO_SALAD"
+END
+
+DEF TASK "BarbecuePotatoSalad"
+    SET NAME "Recol·lecta ingredients per l'amanida de patata"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BarbecuePotatoSalad"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Go on emergency meat run
+CLONE DEED "TravelCategory" "MeatRun"
+    SET INSTRUCTIONS "Ves a buscar carn d'emergència"
+    SET CATEGORY "GROCERY"
+END
+
+DEF TASK "MeatRun"
+    SET NAME "Ves a buscar carn d'emergència"
+    SET ASKER_NAME "Demana a algú que t'acompanyi a buscar la carn"
+    SET HELPER_NAME "Vés amb <ASKER> a buscar la carn d'emergència"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MeatRun"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : -------------------------------------
+
+REM : Light up the grill!
+CLONE DEED "Tap1" "LightUpGrill1"
+    SET INSTRUCTIONS "Afegeix una mica de combustible líquid"
+END
+
+CLONE DEED "Tap3" "LightUpGrill2"
+    SET INSTRUCTIONS "Només un pèl més"
+END
+
+CLONE DEED "QuickTap5" "LightUpGrill3"
+    SET INSTRUCTIONS "Millor que en sobri que no que en falti"
+END
+
+CLONE DEED "SwipeRight" "LightUpGrill4"
+    SET INSTRUCTIONS "Fot-li al llumí!"
+END
+
+CLONE DEED "Hold3" "LightUpGrill5"
+    SET INSTRUCTIONS "Ara t'escolto!"
+END
+
+DEF TASK "LightUpGrill"
+    SET NAME "Encén la barbacoa!"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "LightUpGrill1"
+    STEP "2" "LightUpGrill2"
+    STEP "3" "LightUpGrill3"
+    STEP "4" "LightUpGrill4"
+    STEP "5" "LightUpGrill5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Burn your report card in the BBQ
+CLONE DEED "SwipeBase" "BurnReportCard1"
+    SET INSTRUCTIONS "Estripa les proves"
+    SET DIRECTION "RIGHT,RIGHT"
+END
+
+CLONE DEED "SwipeDown" "BurnReportCard2"
+    SET INSTRUCTIONS "Esmunyeix els trossos a sota les costelles"
+END
+
+CLONE DEED "Tap1" "BurnReportCard3"
+    SET INSTRUCTIONS "Missió complerta!"
+END
+
+CLONE DEED "Nothing3" "BurnReportCard4"
+    SET INSTRUCTIONS "T'han enxampat immediatament"
+END
+
+DEF TASK "BurnReportCard"
+    SET NAME "Crema les teves males notes a la graella"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BurnReportCard1"
+    STEP "2" "BurnReportCard2"
+    STEP "3" "BurnReportCard3"
+    STEP "4" "BurnReportCard4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Search for the spiciest hot sauce
+CLONE DEED "SearchID" "SearchHotSauce"
+    SET INSTRUCTIONS "Busca la salsa picant més picant"
+    SET CONTENT_ID "HOTSAUCE"
+END
+
+DEF TASK "SearchHotSauce"
+    SET NAME "Busca la salsa picant més picant"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SearchHotSauce"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Work the grill
+CLONE DEED "QuickTap3" "WorkTheGrill1"
+    SET INSTRUCTIONS "Posa't l'uniforma de graeller"
+END
+
+CLONE DEED "SwipeUp" "WorkTheGrill2"
+    SET INSTRUCTIONS "Gira-la"
+END
+
+CLONE DEED "SwipeUp" "WorkTheGrill3"
+    SET INSTRUCTIONS "Gira-la un altre cop!"
+END
+
+CLONE DEED "Hold2" "WorkTheGrill4"
+    SET INSTRUCTIONS "Contén els aromes"
+END
+
+CLONE DEED "Nothing2" "WorkTheGrill5"
+    SET INSTRUCTIONS "Accepta els elogis"
+END
+
+DEF TASK "WorkTheGrill"
+    SET NAME "Treballa la graella"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WorkTheGrill1"
+    STEP "2" "WorkTheGrill2"
+    STEP "3" "WorkTheGrill3"
+    STEP "4" "WorkTheGrill4"
+    STEP "5" "WorkTheGrill5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Hode the fact you're out of meat
+CLONE DEED "Instructions4" "HideMeatShortage"
+    SET INSTRUCTIONS "Amaga el fet que ens hem quedat sense carn"
+
+    SET MECHANIC_0 "TAP"
+    SET INSTRUCTIONS_0 "Busca un panet suelto"
+    SET MECHANIC_1 "TAP_3"
+    SET INSTRUCTIONS_1 "Omple'l amb qualsevol cosa que trobis"
+    SET MECHANIC_2 "SWIPE_LEFT"
+    SET INSTRUCTIONS_2 "Inunda'l en salsa barbacoa"
+    SET MECHANIC_3 "TAP_HOLD"
+    SET INSTRUCTIONS_3 "Presenta'l al veí enfadat"
+END
+
+DEF TASK "HideMeatShortage"
+    SET NAME "Amaga el fet que ens hem quedat sense carn"
+    SET ASKER_NAME "Demana ajuda per amagar que ens hem quedat sense carn"
+    SET HELPER_NAME "Ajuda <ASKER> a amagar que ens hem quedat sense carn"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "HideMeatShortage"
+
+    NEXT "1" SUCCESS FAILURE
+END

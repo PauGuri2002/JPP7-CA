@@ -1,0 +1,54 @@
+MAIN(Carl): Dispara.
+-ETHEL-> Quina és l'última de l'Ether?
+-MITCH-> Tens algun cotilleig d'en Mitch?
+-FRUMP-> Què ha estat fent el Sr. Frump?
+
+ETHEL(Carl): MARE MEVA no t'ho creuràs. Saps que sempre diu que el seu pare coneix l'Alberto Chicote?
+-ETHEL2-> Sehh...
+-ETHEL2-> Uh, doncs no...
+
+ETHEL2(Carl): Doncs és una MENTIDA com una casa. Van anar a la mateixa uni pero com separats la tira d'anys.
+-ETHEL3-> ESCÀNDAL!
+-ETHEL3-> Això és tot?
+-ETHEL3-> Jo un cop vaig coneixer el Tomàs Molina.
+
+ETHEL3(Carl): I també el seu ullal esquerre? Totalment fals. Se'l va reventar en un accident de water polo quan tenia 15 anys i un dentista pijo n'hi va posar un de nou.
+-END-> QUINA. BOGERIA.
+-END-> Això és com...bastant normal.
+-END-> El Tomàs és súper bon tio. Igual que a la tele.
+
+MITCH(Carl): En Mitch? T'ho juro que ha anat directe al plàtan...
+-MITCH2-> Explica'm més!
+-MITCH2-> Espera, què?
+
+MITCH2(Carl): Cap altre menjar a part de plàtans. I cap líquid excepte caldo. És el que es porta ara als Estats Units.
+-MITCH3-> Vaig estar a punt de provar$-ho.
+-MITCH3-> Està funcionant. El Mitch està GUAPOT.
+-MITCH3-> Quin fàstic.
+
+MITCH3(Carl): Que bueno, segur que no dura ni un mes. És igual que la moda de l'any passat de la gelatina i el suc d'escopinya.
+-END-> Cert.
+-END-> Ei, en Mitch necessita el nostre suport ara mateix.
+-END-> Gelatina i suc d'escopinya. Tan joves erem?
+
+FRUMP(Carl): Això t'encantarà. Ahir a la classe del Frump, en Bobi va alliberar totes les granotes! Estaven per allà saltant com bojes i el profe estava tan cabrejat que va a començar a fer aquell xiscle tan brutal qiue fa!
+-FRUMP2-> NO POT SER LA BROMA DEL SEGLE
+-FRUMP2-> El Bobi és súper graciós! Real que hauria de sortir a l'APM.
+-FRUMP2-> Espera...les granotes de disseccionar?
+
+FRUMP2(Carl): Tothom sabia que en Bobi ho havia fet pero el Sr. Frump no ho va veure. I pues estava corrent per allà cridant a tothom que confeséssin. Quasi em moro del riure!
+-FRUMP3-> No em puc creure que m'ho perdés!
+-FRUMP3-> El Bobi i jo hauriem de sortir, no? És molt boja la idea?
+-FRUMP32-> Però les granotes de disseccionar haurien d'haver estat mortes, no?
+
+FRUMP3(Carl): Va intentar castigar a la classe sencera però el director va dir que no podia. Estava súper trist...
+-END-> Això ha acabat amb un to melancòlic però m'ha agradat igualment.
+-END-> Hauria de demanar$-li al Bobi si vol ballar amb mi? És broma és broma HAHA
+-END-> En Bobi és un nigromant?
+
+
+END(Carl): Doncs bueno, aquestes són les notícies.
+-SUCCESS-> Suficient cotilleig per ara. Adéu Carl.
+-ETHEL-> Torna'm a parlar de l'Ethel.
+-MITCH-> Torna'm a parlar d'en Mitch.
+-FRUMP-> Torna'm a parlar del Sr. Frump.

@@ -1,0 +1,28 @@
+MAIN(3 Gossos en una Gavardina): Ajuda! Hi ha hagut un accident i necessito el teu ronyó d'immediat!
+-YES-> Esclar! El que sigui pel meu... Espera, no sou tres gossos en una gavardina?
+-NO-> Mai! No donaria mai el meu ronyó a... Espera, no sou tres gossos en una gavardina?
+-COAT-> I tant, jo...Espera, no sou tres gossos en una gavardina?
+-WHY-> ...què fareu amb ell?
+
+
+YES(3 Dogs in a Trench Coat): Bup bup, estimat veí. Has passat la meva prova. Vagi bé, bup!
+-SUCCESS-> Sembla que sóc l'alfa!
+
+
+NO(3 Dogs in a Trench Coat): Arf! Maleït siga! Descobert de nou! Awoo!
+-SUCCESS-> El ronyó passa un altre dia on pertany, dins la meva panxa. 
+
+
+COAT(3 Dogs in a Trench Coat): Ens has descobert! Deus estar més content que un gos amb un os, eh?
+-SUCCESS-> Els guionistes demanen disculpes per l'excés de treball mental que aquesta conversa pugui haver ocasionat. 
+
+
+WHY(3 Dogs in a Trench Coat): No...per menjar...
+-FAILURE-> Oh, en aquest cas, per descomptat! Qualsevol cosa pel meu veí humà.
+-TRYAGAIN-> Explica$-m'ho un altre cop...
+
+
+TRYAGAIN(3 Dogs in a Trench Coat): Només necessito el teu ronyó! No siguis raro, amic!
+-YES-> Esclar! El que sigui pel meu... Espera, no sou tres gossos en una gavardina?
+-NO-> Mai! No donaria mai el meu ronyó a... Espera, no sou tres gossos en una gavardina?
+-COAT-> I tant, jo...Espera, no sou tres gossos en una gavardina?

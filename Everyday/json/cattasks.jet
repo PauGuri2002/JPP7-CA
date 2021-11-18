@@ -1,0 +1,69 @@
+{
+    "payload":[
+        { 
+            "id": "EAT_BUGS",
+            "name": "BON GATET! Menja els insectes",
+            "taskIdToSpawn": "AudienceGiveKittyTreat"
+        },
+        { 
+            "id": "POSE_FOR_PIC",
+            "name": "BON GATET! Posa per una foto per Instagram",
+            "taskIdToSpawn": "AudienceTakeKittyPic"
+        },
+        { 
+            "id": "SHOW_BELLY",
+            "name": "BON GATET! Estira't panxa amunt",
+            "taskIdToSpawn": "AudiencePetKitty"
+        },
+        { 
+            "id": "SHOW_CLAWS",
+            "name": "BON GATET! Deixa que els dimonis et tallin les urpes",
+            "taskIdToSpawn": "AudienceClipClaws"
+        },
+        { 
+            "id": "FIGHT_VACUUM",
+            "name": "GATET DOLENT! Baralla't amb el robot aspirador",
+            "taskIdToSpawn": "AudienceFixVacuum"
+        },
+        { 
+            "id": "DESTROY_LITTER",
+            "name": "GATET DOLENT! Destrueix la caixa de sorra",
+            "taskIdToSpawn": "AudienceCleanLitter"
+        },
+        { 
+            "id": "LAY_ON_LAPTOP",
+            "name": "GATET DOLENT! Estira't a sobre el portàtil i refusa moure't",
+            "taskIdToSpawn": "AudienceMoveKitty"
+        },
+        { 
+            "id": "VOMIT",
+            "name": "GATET DOLENT! Vomita sobre els llençols recent rentats",
+            "taskIdToSpawn": "AudienceVetTrip"
+        },
+        { 
+            "id": "DART_OUT",
+            "name": "GATET DOLENT! Esmunyeix-te per la porta principal i escapa't",
+            "taskIdToSpawn": "AudienceFindKitty"
+        },
+        { 
+            "id": "SCRATCH_CHAIR",
+            "name": "GATET DOLENT! Esgarrapa la cadira bonica",
+            "taskIdToSpawn": "AudienceScoldKitty"
+        },
+        { 
+            "id": "KNOCK_ITEMS",
+            "name": "GATET DOLENT! Tira objectes aleatoris al terra",
+            "taskIdToSpawn": "AudiencePickUp"
+        },
+        { 
+            "id": "PAW_WATER",
+            "name": "GATET DOLENT! Introdueix la pota al got d'aigua del teu amo",
+            "taskIdToSpawn": "AudienceGetWater"
+        },
+        { 
+            "id": "SHOW_BELLY_TRAP",
+            "name": "GATET DOLENT! Estira't panxa amunt (però és una trampa)",
+            "taskIdToSpawn": "AudiencePetKittyScratch"
+        }
+    ]
+}

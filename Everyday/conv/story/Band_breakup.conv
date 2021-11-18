@@ -1,0 +1,18 @@
+MAIN(Breakup): Perquè s'està trencant el vostre grup?
+-EGO-> Masses egos
+-SOLD-> Hem venut totes les entrades
+-SOLO-> Vaig a fer música en solitari
+-MUSIC-> La música solia ser el més important
+
+
+EGO(Breakup): Em trenca el cor
+-SUCCESS-> Siusplau respecta la nostra privacitat en aquests temps
+
+SOLD(Breakup): Oviament
+-SUCCESS-> Siusplau compra algun article de merch quan surtis
+
+SOLO(Breakup): Quin d'ells eres tu?
+-SUCCESS-> No tinc tants fans com em pensava
+
+MUSIC(Breakup): Em trenca el cor
+-SUCCESS-> Siusplau respecta la nostra privacitat en aquests temps

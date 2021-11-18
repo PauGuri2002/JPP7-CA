@@ -1,0 +1,13 @@
+MAIN(Riley): Així que fareu una barbacoa?
+-EAGER-> Sí! I tu has de venir!!
+-ANTI-> Uff. Serà súper vergonyós
+-ALOOF-> Potser. No ho sé. Tampoc m'importa.
+
+EAGER(Riley): Que guai! Portaré tota la meva família, que està de visita!
+-SUCCESS-> No hi hauria d'haver...cap problema...
+
+ANTI(Riley): Doncs a mi les barbacoes m'agraden bastant...
+-SUCCESS-> A QUE SÍ A MI TAMBÉ HAS DE VENIR!!
+
+ALOOF(Riley): He après de les teves interaccions passades que això significa que vols que vingui.
+-SUCCCESS-> Riley ets la hòstia!

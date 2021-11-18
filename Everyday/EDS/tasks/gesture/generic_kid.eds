@@ -1,0 +1,1250 @@
+REM : Catch Bugs
+
+CLONE DEED "SwipeUp" "BugsStep1"
+    SET INSTRUCTIONS "Obre el pot"
+END
+
+CLONE DEED "Tap1" "BugsStep2"
+    SET INSTRUCTIONS "Hi ha una formiga! Agafa-la!"
+END
+
+CLONE DEED "Tap1" "BugsStep3"
+    SET INSTRUCTIONS "Hi ha una marieta!"
+END
+
+CLONE DEED "Nothing4" "BugsStep4"
+    SET INSTRUCTIONS "Això és una pansa...deixa-la estar"
+    SET PARTICIPATION "SOLO"
+END 
+
+CLONE DEED "SwipeDown" "BugsStep5"
+    SET INSTRUCTIONS "Tanca el pot"
+END
+
+DEF TASK "CatchBugs"
+    SET NAME "Atrapa uns quants insectes"
+    SET THEME "PLAYING"
+    SET CAPTAIN "CHILDREN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "BugsStep1"
+    STEP "2" "BugsStep2"
+    STEP "3" "BugsStep3"
+    STEP "4" "BugsStep4"
+    STEP "5" "BugsStep5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : Clean up Toys
+
+CLONE DEED "SwipeUp" "PickUpStupidToy"
+    SET INSTRUCTIONS "Joguines estúpides"
+END
+
+CLONE DEED "SwipeRight" "TossBear"
+    SET INSTRUCTIONS "Llença aquest osset de peluix"
+END
+
+CLONE DEED "SwipeLeft" "TossMarbles"
+    SET INSTRUCTIONS "Llença les bales"
+END
+
+CLONE DEED "TapBase" "PickUpMarbles"
+    SET INSTRUCTIONS "OH NO LES BALES!"
+    SET NUM_TAPS 10
+    SET WAIT 0S
+END
+
+DEF TASK "CleanUpToys"
+    SET NAME "Endreça les joguines"
+    SET THEME "CLEANING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+
+    STEP "1" "PickUpStupidToy"
+    STEP "2" "TossBear"
+    STEP "3" "TossMarbles"
+    STEP "4" "PickUpMarbles"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Earn Merit Badge
+
+CLONE DEED "Hold5" "HelpOldLady"
+    SET INSTRUCTIONS "Ajuda a una senyora a creuar el carrer"
+END
+
+CLONE DEED "Tap2" "PickUpLitter"
+    SET INSTRUCTIONS "Recull la brossa"
+END
+
+CLONE DEED "SwipeBase" "TieKnots"
+    SET INSTRUCTIONS "Lliga nusos"
+    SET DIRECTION "LEFT,UP,DOWN,RIGHT"
+END
+
+CLONE DEED "Nothing4" "WearBadge"
+    SET INSTRUCTIONS "Llueix la teva nova insígnia, orgullós"
+    SET PARTICIPATION "SOLO"
+END
+
+DEF TASK "EarnMeritBadge"
+    SET NAME "Aconsegueix la insígnia de mèrit"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+
+    STEP "1" "HelpOldLady"
+    STEP "2" "PickUpLitter"
+    STEP "3" "TieKnots"
+    STEP "4" "WearBadge"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Squish Ants
+
+CLONE DEED "Tap3" "SquishAntsSlow"
+    SET INSTRUCTIONS "Aixafa les formigues!"
+END
+
+CLONE DEED "TapBase" "SquishAntsFast"
+    SET INSTRUCTIONS "Més ràpid! S'estan acostant al pastís!"
+    SET NUM_TAPS 10
+    SET WAIT 0S
+END
+
+DEF TASK "SquishAnts"
+    SET NAME "Aixafa formigues"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET LEWD TRUE
+
+    STEP "1" "SquishAntsSlow"
+    STEP "2" "SquishAntsFast"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+
+REM : Make Slime (and Play With It)
+
+CLONE DEED "Tap3" "SlimeSupplies"
+    SET INSTRUCTIONS "Agafa cola, bicarbonat i sal"
+END
+
+CLONE DEED "RotateBase" "SlimeMix"
+    SET ROTATIONS_IN_DEG 540
+    SET INSTRUCTIONS "Barreja els ingredients"
+END
+
+CLONE DEED "SwipeBase" "SlimePlay"
+    SET INSTRUCTIONS "Juga amb el Slime"
+    SET DIRECTION "LEFT,RIGHT,DOWN,DOWN"
+END
+
+DEF TASK "MakeSlimePlay"
+    SET NAME "Fer Slime"
+    SET THEME "FIXING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+
+    STEP "1" "SlimeSupplies"
+    STEP "2" "SlimeMix"
+    STEP "3" "SlimePlay"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE 
+END
+
+
+REM : Make Slime (and Make a Mess)
+
+CLONE DEED "Tap3" "SlimeSupplies2"
+    SET INSTRUCTIONS "Agafa cola, bicarbonat i sal"
+END
+
+CLONE DEED "RotateBase" "SlimeMix2"
+    SET ROTATIONS_IN_DEG 540
+    SET INSTRUCTIONS "Barreja els ingredients"
+END
+
+CLONE DEED "SwipeLeft" "SlimeFall"
+    SET INSTRUCTIONS "Ha caigut a la catifa"
+END
+
+CLONE DEED "SwipeRight" "SlimeHide"
+    SET INSTRUCTIONS "Mou el pouff per amagar la taca"
+END
+
+DEF TASK "MakeSlimeMess"
+    SET NAME "Fer slime"
+    SET THEME "FIXING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+
+    STEP "1" "SlimeSupplies2"
+    STEP "2" "SlimeMix2"
+    STEP "3" "SlimeFall"
+    STEP "4" "SlimeHide"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Play in the Sprinkler (PlayInSprinkler)
+
+CLONE DEED "Rotate1080Counter" "HoseOn"
+    SET INSTRUCTIONS "Obre l'aixeta"
+END
+
+CLONE DEED "SwipeRight" "RunThroughSprinkler"
+    SET INSTRUCTIONS "Salta a través de l'aigua!"
+END
+
+CLONE DEED "SwipeBase" "SprinklerRunMore"
+    SET INSTRUCTIONS "Ueeee!"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
+END
+
+DEF TASK "PlayInSprinkler"
+    SET NAME "Juga amb l'aspersor"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+
+    STEP "1" "HoseOn"
+    STEP "2" "RunThroughSprinkler"
+    STEP "3" "SprinklerRunMore"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE 
+END
+
+
+REM : Pick up your toys! (PickUpToys)
+REM : Not to be confused with "CleanUpToys"
+
+CLONE DEED "Tap3" "PickToy1"
+    SET INSTRUCTIONS "Algú es podria trencar el coll!"
+END
+
+CLONE DEED "Tap3" "PickToy2"
+    SET INSTRUCTIONS "I aquests..."
+END
+
+CLONE DEED "HoldBase" "ReturnToyBox"
+    SET DURATION 7S
+    SET INSTRUCTIONS "Ara porta'ls a la teva habitació"
+END
+
+DEF TASK "PickUpToys"
+    SET NAME "Treu aquestes joguines de les escales!"
+    SET THEME "CLEANING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+
+    STEP "1" "PickToy1"
+    STEP "2" "PickToy2"
+    STEP "3" "ReturnToyBox"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE 
+END
+
+
+REM : Take a Bath
+
+CLONE DEED "SwipeDown" "BathStep1"
+    SET INSTRUCTIONS "Salta a la banyera"
+END
+
+CLONE DEED "QuickTap4" "BathStep2"
+    SET INSTRUCTIONS "Esquitxa-ho tot"
+END
+
+CLONE DEED "SwipeBase" "BathStep3"
+    SET INSTRUCTIONS "Eixuga't amb la tovallola"
+    SET DIRECTION "RIGHT,LEFT,RIGHT,LEFT"
+END
+
+
+DEF TASK "TakeBathKid"
+    SET NAME "Fes-te un bany"
+    SET THEME "BATHROOM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "BathStep1"
+    STEP "Step2" "BathStep2"
+    STEP "Step3" "BathStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Fire slingshot
+
+CLONE DEED "Tap1" "PickupMarble"
+    SET INSTRUCTIONS "Agafa la bala"
+END
+
+CLONE DEED "SwipeLeft" "PullSling"
+    SET INSTRUCTIONS "Estira el tiraxines"
+END
+
+CLONE DEED "Tap1" "LetGo"
+    SET INSTRUCTIONS "Dispara!"
+END
+
+CLONE DEED "Tap5" "VaseRun"
+    SET INSTRUCTIONS "Has trencat un vas! Corre!"
+END
+
+DEF TASK "FireSlingShot"
+    SET NAME "Dispara el tiraxines"
+    SET THEME "PLAYING"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "PickupMarble"
+    STEP "2" "PullSling"
+    STEP "3" "LetGo"
+    STEP "4" "VaseRun"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "FixVase"
+
+END
+
+
+REM : Fix the vase you broke (FixVase)
+
+CLONE DEED "ScrubMedium" "VasePieces"
+    SET INSTRUCTIONS "Recull totes les peces"
+END
+
+CLONE DEED "SwipeDown" "GlueVase"
+    SET INSTRUCTIONS "Exprimeix la cola"
+END
+
+CLONE DEED "HoldBase" "HoldVase"
+    SET INSTRUCTIONS "Aguanta-ho a lloc"
+    SET DURATION 5S
+END
+
+DEF TASK "FixVase"
+    SET NAME "Arregla el vas que has trencat"
+    SET THEME "FIXING"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "VasePieces"
+    STEP "2" "GlueVase"
+    STEP "3" "HoldVase"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END        
+
+
+REM : Double Dutch Jump Rope
+
+CLONE DEED "SwipeRight" "JumpRopeStep1"
+    SET INSTRUCTIONS "Entra a la corda!"
+END
+
+CLONE DEED "Tap3" "JumpRopeStep2"
+    SET INSTRUCTIONS "Segueix saltant!"
+END
+
+CLONE DEED "QuickTap6" "JumpRopeStep3"
+    SET INSTRUCTIONS "NO DEIXIS DE SALTAR!"
+END
+
+CLONE DEED "SwipeUp" "JumpRopeStep4"
+    SET INSTRUCTIONS "SURT ARA!"
+END
+
+DEF TASK "JumpRope"
+    SET NAME "Salta a la corda"
+    SET THEME "PLAYING"
+    SET CAPTAIN "CHILDREN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "Step1" "JumpRopeStep1"
+    STEP "Step2" "JumpRopeStep2"
+    STEP "Step3" "JumpRopeStep3"
+    STEP "Step4" "JumpRopeStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Get Toy Out of Cereal Box
+
+CLONE DEED "SwipeDown" "ToyCereal1Step1"
+    SET INSTRUCTIONS "Enfonsa la mà a la caixa"
+END
+
+CLONE DEED "ScrubMedium" "ToyCereal1Step2"
+    SET INSTRUCTIONS "Palpa per allà dins"
+END
+
+CLONE DEED "ScrubMedium" "ToyCereal1Step3"
+    SET INSTRUCTIONS "És igual, buida tota la caixa"
+END
+
+CLONE DEED "Tap1" "ToyCereal1Step4"
+    SET INSTRUCTIONS "Agafa el teu premi"
+END
+
+DEF TASK "ToyCereal1"
+    SET NAME "Agafa la joguina de la caixa de cereals"
+    SET THEME "KITCHEN"
+    SET CAPTAIN "CHILDREN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "Step1" "ToyCereal1Step1"
+    STEP "Step2" "ToyCereal1Step2"
+    STEP "Step3" "ToyCereal1Step3"
+    STEP "Step4" "ToyCereal1Step4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Get Toy Out of Cereal Box
+
+CLONE DEED "SwipeDown" "ToyCereal2Step1"
+    SET INSTRUCTIONS "Enfonsa la mà a la caixa"
+END
+
+CLONE DEED "ScrubMedium" "ToyCereal2Step2"
+    SET INSTRUCTIONS "Palpa per allà dins"
+END
+
+CLONE DEED "ScrubLong" "ToyCereal2Step3"
+    SET INSTRUCTIONS "És igual, buida tota la caixa"
+END
+
+CLONE DEED "Nothing5" "ToyCereal2Step4"
+    SET INSTRUCTIONS "Oblida-ho, ja el tenies aquest"
+END
+
+DEF TASK "ToyCereal2"
+    SET NAME "Agafa la joguina de la caixa de cereals"
+    SET THEME "KITCHEN"
+    SET CAPTAIN "MATURE"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "Step1" "ToyCereal2Step1"
+    STEP "Step2" "ToyCereal2Step2"
+    STEP "Step3" "ToyCereal2Step3"
+    STEP "Step4" "ToyCereal2Step4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Make a PB&J
+
+CLONE DEED "SwipeLeft" "MakePBJ1"
+    SET INSTRUCTIONS "Unta mantega de cacauet en una meitat"
+END
+
+CLONE DEED "Tap1" "MakePBJ2"
+    SET INSTRUCTIONS "I una mica de mermelada a l'altra"
+END
+
+CLONE DEED "Hold3" "MakePBJ3"
+    SET INSTRUCTIONS "Aixafa-ho tot"
+END
+
+CLONE DEED "Tap1" "MakePBJ4"
+    SET INSTRUCTIONS "Devora-ho com si t'hi anés la vida!"
+END
+
+DEF TASK "MakePBJ"
+    SET NAME "Fes-te un sandwitch"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "COOKING"
+
+    STEP "1" "MakePBJ1"
+    STEP "2" "MakePBJ2"
+    STEP "3" "MakePBJ3"
+    STEP "4" "MakePBJ4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Color in coloring book
+
+CLONE DEED "SwipeRight" "ColoringBook1"
+    SET INSTRUCTIONS "Obre la pàgina dels coets"
+END
+
+CLONE DEED "SwipeUp" "ColoringBook2"
+    SET INSTRUCTIONS "Prepara els llapissos"
+END
+
+CLONE DEED "ScrubMedium" "ColoringBook3"
+    SET INSTRUCTIONS "Gargoteja!"
+END
+
+DEF TASK "ColoringBook"
+    SET NAME "Pinta el llibre de dibuixos"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "ColoringBook1"
+    STEP "2" "ColoringBook2"
+    STEP "3" "ColoringBook3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Pack Backpack
+
+CLONE DEED "SwipeLeft" "PackBackpack1"
+    SET INSTRUCTIONS "Obre la motxilla"
+END
+
+CLONE DEED "Tap1" "PackBackpack2"
+    SET INSTRUCTIONS "Posa-hi els llibres"
+END
+
+CLONE DEED "Tap2" "PackBackpack3"
+    SET INSTRUCTIONS "Posa-hi els snacks"
+END
+
+CLONE DEED "Tap1" "PackBackpack4"
+    SET INSTRUCTIONS "Posa-hi els focs artificials"
+END
+
+CLONE DEED "SwipeRight" "PackBackpack5"
+    SET INSTRUCTIONS "Tanca la motxilla"
+END
+
+DEF TASK "PackBackpack"
+    SET NAME "Fes la motxilla"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET THEME "MISC"
+    SET DURATION <3H>
+
+    STEP "1" "PackBackpack1"
+    STEP "2" "PackBackpack2"
+    STEP "3" "PackBackpack3"
+    STEP "4" "PackBackpack4"
+    STEP "5" "PackBackpack5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Run around the house in a cape
+
+CLONE DEED "Rotate360" "CapeRun1"
+    SET INSTRUCTIONS "Lliga't un llençol al coll"
+END
+
+CLONE DEED "SwipeRight" "CapeRun2"
+    SET INSTRUCTIONS "Ueee!"
+END
+
+CLONE DEED "SwipeLeft" "CapeRun3"
+    SET INSTRUCTIONS "Ueee!"
+END
+
+CLONE DEED "Nothing3" "CapeRun4"
+    SET INSTRUCTIONS "Descansa un moment de tant heroisme"
+END
+
+CLONE DEED "SwipeRight" "CapeRun5"
+    SET INSTRUCTIONS "Ueee!"
+END
+
+DEF TASK "CapeRun"
+    SET NAME "Corre per la casa amb una capa"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+
+    STEP "1" "CapeRun1"
+    STEP "2" "CapeRun2"
+    STEP "3" "CapeRun3"
+    STEP "4" "CapeRun4"
+    STEP "5" "CapeRun5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : Make macaroni art
+
+CLONE DEED "ScrubMedium" "MacaroniArt1"
+    SET INSTRUCTIONS "Tria els macarrons sencers"
+END
+
+CLONE DEED "Tap4" "MacaroniArt2"
+    SET INSTRUCTIONS "Enganxa'ls en un paper"
+END
+
+CLONE DEED "Hold5" "MacaroniArt3"
+    SET INSTRUCTIONS "Entretanca els ulls i així sembla un gat"
+END
+
+DEF TASK "MacaroniArt"
+    SET NAME "Fes art amb macarrons"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "MacaroniArt1"
+    STEP "2" "MacaroniArt2"
+    STEP "3" "MacaroniArt3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+
+REM : Put on shoes
+
+CLONE DEED "Tap2" "PutOnShoes1"
+    SET INSTRUCTIONS "Posa't les sabates als peus"
+END
+
+CLONE DEED "Rotate360" "PutOnShoes2"
+    SET INSTRUCTIONS "Lliga la sabata dreta"
+END
+
+CLONE DEED "Rotate360Counter" "PutOnShoes3"
+    SET INSTRUCTIONS "Lliga la sabata esquerra"
+END
+
+DEF TASK "PutOnShoes"
+    SET NAME "Posa't les sabates"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET THEME "CLOTHES"
+    SET DURATION <3H>
+
+    STEP "1" "PutOnShoes1"
+    STEP "2" "PutOnShoes2"
+    STEP "3" "PutOnShoes3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+
+REM : Swing on the swing set
+
+CLONE DEED "Tap1" "SwingSet1"
+    SET INSTRUCTIONS "Intenta gronxar-te a màxima velocitat"
+END
+
+CLONE DEED "SwipeBase" "SwingSet2"
+    SET INSTRUCTIONS "Gronxa't!"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
+END
+
+CLONE DEED "SwipeBase" "SwingSet3"
+    SET INSTRUCTIONS "Gronxa't més fort!"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
+END
+
+CLONE DEED "Hold3" "SwingSet4"
+    SET INSTRUCTIONS "Salta!"
+END
+
+DEF TASK "SwingSet"
+    SET NAME "Gronxa't en el nou gronxador"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+
+    STEP "1" "SwingSet1"
+    STEP "2" "SwingSet2"
+    STEP "3" "SwingSet3"
+    STEP "4" "SwingSet4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Do a cartwheel
+
+CLONE DEED "SwipeRight" "Cartwheel1"
+    SET INSTRUCTIONS "Fes espai"
+END
+
+CLONE DEED "Hold2" "Cartwheel2"
+    SET INSTRUCTIONS "Posa't en posició"
+END
+
+CLONE DEED "Rotate360" "Cartwheel3"
+    SET INSTRUCTIONS "Roda!"
+END
+
+CLONE DEED "Rotate360Counter" "Cartwheel4"
+    SET INSTRUCTIONS "Torna a rodar!"
+END
+
+CLONE DEED "Nothing3" "Cartwheel5"
+    SET INSTRUCTIONS "Accepta els elogis"
+END
+
+DEF TASK "Cartwheel"
+    SET NAME "Fes la roda"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "LOW"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+
+    STEP "1" "Cartwheel1"
+    STEP "2" "Cartwheel2"
+    STEP "3" "Cartwheel3"
+    STEP "4" "Cartwheel4"
+    STEP "5" "Cartwheel5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : Make a paper lantern v1
+
+CLONE DEED "Hold5" "PaperLantern1Step1"
+    SET INSTRUCTIONS "Enganxa el paper"
+END
+
+CLONE DEED "QuickTap4" "PaperLantern1Step2"
+    SET INSTRUCTIONS "Talla obertures al paper"
+END
+
+CLONE DEED "Tap1" "PaperLantern1Step3"
+    SET INSTRUCTIONS "Encén un llumí"
+END
+
+CLONE DEED "Nothing5" "PaperLantern1Step4"
+    SET INSTRUCTIONS "Gaudeix la bellesa"
+END
+
+DEF TASK "PaperLantern1"
+    SET NAME "Fes una làmpara de paper"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "PaperLantern1Step1"
+    STEP "2" "PaperLantern1Step2"
+    STEP "3" "PaperLantern1Step3"
+    STEP "4" "PaperLantern1Step4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Make a paper lantern v2
+
+CLONE DEED "Hold5" "PaperLantern2Step1"
+    SET INSTRUCTIONS "Enganxa el paper"
+END
+
+CLONE DEED "QuickTap4" "PaperLantern2Step2"
+    SET INSTRUCTIONS "Talla obertures al paper"
+END
+
+CLONE DEED "Tap1" "PaperLantern2Step3"
+    SET INSTRUCTIONS "Encén un llumí"
+END
+
+CLONE DEED "ScrubMedium" "PaperLantern2Step4"
+    SET INSTRUCTIONS "Trepitja el foc per apagar-lo"
+END
+
+DEF TASK "PaperLantern2"
+    SET NAME "Fes una làmpara de paper"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "PaperLantern2Step1"
+    STEP "2" "PaperLantern2Step2"
+    STEP "3" "PaperLantern2Step3"
+    STEP "4" "PaperLantern2Step4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Drink a juice box
+
+CLONE DEED "Hold3" "JuiceBox1"
+    SET INSTRUCTIONS "Decideix quin suc vols"
+END
+
+CLONE DEED "ScrubMedium" "JuiceBox2"
+    SET INSTRUCTIONS "Remena'l!"
+END
+
+CLONE DEED "SwipeDown" "JuiceBox3"
+    SET INSTRUCTIONS "Introdueix la palleta"
+END
+
+CLONE DEED "SwipeDown" "JuiceBox4"
+    SET INSTRUCTIONS "Quasi ho tens"
+END
+
+CLONE DEED "Hold3" "JuiceBox5"
+    SET INSTRUCTIONS "Refresca't!"
+END
+
+DEF TASK "JuiceBox"
+    SET NAME "Beu un catró de suc"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+
+    STEP "1" "JuiceBox1"
+    STEP "2" "JuiceBox2"
+    STEP "3" "JuiceBox3"
+    STEP "4" "JuiceBox4"
+    STEP "5" "JuiceBox5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Push little wagon around the house
+
+CLONE DEED "Rotate360" "LittleWagon1"
+    SET INSTRUCTIONS "Lliga el teu vagó"
+END
+
+CLONE DEED "SwipeLeft" "LittleWagon2"
+    SET INSTRUCTIONS "Porta'l per les contrades"
+END
+
+CLONE DEED "SwipeLeft" "LittleWagon3"
+    SET INSTRUCTIONS "Segueix portant-lo!"
+END
+
+CLONE DEED "Rotate360Counter" "LittleWagon4"
+    SET INSTRUCTIONS "Deslliga l'animal"
+END
+
+CLONE DEED "Nothing4" "LittleWagon5"
+    SET INSTRUCTIONS "Relaxa't després d'un dur dia de feina"
+END
+
+DEF TASK "LittleWagon"
+    SET NAME "Empeny el teu petit vagó per casa"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+
+    STEP "1" "LittleWagon1"
+    STEP "2" "LittleWagon2"
+    STEP "3" "LittleWagon3"
+    STEP "4" "LittleWagon4"
+    STEP "5" "LittleWagon5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Try on grownup clothes
+
+CLONE DEED "SwipeLeft" "GrownupClothes1"
+    SET INSTRUCTIONS "Obre l'armari dels pares"
+END
+
+CLONE DEED "Tap1" "GrownupClothes2"
+    SET INSTRUCTIONS "Agafa la jaqueta bonica"
+END
+
+CLONE DEED "SwipeBase" "GrownupClothes3"
+    SET INSTRUCTIONS "Posa't els tacons més alts que et trobis"
+    SET DIRECTION "DOWN,DOWN"
+END
+
+CLONE DEED "Hold4" "GrownupClothes4"
+    SET INSTRUCTIONS "La gent porta això CADA DIA??"
+END
+
+CLONE DEED "SwipeBase" "GrownupClothes5"
+    SET INSTRUCTIONS "Rebutja els cànons de la societat"
+    SET DIRECTION "LEFT,RIGHT,DOWN,UP"
+END
+
+DEF TASK "GrownupClothes"
+    SET NAME "Prova't la roba dels adults"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "CLOTHES"
+    SET DURATION <3H>
+
+    STEP "1" "GrownupClothes1"
+    STEP "2" "GrownupClothes2"
+    STEP "3" "GrownupClothes3"
+    STEP "4" "GrownupClothes4"
+    STEP "5" "GrownupClothes5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Feed the fish v1
+
+CLONE DEED "QuickTap4" "FeedFish1Step1"
+    SET INSTRUCTIONS "Tira el menjar"
+END
+
+CLONE DEED "Tap3" "FeedFish1Step2"
+    SET INSTRUCTIONS "Acaricia en Leviathan"
+END
+
+CLONE DEED "ScrubShort" "FeedFish1Step3"
+    SET INSTRUCTIONS "Eixuga't les mans amb la tovallola"
+END
+
+DEF TASK "FeedFish1"
+    SET NAME "Alimenta el peix"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "MISC"
+    SET DURATION <3H>
+
+    STEP "1" "FeedFish1Step1"
+    STEP "2" "FeedFish1Step2"
+    STEP "3" "FeedFish1Step3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Feed the fish v2
+
+CLONE DEED "QuickTap4" "FeedFish2Step1"
+    SET INSTRUCTIONS "Tira el menjar"
+END
+
+CLONE DEED "QuickTap4" "FeedFish2Step2"
+    SET INSTRUCTIONS "Una mica més"
+END
+
+CLONE DEED "SwipeUp" "FeedFish2Step3"
+    SET INSTRUCTIONS "Massa. Treu-ne una mica"
+END
+
+DEF TASK "FeedFish2"
+    SET NAME "Alimenta el peix"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "MISC"
+    SET DURATION <3H>
+
+    STEP "1" "FeedFish2Step1"
+    STEP "2" "FeedFish2Step2"
+    STEP "3" "FeedFish2Step3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Make a finger painting
+
+CLONE DEED "Tap3" "FingerPainting1"
+    SET INSTRUCTIONS "Agafa uns trossos de paper"
+END
+
+CLONE DEED "Hold3" "FingerPainting2"
+    SET INSTRUCTIONS "Consulta les teves muses"
+END
+
+CLONE DEED "ScrubMedium" "FingerPainting3"
+    SET INSTRUCTIONS "Pinta!"
+END
+
+CLONE DEED "SwipeUp" "FingerPainting4"
+    SET INSTRUCTIONS "Penja'l a la nevera perquè s'assequi"
+END
+
+DEF TASK "FingerPainting"
+    SET NAME "Fes una pintura amb els dits"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "FingerPainting1"
+    STEP "2" "FingerPainting2"
+    STEP "3" "FingerPainting3"
+    STEP "4" "FingerPainting4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Put on a puppet show
+
+CLONE DEED "SwipeBase" "PuppetShow1"
+    SET INSTRUCTIONS "Munta l'escenari de cartró"
+    SET DIRECTION "LEFT,LEFT,LEFT"
+END
+
+CLONE DEED "Hold5" "PuppetShow2"
+    SET INSTRUCTIONS "Familiaritza els teus actors amb el guió"
+END
+
+CLONE DEED "SwipeBase" "PuppetShow3"
+    SET INSTRUCTIONS "Clava el primer acte"
+    SET DIRECTION "UP,DOWN"
+END
+
+CLONE DEED "QuickTap5" "PuppetShow4"
+    SET INSTRUCTIONS "Arriba al clímax dramàtic"
+END
+
+CLONE DEED "Nothing3" "PuppetShow5"
+    SET INSTRUCTIONS "Discuteix l'obra amb els actors un cop acabada"
+END
+
+DEF TASK "PuppetShow"
+    SET NAME "Fes un espectacle de titelles"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+    SET LEWD TRUE
+
+    STEP "1" "PuppetShow1"
+    STEP "2" "PuppetShow2"
+    STEP "3" "PuppetShow3"
+    STEP "4" "PuppetShow4"
+    STEP "5" "PuppetShow5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Put dirty clothes in the hamper
+
+CLONE DEED "Tap1" "ClothesHamper1"
+    SET INSTRUCTIONS "Posa la roba bruta al cistell"
+END
+
+CLONE DEED "Nothing5" "ClothesHamper2"
+    SET INSTRUCTIONS "Vols una medalla?"
+END
+
+DEF TASK "ClothesHamper"
+    SET NAME "Posa la roba bruta al cistell"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "CLOTHES"
+    SET DURATION <3H>
+
+    STEP "1" "ClothesHamper1"
+    STEP "2" "ClothesHamper2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Make a collage
+
+CLONE DEED "QuickTap3" "MakeCollage1"
+    SET INSTRUCTIONS "Retalla les revistes dels pares"
+END
+
+CLONE DEED "ScrubMedium" "MakeCollage2"
+    SET INSTRUCTIONS "Troba una disposició ideal per les imatges"
+END
+
+CLONE DEED "Hold5" "MakeCollage3"
+    SET INSTRUCTIONS "Enganxa-les a la cartolina"
+END
+
+CLONE DEED "SwipeUp" "MakeCollage4"
+    SET INSTRUCTIONS "Penja-ho al lavabo"
+END
+
+DEF TASK "MakeCollage"
+    SET NAME "Fes un collage"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "MEDIUM"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "MakeCollage1"
+    STEP "2" "MakeCollage2"
+    STEP "3" "MakeCollage3"
+    STEP "4" "MakeCollage4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "KidTasks"
+    ADDTASK "CatchBugs"
+    ADDTASK "CleanUpToys"
+    ADDTASK "EarnMeritBadge"
+    ADDTASK "SquishAnts"
+    ADDTASK "MakeSlimePlay"
+    ADDTASK "MakeSlimeMess"
+    ADDTASK "PlayInSprinkler"
+    ADDTASK "PickUpToys"
+    ADDTASK "TakeBathKid"
+    ADDTASK "FireSlingShot"
+    ADDTASK "JumpRope"
+    ADDTASK "ToyCereal1"
+    ADDTASK "ToyCereal2"
+    ADDTASK "MakePBJ"
+    ADDTASK "ColoringBook"
+    ADDTASK "PackBackpack"
+    ADDTASK "CapeRun"
+    ADDTASK "MacaroniArt"
+    ADDTASK "PutOnShoes"
+    ADDTASK "SwingSet"
+    ADDTASK "Cartwheel"
+    ADDTASK "PaperLantern1"
+    ADDTASK "PaperLantern2"
+    ADDTASK "JuiceBox"
+    ADDTASK "LittleWagon"
+    ADDTASK "GrownupClothes"
+    ADDTASK "FeedFish1"
+    ADDTASK "FeedFish2"
+    ADDTASK "FingerPainting"
+    ADDTASK "PuppetShow"
+    ADDTASK "MakeCollage"
+END

@@ -1,0 +1,17 @@
+MAIN(Cat): Miau?          
+-TWO-> No! Gat dolent!          
+-TWO-> Aquella butaca era de l'Àvia Pazuzu!          
+-SCRATCH-> Què faries tu si jo et destrossés les teves coses?!          
+
+TWO(Cat): *t'observa impassiblement*          
+-END-> T'he comprat moltes coses que pots esgarrapar!          
+-SPRITZ-> S'ha acabat! Et vaig a ruixar amb aigua!          
+
+SCRATCH(Cat): Mrrw.          
+-END-> Ho vaig a fer! Vaig a reventar la teva joguina preferida!          
+
+SPRIZ(Cat): HISSSSS!          
+-END-> Bé, ara em sento malament.          
+
+END(Cat): *es llepa*          
+-SUCCESS-> Ohh, és que no em puc enfadar amb tu!          

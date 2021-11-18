@@ -1,0 +1,18 @@
+MAIN(Veïna Xafardera): Que feien en Han i en Sean al pati d'en Sean ahir al vespre?!
+-FIGHT-> Barallar$-se
+-SMOOCH-> Petonejant$-se
+-ASTRO-> Astrofísica
+-NONE-> Res que t'importi
+
+
+FIGHT(Veïna Xafardera): Continua!
+-SUCCESS-> Amb les PARAULES!!!
+
+SMOOCH(Veïna Xafardera): Continua!
+-SUCCESS-> Amb llengüa!!!
+
+ASTRO(Veïna Xafardera): Astrofísica romàntica?
+-SUCCESS-> Hi ha algun altre tipus?
+
+NONE(Veïna Xafardera): Aixafaguitarres... només volia divertir$-me.
+-FAILURE-> Ah clar... els humans s'espien els uns als altres per diversió.

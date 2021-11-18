@@ -1,0 +1,18 @@
+MAIN(Veí): Em pots tornar el frisbee?
+-NEVER-> Mai!
+-YEP-> Sip!
+-MAYBE-> Potser!
+-PLEASE-> Queda$-te'l! Està maleït!
+
+
+NEVER(Neighbor): WAHHH!!!!
+-FAILURE-> Perquè mai ningú vol estar amb mi?
+
+YEP(Neighbor): Gràcies!
+-SUCCESS-> Que tremoli Superman.
+
+MAYBE(Neighbor): Pots jugar amb nosaltres.
+-SUCCESS-> Tracte fet!
+
+PLEASE(Neighbor): No crec que ho estigui.
+-SUCCESS-> I com expliques que desafii la gravetat?!?!

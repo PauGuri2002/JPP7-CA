@@ -1,0 +1,17 @@
+MAIN(Pizza): Gràcies per trucar a la Pizzeria Vegana Pebre Picant. Què vol demanar?
+-WHEAT-> Xampinyons i veganilles
+-CANADIAN-> Pernoll ibèric
+-CHEESE-> Zero formatges
+-GROUNDBEET-> Barba$-col$-a
+
+WHEAT(Pizza): Genial! Estarà llesta en mitja horeta
+-SUCCESS-> Els nens poden treure els xampinyons.
+
+CANADIAN(Pizza): Genial! Estarà llesta en mitja horeta
+-SUCCESS-> Sana, deliciosa i cultural. 
+
+CHEESE(Pizza): Genial! Estarà llesta en mitja horeta
+-SUCCESS-> Li falta gust de formatge pel meu gust
+
+GROUNDBEET(Pizza): Genial! Estarà llesta en mitja horeta
+-SUCCESS-> La nutrició és més important que el gust, no?

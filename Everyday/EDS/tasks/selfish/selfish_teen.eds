@@ -1,0 +1,689 @@
+REM : Flip table
+
+CLONE DEED "Hold5" "FlipTableDeed"
+    SET INSTRUCTIONS "Empeny fort per tombar la taula"
+END
+
+DEF TASK "FlipTable"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET NAME "Tomba una taula per alliberar ràbia"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET CAPTAIN "TEENS"
+
+    STEP "1" "FlipTableDeed"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+REM : Hide Magazines
+
+CLONE DEED "SwipeUp" "MagazineStep1"
+    SET INSTRUCTIONS "Aixeca el coixí"
+END
+
+CLONE DEED "Tap1" "MagazineStep2"
+    SET INSTRUCTIONS "Diposita-hi la revista d'adults que has trobat al bosc"
+END
+
+CLONE DEED "SwipeDown" "MagazineStep3"
+    SET INSTRUCTIONS "Amaga-la... de moment"
+END
+
+DEF TASK "HideMagazine"
+    SET NAME "Amaga una revista per adults"
+    SET THEME "SELFISH"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET LEWD TRUE
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "MagazineStep1"
+    STEP "2" "MagazineStep2"
+    STEP "3" "MagazineStep3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Sneak Out BASE WORKAROUND
+
+CLONE DEED "SwipeUp" "SneakOutStep1"
+    SET INSTRUCTIONS "Obre la finestra"
+END
+
+CLONE DEED "Hold10" "SneakOutStep2"
+    SET INSTRUCTIONS "Travessa-la silenciosament"
+END
+
+CLONE DEED "Hold10" "SneakOutStep3"
+    SET INSTRUCTIONS "Penja't de la cornissa"
+END
+
+CLONE DEED "QuickTap5" "SneakOutStep4"
+    SET INSTRUCTIONS "Corre!!!"
+END
+
+DEF TASK "SneakOutBase"
+    SET NAME "Esmunyeix-te"
+    SET CAPTAIN "TEENS"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET THEME "MISC"
+
+    STEP "Step1" "SneakOutStep1"
+    STEP "Step2" "SneakOutStep2"
+    STEP "Step3" "SneakOutStep3"
+    STEP "Step4" "SneakOutStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Sneak Out
+CLONE TASK "SneakOutBase" "SneakOut"
+    SET CATEGORY "SELFISH"
+    SET THEME "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+END
+
+REM : Refuse to Use a Coaster
+
+CLONE DEED "Tap1" "CoasterStep1"
+    SET INSTRUCTIONS "Agafa una beguda freda"
+END
+
+CLONE DEED "Tap1" "CoasterStep2"
+    SET INSTRUCTIONS "Posa-la a la taula"
+END
+
+CLONE DEED "Nothing5" "CoasterStep3"
+    SET INSTRUCTIONS "Deixa que sui"
+END
+
+CLONE DEED "Nothing5" "CoasterStep4"
+    SET INSTRUCTIONS "Admira el nou cercle que té la taula"
+END
+
+DEF TASK "Coaster"
+    SET NAME "Rebutja fer servir un posagots"
+    SET THEME "SELFISH"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "CoasterStep1"
+    STEP "Step2" "CoasterStep2"
+    STEP "Step3" "CoasterStep3"
+    STEP "Step4" "CoasterStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Get Grandpa started on politics
+
+CLONE DEED "Tap1" "GrandpaPolitics1"
+    SET INSTRUCTIONS "Fes una pregunta inofensiva"
+END
+
+CLONE DEED "HoldBase" "GrandpaPolitics2"
+    SET INSTRUCTIONS "Escolta la discussió sobre política antiga"
+    SET DURATION 5S
+END
+
+CLONE DEED "NothingBase" "GrandpaPolitics3"
+    SET INSTRUCTIONS "Seu en silenci"
+    SET DURATION 5S
+END
+
+DEF TASK "GrandpaPolitics"
+    SET NAME "Fes que l'avi comenci a parlar de política"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "GrandpaPolitics1"
+    STEP "2" "GrandpaPolitics2"
+    STEP "3" "GrandpaPolitics3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Watch "Graphic" Television Show
+
+CLONE DEED "Tap2" "GraphicTV1"
+    SET INSTRUCTIONS "Posa 'Cirugies Innecessaries'"
+END
+
+CLONE DEED "SwipeUp" "GraphicTV2"
+    SET INSTRUCTIONS "Tapa't els ulls"
+END
+
+CLONE DEED "SwipeDown" "GraphicTV3"
+    SET INSTRUCTIONS "De fet... No, has de veure això"
+END
+
+CLONE DEED "Nothing5" "GraphicTV4"
+    SET INSTRUCTIONS "Observa aterroritzat"
+END
+
+DEF TASK "GraphicTV"
+    SET NAME "Mira un programa de TV 'gore'"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET LEWD TRUE
+
+    STEP "1" "GraphicTV1"
+    STEP "2" "GraphicTV2"
+    STEP "3" "GraphicTV3"
+    STEP "4" "GraphicTV4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Hog bathroom
+
+CLONE DEED "Tap1" "HogBathroom1"
+    SET INSTRUCTIONS "Tanca el baldó del lavabo"
+END
+
+CLONE DEED "Hold5" "HogBathroom2"
+    SET INSTRUCTIONS "Allisa't el cabell"
+END
+
+CLONE DEED "Nothing5" "HogBathroom3"
+    SET INSTRUCTIONS "Ignora els trucs a la porta"
+END
+
+CLONE DEED "Hold5" "HogBathroom4"
+    SET INSTRUCTIONS "Clava aquell estil"
+END
+
+DEF TASK "HogBathroom"
+    SET NAME "Acapara el lavabo"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "HogBathroom1"
+    STEP "2" "HogBathroom2"
+    STEP "3" "HogBathroom3"
+    STEP "4" "HogBathroom4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Use up all the data
+
+CLONE DEED "Hold4" "UseUpData1"
+    SET INSTRUCTIONS "Descarrega aquella peli!"
+END
+
+CLONE DEED "Hold4" "UseUpData2"
+    SET INSTRUCTIONS "Descarrega aquell àlbum!"
+END
+
+CLONE DEED "Hold4" "UseUpData3"
+    SET INSTRUCTIONS "Fes un directe pels teus amics"
+END
+
+CLONE DEED "Tap1" "UseUpData4"
+    SET INSTRUCTIONS "Tanca l'alerta que t'has quedat sense dades"
+END
+
+CLONE DEED "Hold4" "UseUpData5"
+    SET INSTRUCTIONS "Segueix descarregant!"
+END
+
+DEF TASK "UseUpData"
+    SET NAME "Fes servir totes les dades"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "UseUpData1"
+    STEP "2" "UseUpData2"
+    STEP "3" "UseUpData3"
+    STEP "4" "UseUpData4"
+    STEP "5" "UseUpData5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Tie up the phone talking to Trent
+
+CLONE DEED "PhoneBase" "TrentTalk1"
+    SET CONTENT_ID "TRENT"
+END
+
+CLONE DEED "HoldBase""TrentTalk2"
+    SET DURATION 5S
+    SET INSTRUCTIONS "Parla amb en Trent"
+END
+
+CLONE DEED "SwipeUp" "TrentTalk3"
+    SET INSTRUCTIONS "Empeny la família lluny del telèfon"
+END
+
+CLONE DEED "Tap1" "TrentTalk4"
+    SET INSTRUCTIONS "Penja"
+END
+
+DEF TASK "TrentTalk"
+    SET NAME "Acapara el telèfon parlant amb en Trent"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "TrentTalk1"
+    STEP "2" "TrentTalk2"
+    STEP "3" "TrentTalk3"
+    STEP "4" "TrentTalk4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Take a selfie BASE WORKAROUND
+
+CLONE DEED "SwipeRight" "TakeSelfie1"
+    SET INSTRUCTIONS "Treu el mòbil"
+END
+
+CLONE DEED "Tap2" "TakeSelfie2"
+    SET INSTRUCTIONS "Posa el temporitzador"
+END
+
+CLONE DEED "Hold3" "TakeSelfie3"
+    SET INSTRUCTIONS "Fes una pose"
+END
+
+DEF TASK "TakeSelfieBase"
+    SET NAME "Fes-te un selfie"
+    SET CAPTAIN "TEENS"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET THEME "MISC"
+
+    STEP "1" "TakeSelfie1"
+    STEP "2" "TakeSelfie2"
+    STEP "3" "TakeSelfie3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Take a selfie
+CLONE TASK "TakeSelfieBase" "TakeSelfie"
+    SET CATEGORY "SELFISH"
+    SET THEME "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+END
+
+
+REM : "Borrow" parent's credit card
+
+CLONE DEED "SwipeUp" "BorrowCreditCard1"
+    SET INSTRUCTIONS "Agafa la cartera"
+END
+
+CLONE DEED "ScrubShort" "BorrowCreditCard2"
+    SET INSTRUCTIONS "Revisa els seus continguts"
+END
+
+CLONE DEED "Nothing5" "BorrowCreditCard3"
+    SET INSTRUCTIONS "Lluita amb la teva consciència"
+END
+
+CLONE DEED "Hold5" "BorrowCreditCard4"
+    SET INSTRUCTIONS "Contén el sentiment de culpa"
+END
+
+CLONE DEED "SwipeUp" "BorrowCreditCard5"
+    SET INSTRUCTIONS "Agafa-la! Agafa-la i ja està!"
+END
+
+DEF TASK "BorrowCreditCard"
+    SET NAME "'Agafa prestada' la targeta dels teus pares"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    
+    STEP "1" "BorrowCreditCard1"
+    STEP "2" "BorrowCreditCard2"
+    STEP "3" "BorrowCreditCard3"
+    STEP "4" "BorrowCreditCard4"
+    STEP "5" "BorrowCreditCard5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Scream "I hate you" and slam the door
+
+CLONE DEED "NothingBase" "IHateYou1"
+    SET INSTRUCTIONS "Crida 'Us Odio!' als teus pares. Sí, crida de debò."
+    SET DURATION 5S
+END
+
+CLONE DEED "Nothing5" "IHateYou2"
+    SET INSTRUCTIONS "De veritat. Crida-ho ara. Ben fort."
+END
+
+CLONE DEED "SwipeRight" "IHateYou3"
+    SET INSTRUCTIONS "Tanca de cop la porta de l'habitació"
+END
+
+DEF TASK "IHateYou"
+    SET NAME "Crida 'Us Odio!' i tanca la porta de cop"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "IHateYou1"
+    STEP "2" "IHateYou2"
+    STEP "3" "IHateYou3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Mope
+
+CLONE DEED "Hold3" "Mope1"
+    SET INSTRUCTIONS "Estigues deprimit"
+END
+
+CLONE DEED "Nothing3" "Mope2"
+    SET INSTRUCTIONS "Actua amb indiferència"
+END
+
+CLONE DEED "SwipeUp" "Mope3"
+    SET INSTRUCTIONS "Llança una mirada fulminant als teus pares"
+END
+
+DEF TASK "Mope"
+    SET NAME "Deprimeix-te"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "Mope1"
+    STEP "2" "Mope2"
+    STEP "3" "Mope3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Joyride in your parent's car
+
+CLONE DEED "Rotate270" "Joyride1"
+    SET INSTRUCTIONS "Engega el cotxe"
+END
+
+CLONE DEED "SwipeDown" "Joyride2"
+    SET INSTRUCTIONS "Fot-li gas"
+END
+
+CLONE DEED "Rotate1080Counter" "Joyride3"
+    SET INSTRUCTIONS "Aaah, vas directe cap a la bústia! Gira!"
+END
+
+CLONE DEED "SwipeUp" "Joyride4"
+    SET INSTRUCTIONS "Aparca abans que et culpin d'això"
+END
+
+DEF TASK "Joyride"
+    SET NAME "Agafa el cotxe dels teus pares"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "Joyride1"
+    STEP "2" "Joyride2"
+    STEP "3" "Joyride3"
+    STEP "4" "Joyride4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Hide younger sibling's toys
+
+CLONE DEED "Tap1" "HideToys1"
+    SET INSTRUCTIONS "Agafa el io-io tan preuat"
+END
+
+CLONE DEED "Hold4" "HideToys2"
+    SET INSTRUCTIONS "Introdueix el io-io"
+END
+
+CLONE DEED "Nothing4" "HideToys3"
+    SET INSTRUCTIONS "Actua amb indiferència"
+END
+
+DEF TASK "HideToys"
+    SET NAME "Amaga les joguines del teu germà petit"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "HideToys1"
+    STEP "2" "HideToys2"
+    STEP "3" "HideToys3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Make a shrine to your favorite K-pop star
+
+CLONE DEED "QuickTap3" "KpopShrine1"
+    SET INSTRUCTIONS "Troba les fotos perfectes de la revista CelebChatz"
+END
+
+CLONE DEED "Hold3" "KpopShrine2"
+    SET INSTRUCTIONS "Enganxa-les al teu santuari"
+END
+
+CLONE DEED "Nothing3" "KpopShrine3"
+    SET INSTRUCTIONS "Somia amb el vostre futur casament"
+END
+
+CLONE DEED "Hold3" "KpopShrine4"
+    SET INSTRUCTIONS "Plora abjecte"
+END
+
+DEF TASK "KpopShrine"
+    SET NAME "Fes un santuari de la teva estrella de K-pop preferida"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "KpopShrine1"
+    STEP "2" "KpopShrine2"
+    STEP "3" "KpopShrine3"
+    STEP "4" "KpopShrine4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Hide manga inside a textbook
+
+CLONE DEED "SwipeRight" "HideManga1"
+    SET INSTRUCTIONS "Obre el quadern de mates"
+END
+
+CLONE DEED "SwipeDown" "HideManga2"
+    SET INSTRUCTIONS "Posa el teu manga preferit 'Robot Gatet Ninja Lluitador' a dins"
+END
+
+CLONE DEED "SwipeLeft" "HideManga3"
+    SET INSTRUCTIONS "Tanca el quadern. L'escola serà divertida avui!"
+END
+
+DEF TASK "HideManga"
+    SET NAME "Amaga un manga dins un quadern del cole"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "HideManga1"
+    STEP "2" "HideManga2"
+    STEP "3" "HideManga3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Call friend to gossip
+
+CLONE DEED "PhoneBase" "FriendGossip1"
+    SET INSTRUCTIONS "Truca a Chatty Carl"
+    SET CONTENT_ID "CHATTY_CARL"
+END
+
+CLONE DEED "DialogBase" "FriendGossip2"
+    SET INSTRUCTIONS "Xafardeja"
+    SET CONTENT_ID "TEEN_GOSSIP"
+END
+
+DEF TASK "FriendGossip"
+    SET NAME "Truca un amic per xaferdejar"
+    SET CAPTAIN "TEENS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "FriendGossip1"
+    STEP "2" "FriendGossip2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "SelfishTeen"
+    ADDTASK "FlipTable"
+    ADDTASK "HideMagazine"
+    ADDTASK "SneakOut"
+    ADDTASK "Coaster"
+    ADDTASK "GrandpaPolitics"
+    ADDTASK "GraphicTV"
+    ADDTASK "HogBathroom"
+    ADDTASK "UseUpData"
+    ADDTASK "TrentTalk"
+    ADDTASK "TakeSelfie"
+    ADDTASK "BorrowCreditCard"
+    ADDTASK "IHateYou"
+    ADDTASK "Mope"
+    ADDTASK "Joyride"
+    ADDTASK "HideToys"
+    ADDTASK "KpopShrine"
+    ADDTASK "HideManga"
+    ADDTASK "FriendGossip"
+END

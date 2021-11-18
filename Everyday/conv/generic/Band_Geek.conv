@@ -1,0 +1,23 @@
+﻿MAIN(Músic Friki): La banda de carrer no és prou vistosa! T'agradaria donar algún caleró per comprar nous uniformes? 
+-DOLLAR-> Aquí teniu uns cèntims.
+-TWENTY-> Què tal 20 eurets?
+-NOMONEY-> Caminar mentres toqueu música és una abominació.
+
+
+DOLLAR(Músic Friki): Oh...gràcies, suposo. 
+-SUCCESS-> No sé què t'esperaves. 
+
+
+TWENTY(Músic Friki): Mare meva! Canyes noves per tothom!
+-SUCCESS-> Recorda donar suport a l'art local, però tampoc MASSA.
+
+
+NOMONEY(Músic Friki): Doncs suposo que haurem de cancel·lar la cercavila...a no ser que canviis d'opinió?
+-SUCCESS-> Mai! O seieu o foteu el camp d'aquí!
+-TRYAGAIN-> Hmm...
+
+
+TRYAGAIN(Músic Friki): Visca! Què ens ofereixes?
+-DOLLAR-> Aquí teniu uns cèntims. 
+-TWENTY-> Què tal 20 eurets?
+-NOMONEY-> Caminar mentres toqueu música és una abominació.

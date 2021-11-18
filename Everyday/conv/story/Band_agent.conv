@@ -1,0 +1,17 @@
+MAIN(Agent): Teniu un bon so. Com us feu dir?
+-SIN-> "El Pecat Sonat"
+-HECK-> "La Casa dels Horrors"
+-PITCH-> "Forka Funk"
+-BRIM-> "Diables Grasses"
+
+SIN(Agent): Em serveix! Signem!
+-SUCCESS-> Anem a gastar els diners instantàniament!
+
+HECK(Agent): Canvieu-lo per algun més cool i esteu dins.
+-SUCCESS-> Ja omplim estadis!
+
+PITCH(Agent): Genial! Conec el festival perfecte per vosaltres?
+-SUCCESS-> Espero que no sigui el Canet Rock.
+
+BRIM(Agent): Em serveix! Signem!
+-SUCCESS-> Anem a gastar els diners instantàniament!

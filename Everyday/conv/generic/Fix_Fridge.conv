@@ -1,0 +1,17 @@
+MAIN(Nevera): Val, quin tipus de soroll dius que fa la teva nevera?
+-HURM-> HHuurrMM-Hrr-Hrrr
+-CHUNK-> Xum-Xum-Clang
+-BZZZ-> Bzzzzzzzzzz
+-FINE-> És igual... funciona prou bé
+
+HURM(Nevera): Provi de fer$-li una patada
+-SUCCESS-> Funciona millor que abans!
+
+CHUNK(Nevera): Haureu de comprar una nevera nova
+-SUCCESS-> Millor que em mengi totes les sobres.
+
+BZZZ(Nevera): Provi de fer$-li una patada
+-SUCCESS-> Sona... Millor...
+
+FINE(Nevera): Si aquest és el so que fa llavors hem de cridar un exorcista. 
+-SUCCESS-> Molt graciós. 

@@ -1,0 +1,24 @@
+MAIN(Filla del Veí): Hola, m'agradaria vendre$-us algunes revistes. Què us interessa?
+-GARDENS-> Jardins i llavors
+-CELEB-> Què menjen els famosos
+-DOGS-> Gossos i munició
+-NONE-> No som massa llegidors
+
+GARDENS(Filla del Veí): Genial! Signa aquí!
+-SUCCESS-> Aquesta revista és només per adults avorrits.
+
+CELEB(Filla del Veí): Genial! Signa aquí!
+-SUCCESS-> A veure si deixo de menjar yatekomo tot el dia.
+
+DOGS(Filla del Veí): Genial! Signa aquí!
+-SUCCESS-> Ja dec estar en alguna llista de criminals.
+
+NONE(Filla del Veí): Oh quina pena, esteu segurs?
+-SUCCESS-> Estic estalviant paper!
+-TRYAGAIN-> No...
+
+TRYAGAIN(Filla del Veí): Doncs quina revista us interessa?
+-GARDENS-> Jardins i llavors
+-CELEB-> Què menjen els famosos
+-DOGS-> Gossos i munició
+-NONE-> La premsa escrita ha de morir!

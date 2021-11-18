@@ -1,0 +1,24 @@
+﻿MAIN(Observadora d'Ocells): Acabo d'avistar un pit$-poig de gola blanca al teu pati! És súper rar! Podria fer$-ne una foto?
+-YES-> Clar que sí!
+-MONEY-> D'acord... per 20€.
+-NO-> Què és això, el Museu dels Ocells? Fora d'aquí!
+
+YES(Observadora d'Ocells): Hmmm, està a sobre d'aquell arbre. M'hi puc enfilar per veure'l de més aprop?
+-LADDER-> Aniré a buscar l'escala.
+-YES2-> Endavant.
+-NO2-> Això s'està tornant raro. Toca el dos!
+
+MONEY(Observadora d'Ocells): Aquí tens els diners, lladre aviar.
+-SUCCESS-> Ha aconseguit la foto, però no m'he pogut encomanar de la passió d'observar ocells.
+
+NO(Observadora d'Ocells): La Associació Pit$-Roja sabrà el crim que has comès!
+-FAILURE-> El meu odi pels ocells i els seus aliats ataca de nou!
+
+LADDER(Observadora d'Ocells): Això és perfecte! Mira aquest plomatge! Gràcies!
+-SUCCESS-> Una victòria pels ocells és una victòria per tothom! He guanyat!
+
+YES2(Observadora d'Ocells): Bé, he aconseguit la foto abans que la branca es trenqués. Segur que el meu braç s'acabarà curant amb el temps.
+-SUCCESS-> Havia oblidat com de violent observar ocells pot ser.
+
+NO2(Observadora d'Ocells): No ets més que una PROVOCADORA AVIAR!
+-FAILURE-> La meva generositat SÍ que és una espècie en extinció...

@@ -1,0 +1,23 @@
+MAIN(Veí): Ei tiu, com va?
+-NORESPECT-> Els nens d'avui en dia no tenen cap mena de respecte!
+-PLENTYRESPECT> Els nens d'avui en dia tenen bastant respecte!
+
+NORESPECT(Veí): T'acompanyo en el sentiment, company.
+-NOTHINGHANDED-> Hmm, però també és veritat que els meus fills treballen bastant.
+-EVERYTHINGHANDED-> A aquests marrecs desagraïts se'ls ha de donar tot mastegat!
+
+EVERYTHINGHANDED(Veí): Uau, sembles bastant alterat!
+-ANDONEMORETHING-> I una altra cosa, els meus fills són uns ous podrits!
+-THATSIT-> I una altra cosa, em... eh...
+
+PLENTYRESPECT(Veí): M'alegra sentir$-ho?
+-FAILURE-> Suposo que no tinc res del que queixar$-me dels meus fills.
+
+NOTHINGHANDED(Veí): Els has educat bé, sembla!
+-SUCCESS-> No tinc masses queixes dels meus fills, considerant$-ho tot.
+
+THATSIT(Veí): Algo més que em vulguis dir?
+-SUCCESS-> Suposo que no tinc més queixes dels meus fills.
+
+ANDONEMORETHING(Veí): Uff, potser t'aniria bé veure un psicòleg familiar!
+-SUCCESS-> No t'he demanat el teu consell.

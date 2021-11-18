@@ -1,0 +1,26 @@
+MAIN(President del Jogging Club): Bon dia! Sóc l'amigable president del club de jogging del veïnat, t'interessaria acompanyar$-nos aquest matí? 
+-POLITENO-> No gràcies, vaig fer jogging un cop l'any passat i ja n'he tingut prou.
+-RUDENO-> O camineu o correu, qualsevol altre cosa és una abominació!
+-JOGYES-> Estava esperant el moment per estrenar aquell xandall...
+-NOTHANKS-> M'han dit que no hauria de parlar amb extranys suats...
+
+
+POLITENO(President del Jogging Club): Una quantitat de jogging respectacle! Bona feina! 
+-SUCCESS-> Mentir és la millor forma de fer exercici.
+
+
+RUDENO(President del Jogging Club): Ja canviaràs d'opinió! Et visitaré cada setmana fins que ho facis.
+-SUCCESS-> Hora de mudar$-se.
+
+
+JOGYES(President del Jogging Club): ARA t'escolto! Anem a conquerir la vorera!
+-SUCCESS-> Un honor, president!
+
+NOTHANKS(President del Jogging Club): No sóc un extrany suat, sóc un amic suat! 
+-SUCCESS-> Torna quan siguis un company sec. Bon dia!
+-TRYAGAIN-> Oh! En aquest cas...
+
+TRYAGAIN(President del Jogging Club): Vindràs a fer jogging?
+-POLITENO-> No gràcies, vaig fer jogging un cop l'any passat i ja n'he tingut prou.
+-RUDENO-> O camineu o correu, qualsevol altre cosa és una abominació!
+-JOGYES-> Estava esperant el moment per estrenar aquell xandall...

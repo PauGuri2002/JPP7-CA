@@ -1,0 +1,33 @@
+MAIN(Enquestador): Hola, tens un moment per parlar de les teves preferències de refresc?
+-HAPPY-> Sí, m'encanten els refrescos i parlaré d'ells sense problema.
+-ANGRY-> Els refrescos em treuen de polleguera, i et tocarà sentir les meves queixes.
+
+HAPPY(Enquestador): Fantàstic! Què és el que més t'agrada dels refrescos?
+-THANKS-> El gas.
+-THANKS-> La dolçor.
+-THANKS-> Que qualsevol moment és bo per un refresc.
+
+ANGRY(Enquestador): Ehm d'acord, què és el que menys t'agrada dels refrescos?
+-THANKS-> Vull un refresc amb gust de pernil.
+-THANKS-> Em marejo quan miro les bombolletes.
+-THANKS-> Prefereixo tenir set.
+
+THANKS(Enquestador): Gràcies per compartir la teva opinió sobre els refrescos.
+-SUCCESS-> De res. Ara he de tornar a fer tasques de casa per pujar la meva puntuació familiar.
+-MOREOPINIONS-> Espera un moment, tinc unes quantes opinions més sobre els refrescos.
+
+MOREOPINIONS(Enquestador): Segur? No tens res millor a fer?
+-SUCCESS-> Tens raó, quedar$-me en aquesta trucada m'està costant punts. Adéu.
+-SODAHOT-> Els refrescos haurien de ser calents. Que cremin.
+
+SODAHOT(Enquestador): Ja tinc tota la informació que necessito. Si us plau deixa'm marxar.
+-SUCCESS-> Feliç de poder redirigir el futur dels refrescs. Adéu.
+-DONOTDARE-> Ni se t'acudeixi penjar$-me. Tinc moltes coses més a dir sobre els refrescos. 
+
+DONOTDARE(Enquestador): ...
+-MORESODA-> Els refrescos fan massa soroll! El bombolleig em fa mal a les orelles!
+-MORESODA-> Els refrescos són el meu tercer líquid preferit, després de la gasolina i el ketchup.
+-MORESODA-> Només deixo caure la idea, però i si fessim servir els refrescos de desodorant?
+
+MORESODA(Enquestador): *penja*
+-SUCCESS-> Hola? Hola? Hola?!

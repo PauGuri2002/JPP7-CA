@@ -1,0 +1,26 @@
+MAIN(Iaia): Què?    
+-POLITE-> Hola iaia! Estas passant un bon aniversari?    
+-OLD-> Què tal és tenir 666 anys?    
+-INSULT-> Encara camines sac d'ossos?    
+
+POLITE(Iaia): No! Fa massa fred! On està la sopa que m'agrada? Quan jo era petita, hi havia una cosa que es deia respecte!    
+-RANT2-> Bé, jo...    
+-RANT2-> Sopa?    
+-INSULT-> Quan eres petita, llucifer anava amb bolquers.    
+
+RANT2(Iaia): Ningú es vesteix bé per anar amb avions ja! La caixa tonta està estovant els joves! Vota per l'Ike!    
+-RANT3-> De fet, això no...    
+-RANT3-> Ike ens va donar les autopistes, però...    
+-INSULT-> Fas olor a peus, iaia.    
+
+RANT3(Iaia): Els balls d'avui en dia són massa provocadors! En els meus temps no necessitaves ous per fer un pastís instantani! Vull més seguretat social, però només si em beneficia personalment!    
+-POLITE-> Val, però apart d'això, va tot bé?    
+-SUCCESS->(Ves-te'n a poc a poc i considera-ho un èxit)    
+
+OLD(Iaia): Horrible! Em fa mal l'esquena! Les meves dents estan plenes de forats! Les meves banyes ja no s'aguanten! Les lleganyes em pesen a un cantó del cap!    
+-RANT2-> Oh, em sap greu sentir això.    
+-INSULT-> A ningú li importa.    
+
+INSULT(Iaia): Què acabes de dir?!    
+-RANT2-> He dit, explica'm totes les teves infumables queixes!    
+-SUCCESS-> És igual, vaig a per una mica de pastís.    

@@ -1,0 +1,30 @@
+MAIN(Víctima Ignorant): Digui? Qui és? 
+-UNDERSELL-> Tens un lloc on mantenir el menjar fred?
+-CLASSIC-> Funciona la teva nevera? 
+-OVERSHOOT-> Ei, què li passa a la teva nevereta?
+-LOSTIT-> Ehm...és igual. 
+
+
+UNDERSELL(Víctima Ignorant): Sí! I de fet porta un temps sense funcionar, pots venir a arreglar$-la? 
+-SUCCESS-> T'han passat la ma per la cara a la guerra de les bromes.
+
+
+CLASSIC(Víctima Ignorant): Doncs sí, va perfectament! Gràcies per preguntar! 
+-SUCCESS-> S'ha tingut una conversa! 
+
+
+OVERSHOOT(Víctima Ignorant): Li han crescut potes i ha fugit corrents! Estic arruïnada! 
+-SUCCESS-> La caiguda d'un petit negoci...la broma definitiva. 
+
+
+LOSTIT(Víctima Ignorant): Segur que no vols fer$-me la teva brometa?
+-FORGOT-> Quina broma?? Sóc un client normal i corrent. Dos de cada cosa si us plau!
+-TRYAGAIN-> Oh, d'acord! Deixa'm preparar$-me mentalment...
+
+FORGOT (Víctima Ignorant): Un plaer fer negocis amb tu!
+-FAILURE-> T'has oblidat de fer una broma.
+
+TRYAGAIN(Víctima Ignorant): Ehem...'Hola?'
+-UNDERSELL-> Tens un lloc on mantenir el menjar fred?
+-CLASSIC-> Funciona la teva nevera? 
+-OVERSHOOT-> Ei, què li passa a la teva nevereta?

@@ -1,0 +1,369 @@
+REM : Take Out Trash
+
+CLONE DEED "Tap2" "CrushBags"
+    SET INSTRUCTIONS "Destrossa les bosses"
+END
+
+CLONE DEED "SwipeDown" "Squash"
+    SET INSTRUCTIONS "Aixafa les bosses"
+END
+
+DEF TASK "TakeOutTrash2"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "CLEANING"
+    SET NAME "Treu les escombraries"
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "LOW"
+
+    STEP "CRUSH" "CrushBags"
+    STEP "SQUASH" "Squash"
+    
+    NEXT "CRUSH" "SQUASH" FAILURE
+    NEXT "SQUASH" SUCCESS FAILURE
+END
+
+
+REM : Wash The Car
+
+CLONE DEED "Hold2" "Hose"
+    SET INSTRUCTIONS "Remulla el cotxe"
+END
+
+CLONE DEED "ScrubMedium" "Scrub"
+    SET INSTRUCTIONS "Frega fort"
+END
+
+CLONE DEED "SwipeBase" "Dry"
+    SET INSTRUCTIONS "Asseca'l"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
+END
+
+DEF TASK "WashTheCar2"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "CLEANING"
+    SET NAME "Neteja el cotxe"
+    SET CAPTAIN "YOUNG"
+
+    STEP "HOSE" "Hose"
+    STEP "SCRUB" "Scrub"
+    STEP "DRY" "Dry"
+    
+    NEXT "HOSE" "SCRUB" FAILURE
+    NEXT "SCRUB" "DRY" FAILURE
+    NEXT "DRY" SUCCESS FAILURE
+END
+
+REM : Do Your Homework (DoHomework)
+
+CLONE DEED "SwipeLeft" "FlipPage1"
+    SET INSTRUCTIONS "Passa la pàgina"
+END
+
+CLONE DEED "SwipeLeft" "FlipPage2"
+    SET INSTRUCTIONS "Passa la pàgina"
+END
+
+CLONE DEED "SwipeRight" "FlipPageBack"
+    SET INSTRUCTIONS "Espera, què acabava de llegir?"
+END
+
+CLONE DEED "SwipeUp" "HomeworkFlipTable"
+    SET INSTRUCTIONS "A la merda, tomba la taula"
+END
+
+DEF TASK "DoHomework"
+    SET NAME "Fes els deures"
+    SET THEME "PAPERWORK"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "MEDIUM"
+
+    STEP "1" "FlipPage1"
+    STEP "2" "FlipPage2"
+    STEP "3" "FlipPageBack"
+    STEP "4" "HomeworkFlipTable"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Rake Leaves 1
+
+CLONE DEED "SwipeRight" "Rake1Step1"
+    SET INSTRUCTIONS "Rascla les fulles"
+END
+
+CLONE DEED "SwipeRight" "Rake1Step2"
+    SET INSTRUCTIONS "Rascla les fulles"
+END
+
+CLONE DEED "SwipeRight" "Rake1Step3"
+    SET INSTRUCTIONS "Rascla les fulles"
+END
+
+DEF TASK "RakeLeaves1"
+    SET NAME "Rascla les fulles"
+    SET THEME "YARD_WORK"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "LOW"
+
+
+    STEP "Step1" "Rake1Step1"
+    STEP "Step2" "Rake1Step2"
+    STEP "Step3" "Rake1Step3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Rake Leaves 2
+
+CLONE DEED "SwipeRight" "Rake2Step1"
+    SET INSTRUCTIONS "Rascla les fulles"
+END
+
+CLONE DEED "SwipeRight" "Rake2Step2"
+    SET INSTRUCTIONS "Rascla les fulles"
+END
+
+CLONE DEED "SwipeRight" "Rake2Step3"
+    SET INSTRUCTIONS "Rascla les fulles"
+END
+
+CLONE DEED "SwipeDown" "Rake2Step4"
+    SET INSTRUCTIONS "Salta a la pila de fulles"
+END
+
+DEF TASK "RakeLeaves2"
+    SET NAME "Rascla les fulles"
+    SET THEME "YARD_WORK"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "Rake2Step1"
+    STEP "Step2" "Rake2Step2"
+    STEP "Step3" "Rake2Step3"
+    STEP "Step4" "Rake2Step4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Brush Your Teeth
+
+CLONE DEED "Rotate360" "Circles"
+    SET INSTRUCTIONS "Raspalla aquests pinyos"
+END
+
+CLONE DEED "SwipeBase" "BackForth"
+    SET INSTRUCTIONS "Raspalla més!"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT,LEFT,RIGHT"
+END
+
+DEF TASK "BrushYourTeeth"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "BATHROOM"
+    SET NAME "Renta't les dents"
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "LOW"
+
+    STEP "CIRCLES" "Circles"
+    STEP "BACKFORTH" "BackForth"
+    
+    NEXT "CIRCLES" SUCCESS "BACKFORTH"
+    NEXT "CIRCLES" FAILURE FAILURE
+    NEXT "BACKFORTH" SUCCESS SUCCESS
+    NEXT "BACKFORTH" FAILURE FAILURE
+END
+
+
+REM : Mow the lawn (MowLawn)
+
+CLONE DEED "SwipeLeft" "MowStart"
+    SET INSTRUCTIONS "Comença a tallar la gespa"
+END
+
+CLONE DEED "SwipeRight" "MowSpot"
+    SET INSTRUCTIONS "T'has deixat un tros. Torna enrere."
+END
+
+CLONE DEED "SwipeLeft" "MowTurnAround"
+    SET INSTRUCTIONS "Dona la volta"
+END
+
+CLONE DEED "SwipeRight" "MowMiss"
+    SET INSTRUCTIONS "Te l'has tornar a deixar, no sé com"
+END
+
+CLONE DEED "SwipeUp" "MowDone"
+    SET INSTRUCTIONS "Bueno, suficient per avui"
+END
+
+DEF TASK "MowLawn"
+    SET NAME "Talla la gespa"
+    SET THEME "YARD_WORK"
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "MowStart"
+    STEP "2" "MowSpot"
+    STEP "3" "MowTurnAround"
+    STEP "4" "MowMiss"
+    STEP "5" "MowDone"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Make an origami crane
+
+CLONE DEED "SwipeLeft" "OrigamiCrane1"
+    SET INSTRUCTIONS "Plega el paper"
+END
+
+CLONE DEED "ScrubShort" "OrigamiCrane2"
+    SET INSTRUCTIONS "Aplana els plecs"
+END
+
+CLONE DEED "SwipeRight" "OrigamiCrane3"
+    SET INSTRUCTIONS "Plega el paper"
+END
+
+CLONE DEED "SwipeLeft" "OrigamiCrane4"
+    SET INSTRUCTIONS "Plega el paper"
+END
+
+CLONE DEED "Hold5" "OrigamiCrane5"
+    SET INSTRUCTIONS "...conforma't amb un ocellet de paper"
+END
+
+DEF TASK "OrigamiCrane"
+    SET NAME "Fes una grua d'origami"
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "LOW"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "OrigamiCrane1"
+    STEP "2" "OrigamiCrane2"
+    STEP "3" "OrigamiCrane3"
+    STEP "4" "OrigamiCrane4"
+    STEP "5" "OrigamiCrane5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Prank call a local business
+
+CLONE DEED "PhoneCategory" "PrankCallBusiness1"
+    SET INSTRUCTIONS "Truca un negoci local"
+    SET CATEGORY "FOOD"
+END
+
+CLONE DEED "DialogBase" "PrankCallBusiness2"
+    SET INSTRUCTIONS "Fes-los una broma"
+    SET CONTENT_ID "FRIDGE_PRANK"
+END
+
+DEF TASK "PrankCallBusiness"
+    SET NAME "Fes una trucada de broma a un negoci local"
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "MEDIUM"
+    SET THEME "TALKING"
+    SET DURATION <3H>
+
+    STEP "1" "PrankCallBusiness1"
+    STEP "2" "PrankCallBusiness2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Try on your new pants
+
+CLONE DEED "SwipeRight" "NewPants1"
+    SET INSTRUCTIONS "Obre els teus nous texans estrets!"
+END
+
+CLONE DEED "SwipeUp" "NewPants2"
+    SET INSTRUCTIONS "Posa-te'l d'una cama"
+END
+
+CLONE DEED "SwipeUp" "NewPants3"
+    SET INSTRUCTIONS "Ara de l'altra..."
+END
+
+CLONE DEED "QuickTap5" "NewPants4"
+    SET INSTRUCTIONS "Salta una mica per pujar-los del tot"
+END
+
+CLONE DEED "Nothing3" "NewPants5"
+    SET INSTRUCTIONS "Demana una mica d'ajuda..."
+END
+
+CLONE DEED "Hold3" "NewPants6"
+    SET INSTRUCTIONS "Et queden fantàstics!"
+END
+
+DEF TASK "NewPants"
+    SET NAME "Prova't els teus nous pantalons"
+    SET CAPTAIN "YOUNG"
+    SET CATEGORY "MEDIUM"
+    SET THEME "CLOTHES"
+    SET DURATION <3H>
+
+    STEP "1" "NewPants1"
+    STEP "2" "NewPants2"
+    STEP "3" "NewPants3"
+    STEP "4" "NewPants4"
+    STEP "5" "NewPants5"
+    STEP "6" "NewPants6"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "YoungTasks"
+    ADDTASK "TakeOutTrash2"
+    ADDTASK "WashTheCar2"
+    ADDTASK "DoHomework"
+    ADDTASK "RakeLeaves1"
+    ADDTASK "RakeLeaves2"
+    ADDTASK "BrushYourTeeth"
+    ADDTASK "MowLawn"
+    ADDTASK "OrigamiCrane"
+    ADDTASK "PrankCallBusiness"
+    ADDTASK "NewPants"
+END

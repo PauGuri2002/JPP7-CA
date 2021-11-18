@@ -1,0 +1,2446 @@
+{
+ "content": [
+  {
+   "contest": "El Campió dels TikTokers ",
+   "gameText": "els Tiktokers ",
+   "id": "68700",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70368"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Intriga ",
+   "gameText": "la Intriga ",
+   "id": "68702",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74746"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Adorable",
+   "gameText": " Ser Adorable",
+   "id": "68705",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70371"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Teories Conspiracionistes",
+   "gameText": "les Teories Conspiracionistes",
+   "id": "69230",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71351"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió No Tenir Vida Social",
+   "gameText": " No Tenir Vida Social",
+   "id": "69814",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74948"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Cercaviles",
+   "gameText": "les Cercaviles",
+   "id": "69845",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74952"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Bon Rotllo",
+   "gameText": "el Bon Rotllo",
+   "id": "70277",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70365"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Dèbil ",
+   "gameText": " Ser Dèbil ",
+   "id": "70293",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70515"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Repulsiu",
+   "gameText": "Ser Repulsiu",
+   "id": "70299",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70366"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Mascotes",
+   "gameText": "les Mascotes",
+   "id": "70302",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70369"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de l'Estupidesa ",
+   "gameText": "l'Estupidesa ",
+   "id": "70303",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70367"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Falsament Amable",
+   "gameText": "Ser Falsament Amable",
+   "id": "70327",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73044"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Immaduresa",
+   "gameText": "la Immaduresa",
+   "id": "70335",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72019"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de l'Inframón",
+   "gameText": "l'Inframón",
+   "id": "70475",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70479"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Rebequeries",
+   "gameText": "les Rebequeries",
+   "id": "70644",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71623"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Boomers",
+   "gameText": "Boomers",
+   "id": "70858",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72541"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Estats Units ",
+   "gameText": "els Estats Units ",
+   "id": "71270",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74965"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Desproporcionat",
+   "gameText": "Ser Desproporcionat",
+   "id": "71817",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71816"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Padrastres",
+   "gameText": "els Padrastres",
+   "id": "71824",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71823"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Conduir Fatal",
+   "gameText": "Conduir Fatal",
+   "id": "71827",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71825"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Pare",
+   "gameText": "Ser Pare",
+   "id": "71834",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71833"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Comèdia",
+   "gameText": "la Comèdia",
+   "id": "71840",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71839"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Fer Maratons de Netflix",
+   "gameText": "Fer Maratons de Netflix",
+   "id": "71842",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71841"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Fantasies Romàntiques ",
+   "gameText": "les Fantasies Romàntiques",
+   "id": "71843",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71844"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Animalista",
+   "gameText": "Ser Animalista",
+   "id": "71846",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71845"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de l'Apocalipsi ",
+   "gameText": "de l'apocalipsi ",
+   "id": "71847",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71849"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Coves",
+   "gameText": "les Coves",
+   "id": "71852",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71853"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Atracaments",
+   "gameText": "els Atracaments",
+   "id": "71859",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71858"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Mals Hàbits",
+   "gameText": "els Mals Hàbits",
+   "id": "71860",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71861"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Concursos de Bellesa",
+   "gameText": "els Concursos de Bellesa",
+   "id": "71876",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71877"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Herois",
+   "gameText": "els Herois",
+   "id": "71878",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71879"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Nits Bojes",
+   "gameText": "les Nits Bojes",
+   "id": "71880",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71881"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Treballadors Malpagats",
+   "gameText": "els Treballadors Malpagats",
+   "id": "71882",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71883"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Britànic",
+   "gameText": "Ser Britànic",
+   "id": "71894",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71895"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Imbècil",
+   "gameText": "Ser Imbècil",
+   "id": "71906",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71907"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Condiments",
+   "gameText": "els Condiments",
+   "id": "71908",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71909"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Malvats No Intimidants",
+   "gameText": "els Malvats No Intimidants",
+   "id": "71919",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71917"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Responsabilitat",
+   "gameText": "la Responsabilitat",
+   "id": "71945",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71944"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Alucinacions",
+   "gameText": "les Alucinacions",
+   "id": "71946",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71943"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Compradors de Black Friday",
+   "gameText": "els Compradors de Black Friday",
+   "id": "71973",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71972"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Fotos Escolars",
+   "gameText": "les Fotos Escolars",
+   "id": "71979",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71978"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Estrelles d'Acció",
+   "gameText": "les Estrelles d'Acció",
+   "id": "71985",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71984"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de No Voler Veure'l Mai Més ",
+   "gameText": "No Voler Veure'l Mai Més",
+   "id": "71989",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71988"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Matemàtiques",
+   "gameText": "les Matemàtiques",
+   "id": "72007",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72006"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Atletes",
+   "gameText": "els Atletes",
+   "id": "72010",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72011"
+   ],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Monstres",
+   "gameText": "els Monstres",
+   "id": "72014",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72015"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Gimnàs",
+   "gameText": "el Gimnàs",
+   "id": "72016",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72017"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Nines de Porcellana",
+   "gameText": "les Nines de Porcellana",
+   "id": "72024",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72025"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+    "contest": "El Campió de la Sopa",
+    "gameText": "la Sopa",
+    "id": "72028",
+    "includesPlayerName": false,
+    "linkedPrompts": [
+     "72029"
+    ],
+    "us": false,
+    "x": false
+    },
+  {
+   "contest": "El Campió de l'Hipnòsi",
+   "gameText": "l'Hipnòsi ",
+   "id": "72049",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72050"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Criatures Terrorífiques",
+   "gameText": "les Criatures Terrorífiques",
+   "id": "72053",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72052"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Amics Imaginaris",
+   "gameText": "els Amics Imaginaris  ",
+   "id": "72054",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72056"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Assassinats",
+   "gameText": "els Assassinats",
+   "id": "72073",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72074"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Sobres",
+   "gameText": "les Sobres",
+   "id": "72108",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72540"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Mudances",
+   "gameText": "les Mudances",
+   "id": "72114",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72115"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Fer Varies Coses a la Vegada ",
+   "gameText": "Fer Varies Coses a la Vegada ",
+   "id": "72151",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72152"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Coneixer els Pares",
+   "gameText": "Coneixer els Pares",
+   "id": "72155",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72156"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió d'Anar de Compres ",
+   "gameText": "Anar de Compres ",
+   "id": "72157",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72158"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Golafreria",
+   "gameText": "la Golafreria",
+   "id": "72211",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72210"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Diabòlic",
+   "gameText": "Ser Diabòlic",
+   "id": "72216",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71760"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Força",
+   "gameText": "la Força",
+   "id": "72218",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72217"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió d'Olorar Fantàsticament",
+   "gameText": "Olorar Fantàsticament",
+   "id": "72233",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72231"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Rock 'n Roll",
+   "gameText": "el Rock 'n Roll",
+   "id": "72266",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72265"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Labor Infantil ",
+   "gameText": "la Labor Infantil",
+   "id": "72275",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72274"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ballar Com Si Ningú Mirés",
+   "gameText": "Ballar Com Si Ningú Mirés",
+   "id": "72300",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72299"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Apostes",
+   "gameText": "les Apostes",
+   "id": "72304",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72303"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Caps de Suro",
+   "gameText": "els Caps de Suro",
+   "id": "72317",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72316"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Bromistes",
+   "gameText": "els Bromistes",
+   "id": "72318",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72320"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Dubstep",
+   "gameText": "el Dubstep",
+   "id": "72324",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72326"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Abocadors",
+   "gameText": "els Abocadors",
+   "id": "72330",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72331"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser un Àngel",
+   "gameText": "Ser un Àngel",
+   "id": "72333",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72334"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Alt",
+   "gameText": "Ser Alt",
+   "id": "72338",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72339"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Botifarres",
+   "gameText": "les Botifarres",
+   "id": "72341",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72342"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Desfilades Cutres",
+   "gameText": "les Desfilades Cutres",
+   "id": "72370",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72371"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Perill",
+   "gameText": "el Perill",
+   "id": "72390",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72381"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Vanitat",
+   "gameText": "la Vanitat",
+   "id": "72443",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72444"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Tenir Baixa Autoestima",
+   "gameText": "Tenir Baixa Autoestima",
+   "id": "72450",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71336"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Solitud",
+   "gameText": "la Solitud",
+   "id": "72467",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72470"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Passar Desaparcebut",
+   "gameText": "Passar Desaparcebut",
+   "id": "72485",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72484"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Introvertits",
+   "gameText": "els Introvertits",
+   "id": "72520",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72519"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Viure Sota un Pont",
+   "gameText": "Viure Sota un Pont",
+   "id": "72571",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72572"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Accidents de Laboratori",
+   "gameText": "els Accidents de Laboratori",
+   "id": "72577",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72270"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Bon Humor",
+   "gameText": "el Bon Humor",
+   "id": "72657",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72655"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Espies",
+   "gameText": "els Espies",
+   "id": "72661",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72662"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Festivals de Música",
+   "gameText": "els Festivals de Música",
+   "id": "72667",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72668"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Gore",
+   "gameText": "el Gore",
+   "id": "72671",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72672"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Mal Humor",
+   "gameText": "el Mal Humor",
+   "id": "72683",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72684"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Vàters Portàtils",
+   "gameText": "els Vàters Portàtils",
+   "id": "72690",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72691"
+   ],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Clubs per Homes",
+   "gameText": "els Clubs per Homes",
+   "id": "72692",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "70184"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Aristòcrates",
+   "gameText": "els Aristòcrates",
+   "id": "72694",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72695"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Futures Estrelles de Hollywood",
+   "gameText": "les Futures Estrelles de Hollywood",
+   "id": "72891",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72892"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels CEOs",
+   "gameText": "els CEOs",
+   "id": "72895",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72896"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Burocràcia",
+   "gameText": "la Burocràcia",
+   "id": "72899",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72900"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Twitter ",
+   "gameText": "Twitter",
+   "id": "72901",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72902"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Repugnant",
+   "gameText": "Ser Repugnant",
+   "id": "72914",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72913"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Exploradors",
+   "gameText": "els Exploradors ",
+   "id": "72952",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72951"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Confiança",
+   "gameText": "la Confiança",
+   "id": "72956",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72955"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Generació Z",
+   "gameText": "la Generació Z",
+   "id": "72958",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72957"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Serenitat",
+   "gameText": "la Serenitat",
+   "id": "72960",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72959"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Fandom",
+   "gameText": "el Fandom",
+   "id": "72995",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72993"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de l'Arrogància",
+   "gameText": "l'Arrogància",
+   "id": "73046",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73045"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Natura",
+   "gameText": "la Natura",
+   "id": "73110",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73111"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Adolescents Guais",
+   "gameText": "els Adolescents Guais",
+   "id": "73151",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73152"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Princeses",
+   "gameText": "les Princeses",
+   "id": "73176",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73177"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Teatre",
+   "gameText": "el Teatre",
+   "id": "73317",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73316"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Pantà",
+   "gameText": "el Pantà",
+   "id": "73323",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73322"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Creuers de Festa",
+   "gameText": "els Creuers de Festa",
+   "id": "73340",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73339"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Nit de Bingo",
+   "gameText": "la Nit de Bingo",
+   "id": "73363",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73362"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Jubilació",
+   "gameText": "la Jubilació",
+   "id": "73397",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74852"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Venedors Porta a Porta ",
+   "gameText": "els Venedors Porta a Porta ",
+   "id": "73413",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72743"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Steampunk",
+   "gameText": "Steampunk",
+   "id": "73885",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73884"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Cova",
+   "gameText": "la Cova",
+   "id": "73889",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73888"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió d'Embogir",
+   "gameText": "Embogir",
+   "id": "73896",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "72897"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió d'Aures Poderoses",
+   "gameText": "Aures Poderoses",
+   "id": "73916",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73917"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió d'Estar Nerviós",
+   "gameText": "Estar Nerviós",
+   "id": "73926",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73927"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Macho",
+   "gameText": "Ser Macho",
+   "id": "73938",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73939"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Escenes d'Acció ",
+   "gameText": "les Escenes d'Acció ",
+   "id": "73941",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73940"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Macabreria",
+   "gameText": "la Macabreria",
+   "id": "73942",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73943"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Pànic Escènic",
+   "gameText": "el Pànic Escènic",
+   "id": "73978",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73976"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Mags",
+   "gameText": "els Mags ",
+   "id": "73990",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73991"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Calaix dels Trastos",
+   "gameText": "el Calaix dels Trastos",
+   "id": "73992",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "73993"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió d'Anar a Dormir d'Hora",
+   "gameText": "Anar a Dormir d'Hora",
+   "id": "73995",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74000"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Criminals",
+   "gameText": "els Criminals",
+   "id": "74007",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74008"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Zen",
+   "gameText": "Ser Zen",
+   "id": "74053",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74057"
+   ],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Viatjar",
+   "gameText": "Viatjar",
+   "id": "74058",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74059"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Noveles Juvenils",
+   "gameText": "les Noveles Juvenils",
+   "id": "74093",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74094"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Hipsters",
+   "gameText": "els Hipsters",
+   "id": "74095",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71291"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Saló del Manga",
+   "gameText": "el Saló del Manga",
+   "id": "74103",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74104"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Super3",
+   "gameText": "el Super3",
+   "id": "74119",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74118"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Cosplay",
+   "gameText": "el Cosplay",
+   "id": "74144",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74145"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Escoles Privades ",
+   "gameText": "les Escoles Privades ",
+   "id": "74157",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74142"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Lluita Lliure",
+   "gameText": "la Lluita Lliure",
+   "id": "74265",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74264"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Majestuós",
+   "gameText": "Ser Majestuós",
+   "id": "74359",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74360"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Tutorials de Maquillatge ",
+   "gameText": "els Tutorials de Maquillatge ",
+   "id": "74365",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74366"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Club Nudista",
+   "gameText": "el Club Nudista",
+   "id": "74367",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74368"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Burgesia ",
+   "gameText": "la Burgesia ",
+   "id": "74635",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74634"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Extrovertits ",
+   "gameText": "els Extrovertits ",
+   "id": "74637",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74636"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Acompanyants dels Herois ",
+   "gameText": "els Acompanyants dels Herois ",
+   "id": "74639",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74638"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Difícil de Mirar ",
+   "gameText": "Ser Difícil de Mirar ",
+   "id": "74641",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74640"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Sociòpates",
+   "gameText": "els Sociòpates",
+   "id": "74643",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74642"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Tenir Molta Energia",
+   "gameText": "Tenir Molta Energia",
+   "id": "74645",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74644"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Vivaç ",
+   "gameText": "Ser Vivaç ",
+   "id": "74647",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74646"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Si no es Per Mi no es Per Ningú ",
+   "gameText": "Si no es Per Mi no es Per Ningú ",
+   "id": "74649",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74648"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Turistes ",
+   "gameText": "els Turistes ",
+   "id": "74651",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74650"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Sofà ",
+   "gameText": "el Sofà",
+   "id": "74653",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74652"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Tenir Gasos",
+   "gameText": "Tenir Gasos ",
+   "id": "74655",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74654"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser el Sospitós Numero 1",
+   "gameText": "Ser el Sospitós Numero 1",
+   "id": "74657",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74656"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Bàsic ",
+   "gameText": "Ser Bàsic",
+   "id": "74659",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74658"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Punks",
+   "gameText": "els Punks",
+   "id": "74661",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74660"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels DJs",
+   "gameText": "els DJs",
+   "id": "74663",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74662"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Festa del Te ",
+   "gameText": "la Festa del Te",
+   "id": "74665",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74664"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Passar-se la Nit Despert ",
+   "gameText": "Passar-se la Nit Despert ",
+   "id": "74667",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74666"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Paràsits ",
+   "gameText": "els Paràsits ",
+   "id": "74669",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74668"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Sicaris",
+   "gameText": "els Sicaris ",
+   "id": "74671",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74670"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Escape Room",
+   "gameText": "els Escape Room ",
+   "id": "74673",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74672"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Becaris",
+   "gameText": "els Becaris",
+   "id": "74675",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74674"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Jocs de Rol",
+   "gameText": "els Jocs de Rol",
+   "id": "74677",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74676"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Iots",
+   "gameText": "els Iots",
+   "id": "74679",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74678"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de \"Que Déu els Beneeixi\" ",
+   "gameText": " \"Que Déu els Beneeixi\" ",
+   "id": "74681",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74680"
+   ],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Glamour",
+   "gameText": "el Glamour",
+   "id": "74683",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74682"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser un Peix Gros ",
+   "gameText": "Ser un Peix Gros",
+   "id": "74685",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74684"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Crítica Social ",
+   "gameText": "la Crítica Social ",
+   "id": "74687",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74686"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Setmana Santa",
+   "gameText": "Setmana Santa",
+   "id": "74689",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74688"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Galícia ",
+   "gameText": "Galícia ",
+   "id": "74691",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74690"
+   ],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Passeig de la Vergonya",
+   "gameText": " el Passeig de la Vergonya",
+   "id": "74693",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74692"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Delictes Menors",
+   "gameText": "els Delictes Menors",
+   "id": "74695",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74694"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Sexymbol ",
+   "gameText": "els Sexymbol ",
+   "id": "74703",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74702"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Andròmines ",
+   "gameText": "les Andròmines ",
+   "id": "74705",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74704"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Tirans ",
+   "gameText": "els Tirans ",
+   "id": "74707",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74706"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Fotos Policials",
+   "gameText": "les Fotos Policials",
+   "id": "74709",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74708"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Arts Fosques",
+   "gameText": "les Arts Fosques ",
+   "id": "74711",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74710"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Decoracions de Nadal",
+   "gameText": "les Decoracions de Nadal ",
+   "id": "74713",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74712"
+   ],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Tontet ",
+   "gameText": "Ser Tontet ",
+   "id": "74715",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74714"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Jocs de Taula Complicats",
+   "gameText": "els Jocs de Taula Complicats",
+   "id": "74717",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74716"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Clubs Nocturns",
+   "gameText": "els Clubs Nocturns",
+   "id": "74725",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74724"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Xafardeig ",
+   "gameText": "el Xafardeig ",
+   "id": "74726",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "71807"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Purga ",
+   "gameText": "la Purga ",
+   "id": "74728",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74727"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió d'Estar Animat ",
+   "gameText": "Estar Animat",
+   "id": "74730",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74729"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Burger King",
+   "gameText": "Burger King ",
+   "id": "74732",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74731"
+   ],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Criatures Màgiques ",
+   "gameText": "les Criatures Màgiques ",
+   "id": "74734",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74733"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Parkour",
+   "gameText": "el Parkour",
+   "id": "74736",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74735"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió del Tonto del Poble ",
+   "gameText": "el Tonto del Poble ",
+   "id": "74737",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "69792"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Alucinacions ",
+   "gameText": "les Alucinacions ",
+   "id": "74738",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "69847"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió dels Casaments ",
+   "gameText": "els Casaments ",
+   "id": "74740",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74739"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Cites",
+   "gameText": "les Cites",
+   "id": "74742",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74741"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de l'Elegància",
+   "gameText": "l'Elegància",
+   "id": "74744",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74743"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Ganduls ",
+   "gameText": "els Ganduls ",
+   "id": "74748",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74747"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Semblar un Ignorant ",
+   "gameText": "Semblar un Ignorant ",
+   "id": "74752",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74751"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Arts Marcials ",
+   "gameText": "les Arts Marcials ",
+   "id": "74832",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74831"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Semblar Perdut ",
+   "gameText": "Semblar Perdut ",
+   "id": "74834",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74833"
+   ],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El Campió de Ser Terrible ",
+   "gameText": "Ser Terrible ",
+   "id": "74836",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74835"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Grotesc ",
+   "gameText": "Ser Grotesc ",
+   "id": "74838",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74837"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Maduresa ",
+   "gameText": "la Maduresa ",
+   "id": "74841",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74840"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del FBI",
+   "gameText": "el FBI",
+   "id": "74846",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74845"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Maldat ",
+   "gameText": "la Maldat ",
+   "id": "74848",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "68684"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió d'Estar Putrefacte",
+   "gameText": "Estar Putrefacte ",
+   "id": "74851",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74850"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de les Monades",
+   "gameText": "les Monades",
+   "id": "74954",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74953"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Enigmes",
+   "gameText": "els Enigmes ",
+   "id": "74960",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74959"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió d'Estar Sempre al Facebook ",
+   "gameText": "Estar Sempre al Facebook ",
+   "id": "74970",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "74969"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de l'Extravagància ",
+   "gameText": "l'Extravagància",
+   "id": "75615",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "75614"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Rarets",
+   "gameText": "els Rarets",
+   "id": "75617",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "75616"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió d'Estar Desesperat",
+   "gameText": "Estar Desesperat",
+   "id": "75619",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "75618"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Famosos Ficticis ",
+   "gameText": "els Famosos Ficticis ",
+   "id": "75621",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "75620"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Positivitat ",
+   "gameText": "la Positivitat ",
+   "id": "75624",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "75622"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Semblar Important ",
+   "gameText": "Semblar Important ",
+   "id": "75626",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "75625"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Bunker",
+   "gameText": "el Bunker",
+   "id": "75628",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "75627"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Illa Deserta",
+   "gameText": "la Illa Deserta",
+   "id": "76008",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76007"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de les Mansions",
+   "gameText": "les Mansions",
+   "id": "76010",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76009"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió d'Acampar",
+   "gameText": "Acampar",
+   "id": "76012",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76011"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió d'Entrar en Pànic en Públic",
+   "gameText": "Entrar en Pànic en Públic",
+   "id": "76014",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76013"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Ser Educat a Casa",
+   "gameText": " Ser Educat a Casa",
+   "id": "76016",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76015"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Shows de Talent",
+   "gameText": "els Shows de Talent",
+   "id": "76018",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76017"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Ball de Gitanes",
+   "gameText": "el Ball de Gitanes",
+   "id": "76022",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76021"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Anys 90",
+   "gameText": "els Anys 90",
+   "id": "76024",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76023"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Slime",
+   "gameText": "el Slime",
+   "id": "76026",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76025"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió dels Cantants",
+   "gameText": "els Cantants",
+   "id": "76028",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76027"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Hiperactivitat",
+   "gameText": "la Hiperactivitat",
+   "id": "76030",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76029"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió d'Estar Criat per Llops",
+   "gameText": "Estar Criat per Llops",
+   "id": "76032",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76031"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de la Sorpresa",
+   "gameText": "la Sorpresa ",
+   "id": "76034",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76033"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió del Cementiri ",
+   "gameText": "el Cementiri ",
+   "id": "76097",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76096"
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El Campió de la Brutícia",
+   "gameText": "la Brutícia",
+   "id": "76099",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76098"
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El Campió de Tenir Mala Actitud ",
+   "gameText": "Tenir Mala Actitud ",
+   "id": "76101",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    "76100"
+   ],
+   "us": false,
+   "x": true
+  }
+ ]
+}

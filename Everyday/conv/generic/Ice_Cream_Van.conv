@@ -1,0 +1,24 @@
+MAIN(Venedor): Bon dia! Quina dolça delícia congelada voldreu avui? Les opcions estan al costat de la furgoneta.
+-VANILLA-> Combinat de Vainilla
+-CHOCO-> Xoco$-Explosió
+-GRAPE-> Rodó de Raïm
+-NONE-> Eh, és igual....
+
+VANILLA(Venedor): Aquí tens!
+-SUCCESS-> Una delícia sosa!
+
+CHOCO(Venedor): Aquí tens!
+-SUCCESS-> Xoco$-tàstic!
+
+GRAPE(Venedor): Aquí tens!
+-SUCCESS-> No té prou gust a rodona
+
+NONE(Venedor): Última oportunitat?
+-FAILURE-> Ves$-te'n!
+-TRYAGAIN-> Potser....
+
+TRYAGAIN(Venedor): Vols tornar$-t'ho a mirar?
+-VANILLA-> Combinat de Vainilla
+-CHOCO-> Xoco$-Explosió
+-GRAPE-> Rodó de Raïm
+-NONE-> Eh, és igual....

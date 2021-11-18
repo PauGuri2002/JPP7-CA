@@ -1,0 +1,18 @@
+MAIN(Veí): Podries podar les branques del teu arbre?
+-RIGHT-> Ara mateix!
+-FINE-> UFF....VAL!
+-LOVE-> No, m'encanten!
+-COOK-> A canvi d'una galeta
+
+
+RIGHT(Veí): Gràcies!
+-SUCCESS-> Gràcies a TU per la oportunitat de tallar coses
+
+FINE(Veí): UFF....Gràcies!
+-SUCCESS-> UFF...De res! ETS UN AMIC GENIAL!!!
+
+LOVE(Veí): Coi, d'acoord
+-SUCCESS-> Ara fes com el meu millor amic i ves$-te'n! 
+
+COOK(Veí): Mitja galeta!
+-SUCCESS-> Tracte fet!

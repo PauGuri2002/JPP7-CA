@@ -1,0 +1,188 @@
+REM : Fire OLD
+
+CLONE DEED "ScrubLong" "FireStep1"
+    SET INSTRUCTIONS "Foc!!! Escampa el fum!!!"
+END
+
+CLONE DEED "Tap2" "FireStep2"
+    SET INSTRUCTIONS "Prepara l'extintor!!!"
+END
+
+CLONE DEED "Hold3" "FireStep3"
+    SET INSTRUCTIONS "Apaga el foc!!!"
+END
+
+DEF TASK "FireEmergencyOLD"
+    SET NAME "Foc!!!"
+    SET CATEGORY "EMERGENCY"
+    SET CAN_LEAVE FALSE
+    SET OBSERVER_BEHAVIOR_ID "EMERGENCY"
+
+    STEP "1" "FireStep1"
+    STEP "2" "FireStep2"
+    STEP "3" "FireStep3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Power OLD
+
+CLONE DEED "Tap3" "PowerStep1"
+    SET INSTRUCTIONS "S'ha anat la llum!!! Busca la llanterna"
+END
+
+CLONE DEED "SwipeBase" "PowerStep2"
+    SET INSTRUCTIONS "Engega els ploms"
+    SET DIRECTION "RIGHT,LEFT"
+END
+
+CLONE DEED "SwipeBase" "PowerStep3"
+    SET INSTRUCTIONS "Quin és el correcte?"
+    SET DIRECTION "RIGHT,LEFT"
+END
+
+CLONE DEED "SwipeBase" "PowerStep4"
+    SET INSTRUCTIONS "Aquest no"
+    SET DIRECTION "RIGHT,LEFT"
+END
+
+CLONE DEED "SwipeBase" "PowerStep5"
+    SET INSTRUCTIONS "Nop. Aquest?"
+    SET DIRECTION "RIGHT,LEFT"
+END
+
+CLONE DEED "SwipeBase" "PowerStep6"
+    SET INSTRUCTIONS "Ha de ser aquest"
+    SET DIRECTION "RIGHT,LEFT"
+END
+
+DEF TASK "PowerEmergencyOLD"
+    SET NAME "S'ha anat la llum!!!"
+    SET CATEGORY "EMERGENCY"
+    SET CAN_LEAVE FALSE
+    SET OBSERVER_BEHAVIOR_ID "EMERGENCY"
+
+    STEP "1" "PowerStep1"
+    STEP "2" "PowerStep2"
+    STEP "3" "PowerStep3"
+    STEP "4" "PowerStep4"
+    STEP "5" "PowerStep5"
+    STEP "6" "PowerStep6"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" SUCCESS FAILURE
+END
+
+
+REM : Tap Task Test
+CLONE DEED "TapEmergency" "TapEmergencyDeed"
+    SET INSTRUCTIONS "EMERGÈNCIA!! Toca ràpidament!"
+END
+
+DEF TASK "TapEmergency"
+    SET NAME " EMERGÈNCIA!! Toca ràpidament!"
+    SET CATEGORY "EMERGENCY"
+    SET CAN_LEAVE FALSE
+    
+    STEP "1" "TapEmergencyDeed"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+REM : ---------------------------------------------------
+
+REM : Kitchen fire!
+CLONE DEED "TapEmergency" "FireEmergency"
+    SET INSTRUCTIONS "LA CUINA ESTÀ EN FLAMES! APAGA EL FOC!"
+END
+
+DEF TASK "FireEmergency"
+    SET NAME "LA CUINA ESTÀ EN FLAMES! APAGA EL FOC!"
+    SET CATEGORY "EMERGENCY"
+    SET CAN_LEAVE FALSE
+    
+    STEP "1" "FireEmergency"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Basement flood
+CLONE DEED "TapEmergency" "FloodEmergency"
+    SET INSTRUCTIONS "EL SOTERRANI S'ESTÀ INUNDANT! BUIDEU L'AIGUA!"
+END
+
+DEF TASK "FloodEmergency"
+    SET NAME "EL SOTERRANI S'ESTÀ INUNDANT! BUIDEU L'AIGUA!"
+    SET CATEGORY "EMERGENCY"
+    SET CAN_LEAVE FALSE
+    
+    STEP "1" "FloodEmergency"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Power's out
+CLONE DEED "TapEmergency" "PowerEmergency"
+    SET INSTRUCTIONS "S'HA ANAT LA LLUM! ARRANQUEU EL GENERADOR!"
+END
+
+DEF TASK "PowerEmergency"
+    SET NAME "S'HA ANAT LA LLUM! ARRANQUEU EL GENERADOR!"
+    SET CATEGORY "EMERGENCY"
+    SET CAN_LEAVE FALSE
+    
+    STEP "1" "PowerEmergency"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Locked out
+CLONE DEED "TapEmergency" "LockOutEmergency"
+    SET INSTRUCTIONS "T'HAS QUEDAT TANCAT A FORA! TIRA LA PORTA A TERRA!"
+END
+
+DEF TASK "LockOutEmergency"
+    SET NAME "T'HAS QUEDAT TANCAT A FORA! TIRA LA PORTA A TERRA!"
+    SET CATEGORY "EMERGENCY"
+    SET CAN_LEAVE FALSE
+    
+    STEP "1" "LockOutEmergency"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Termites
+CLONE DEED "TapEmergency" "TermiteEmergency"
+    SET INSTRUCTIONS "PLAGA DE TERMITES! FUMIGUEU-LES!"
+END
+
+DEF TASK "TermiteEmergency"
+    SET NAME "PLAGA DE TERMITES! FUMIGUEU-LES!"
+    SET CATEGORY "EMERGENCY"
+    SET CAN_LEAVE FALSE
+    
+    STEP "1" "TermiteEmergency"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "EmergencyTasks"
+    ADDTASK "FireEmergency"
+    ADDTASK "FloodEmergency"
+    ADDTASK "PowerEmergency"
+    ADDTASK "LockOutEmergency"
+    ADDTASK "TermiteEmergency"
+END
