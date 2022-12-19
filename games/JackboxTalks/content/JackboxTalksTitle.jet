@@ -1,0 +1,4304 @@
+{
+ "content": [
+  {
+   "id": "71024",
+   "safetyAnswers": [
+    "destruir tots els ocells",
+    "robar-te la contrasenya del Netflix",
+    "ilegalitzar les migdiades",
+    "fer els meus músculs enormes",
+    "fer desaparèixer el meu cafè",
+    "quedar-me despert més tard del que hauria",
+    "posar-li un bigoti a tothom"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Us estareu preguntant per què sóc tan malvat"
+    },
+    {
+     "position": "middle",
+     "signpost": "Però per què us estic explicant el meu pla malvat?"
+    },
+    {
+     "position": "end",
+     "signpost": "Ho confesso, hi ha una manera d'aturar-me, però no us agradarà"
+    },
+    {
+     "position": "end",
+     "signpost": "HA HA HA HA HA HA HA HA HA HA!!!"
+    },
+    {
+     "position": "end",
+     "signpost": "Però espereu... què passaria si decidís no ser malvat?"
+    },
+    {
+     "position": "middle",
+     "signpost": "Però quin és l'origen dels meus poders malvats? Bona pregunta."
+    },
+    {
+     "position": "middle",
+     "signpost": "Encara recordo aquell moment, a tercer de primària, quan se'm va ocórrer aquest pla..."
+    },
+    {
+     "position": "end",
+     "signpost": "Què faré després de completar els meus plans? Us ho explico."
+    }
+   ],
+   "title": "Tremoleu mortals, ningú pot aturar el meu malèvol pla per <BLANK>!",
+   "x": false
+  },
+  {
+   "id": "71417",
+   "safetyAnswers": [
+    "les vaques instagrammers",
+    "la persona que seu al teu costat a la feina",
+    "el tió"
+   ],
+   "signposts": [],
+   "title": "La Vida Oculta de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71418",
+   "safetyAnswers": [
+    "l'snack perfecte",
+    "una nit de son profund",
+    "l'èxit a Youtube"
+   ],
+   "signposts": [],
+   "title": "La Recerca de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71419",
+   "safetyAnswers": [
+    "una casa diminuta",
+    "uns quants llops",
+    "un tauró per la teva família"
+   ],
+   "signposts": [],
+   "title": "Endavant, Compreu <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71420",
+   "safetyAnswers": [
+    "sabates fetes d'or",
+    "estàndards extremadament baixos",
+    "hamburgueses fetes de sorra"
+   ],
+   "signposts": [],
+   "title": "Desafiant Expectatives amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71421",
+   "safetyAnswers": [
+    "reservar taula per sopar avui",
+    "enciam amb gust de xocolata",
+    "més cafeteries Starbucks"
+   ],
+   "signposts": [],
+   "title": "Per què necessitem <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71422",
+   "safetyAnswers": [
+    "la meva vida amorosa",
+    "gossos obedients",
+    "el fantasma de casa meva"
+   ],
+   "signposts": [],
+   "title": "Una Breu Història de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71423",
+   "safetyAnswers": [
+    "les competicions de mirades intenses",
+    "un entrepà deliciós",
+    "que et caigui un llamp a sobre"
+   ],
+   "signposts": [],
+   "title": "El Poder de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71424",
+   "safetyAnswers": [
+    "un excés de memes d'Internet",
+    "un bon tall de pizza",
+    "ballar massa intensament"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> et Pot Arruïnar La Vida",
+   "x": false
+  },
+  {
+   "id": "71425",
+   "safetyAnswers": [
+    "mi i el meu cos de revista",
+    "gossos que parlin",
+    "maquillatge permanent"
+   ],
+   "signposts": [],
+   "title": "No Hi Ha Futur Sense <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71426",
+   "safetyAnswers": [
+    "glaçons",
+    "els Cheetos extra picants",
+    "Twitter"
+   ],
+   "signposts": [],
+   "title": "Com Era El Món Abans de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71427",
+   "safetyAnswers": [
+    "Saludar algú pel carrer que en realitat no em coneix",
+    "Adolescència",
+    "Acabar una sèrie que ni tan sols m'agradava"
+   ],
+   "signposts": [],
+   "title": "<BLANK>. Ho He Viscut.",
+   "x": false
+  },
+  {
+   "id": "71428",
+   "safetyAnswers": [
+    "Michael Jordan",
+    "L'Altra Terra",
+    "Un Dofí amb Lasers"
+   ],
+   "signposts": [],
+   "title": "<BLANK> ens salvarà",
+   "x": false
+  },
+  {
+   "id": "71429",
+   "safetyAnswers": [
+    "El teu vàter",
+    "El que està fent aquesta presentació",
+    "L'Alexa"
+   ],
+   "signposts": [],
+   "title": "<BLANK> està intentant matar-te",
+   "x": false
+  },
+  {
+   "id": "71430",
+   "safetyAnswers": [
+    "unes ulleres de sol tot guais",
+    "que els teus pares et facin cas",
+    "millor roba interior"
+   ],
+   "signposts": [],
+   "title": "Aconsegueix <BLANK>, Aconsegueix Diners",
+   "x": false
+  },
+  {
+   "id": "71431",
+   "safetyAnswers": [
+    "Programació de Televisió per nens",
+    "Cremar-te Prenent el Sol",
+    "Un Forat ben Fons"
+   ],
+   "signposts": [],
+   "title": "<BLANK> i per què és tan bo",
+   "x": false
+  },
+  {
+   "id": "71432",
+   "safetyAnswers": [
+    "Óssos Inteligents",
+    "Entrepans de tonyina dins un avió",
+    "Un veí t'està saludant"
+   ],
+   "signposts": [],
+   "title": "Aneu amb compte: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71433",
+   "safetyAnswers": [
+    "Bordar com un gos",
+    "menjar paper",
+    "controlar els somnis de la gent"
+   ],
+   "signposts": [],
+   "title": "Com He Après a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71434",
+   "safetyAnswers": [
+    "La meva manta",
+    "El Toni Cruanyes",
+    "EL Bacon"
+   ],
+   "signposts": [],
+   "title": "<BLANK> i Jo: Una Història d'Amor Contemporània",
+   "x": false
+  },
+  {
+   "id": "71435",
+   "safetyAnswers": [
+    "Provador de Pantalons Professional",
+    "Personatge de Parc d'Atraccions",
+    "Venedor de Llimonada Adult"
+   ],
+   "signposts": [],
+   "title": "La Meva Primera Feina: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71436",
+   "safetyAnswers": [
+    "les Vaques no són Cavalls",
+    "puc Volar",
+    "tinc un Vaixell"
+   ],
+   "signposts": [],
+   "title": "Us Podeu Creure Que <BLANK>?",
+   "x": false
+  },
+  {
+   "id": "71437",
+   "safetyAnswers": [
+    "Dutxar-me Sense Fer Pudor",
+    "Fer Entrepans amb els Ulls Tancats",
+    "Mirar Tik-Toks"
+   ],
+   "signposts": [],
+   "title": "Ara Ja Puc <BLANK>!",
+   "x": false
+  },
+  {
+   "id": "71438",
+   "safetyAnswers": [
+    "un Monopatí",
+    "Smoothies Calents",
+    "Sorolls de Balena"
+   ],
+   "signposts": [],
+   "title": "Capgira la Teva Vida amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71439",
+   "safetyAnswers": [
+    "Cridar",
+    "Torejar",
+    "Cagar"
+   ],
+   "signposts": [],
+   "title": "El Poder de <BLANK> Positivament",
+   "x": false
+  },
+  {
+   "id": "71440",
+   "safetyAnswers": [
+    "Haver Inventat la Roda",
+    "El Meu Somriure",
+    "Els Fantasmes"
+   ],
+   "signposts": [],
+   "title": "M'he Fet Ric Gràcies a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71441",
+   "safetyAnswers": [
+    "Sarah Jessica Parker",
+    "La Sireneta",
+    "un dofí que ara és el meu millor amic"
+   ],
+   "signposts": [],
+   "title": "Com he salvat la vida de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71442",
+   "safetyAnswers": [
+    "seieu a sobre un cactus",
+    "menjeu plàstic",
+    "aneu a comprar carn per dinar ja t'ho he dit deu vegades"
+   ],
+   "signposts": [],
+   "title": "Sortiu Allà Fora i <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71443",
+   "safetyAnswers": [
+    "que existien pantalons còmodes",
+    "que existeix sushi de fruites",
+    "com dormir perquè m'he passat deu anys despert"
+   ],
+   "signposts": [],
+   "title": "Quan Tenia La Vostra Edat, Tant De Bo Algú M'Hagués Explicat <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71444",
+   "safetyAnswers": [
+    "demanis un desig si hi ha lluna plena",
+    "surtis amb un minotaure",
+    "estornudis, et tiris un pet i un rot a la vegada. No és broma."
+   ],
+   "signposts": [],
+   "title": "El Meu Consell: Mai <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71445",
+   "safetyAnswers": [
+    "aquell sopar tan horrible",
+    "les abelles mortals",
+    "els malsons"
+   ],
+   "signposts": [],
+   "title": "Com Superar <BLANK> Amb Alegria!",
+   "x": false
+  },
+  {
+   "id": "71446",
+   "safetyAnswers": [
+    "tocar-me la cara",
+    "acabar els correus de feina amb un \"t'estimo\"",
+    "anar al gimnàs perquè no em deixen"
+   ],
+   "signposts": [],
+   "title": "Ho Sento, No Puc Parar de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71447",
+   "safetyAnswers": [
+    "tenir por al paper",
+    "ser un Simp",
+    "esmorzar"
+   ],
+   "signposts": [],
+   "title": "Pots Viure una Millor Vida si Deixes de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71448",
+   "safetyAnswers": [
+    "constructor de ninots de neu",
+    "conductor de camió de llarga distància",
+    "estàtua vivent"
+   ],
+   "signposts": [],
+   "title": "Com Ser El/La Millor <BLANK> Del Món",
+   "x": false
+  },
+  {
+   "id": "71449",
+   "safetyAnswers": [
+    "confessat el meu amor com un campió",
+    "anat de compres tenint gana",
+    "menjat aquell insecte"
+   ],
+   "signposts": [],
+   "title": "Per Què he <BLANK>? Permeteu-me Explicar-ho",
+   "x": false
+  },
+  {
+   "id": "71450",
+   "safetyAnswers": [
+    "mare futbolista",
+    "sexímbol",
+    "crític gastronòmic"
+   ],
+   "signposts": [],
+   "title": "Alliberant El Teu/La Teva <BLANK> Interior",
+   "x": false
+  },
+  {
+   "id": "71451",
+   "safetyAnswers": [
+    "amant dels banys d'escuma",
+    "granger d'unicorns",
+    "transformer"
+   ],
+   "signposts": [],
+   "title": "La Meva Vida Secreta Com a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71452",
+   "safetyAnswers": [
+    "una pila de cacauets",
+    "un seguit de versions més petites de mi mateix",
+    "pizza freda i cafè"
+   ],
+   "signposts": [],
+   "title": "He Mirat el Meu Interior i l'Únic Que He Vist És <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71453",
+   "safetyAnswers": [
+    "un bebé fent OK amb la mà just després de néixer",
+    "Plutó",
+    "una hamburguesa amb un donut com a pa"
+   ],
+   "signposts": [],
+   "title": "Vaig Veure <BLANK> i M'Ha Canviat La Vida",
+   "x": false
+  },
+  {
+   "id": "71454",
+   "safetyAnswers": [
+    "tancar els ulls mentres la gent em parla",
+    "banyar-me en una piscina de bitllets",
+    "comprar una moqueta que queda tan bé al menjador"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> M'Ha Millorat Tant La Vida",
+   "x": false
+  },
+  {
+   "id": "71455",
+   "safetyAnswers": [
+    "els vostres veïns sorollosos",
+    "els gossos super adorables",
+    "les cols de Brusseles"
+   ],
+   "signposts": [],
+   "title": "El Gran Problema de <BLANK>, i Per què Us Hauríeu de Preocupar",
+   "x": false
+  },
+  {
+   "id": "71456",
+   "safetyAnswers": [
+    "model de bolquers",
+    "detectiu",
+    "llagostí adolescent. Ara sóc un llagostí adult"
+   ],
+   "signposts": [],
+   "title": "El Meu Passat Com a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71457",
+   "safetyAnswers": [
+    "actualitzat mai el teu perfil de LinkedIn",
+    "pegat mai una serp",
+    "desembussat mai un vàter molt embussat"
+   ],
+   "signposts": [],
+   "title": "Has <BLANK>? Jo sí, pringats",
+   "x": false
+  },
+  {
+   "id": "71458",
+   "safetyAnswers": [
+    "tancar la boca d'una vegada",
+    "tirar-se pets al transport públic",
+    "beure el líquid del pot dels cogombres"
+   ],
+   "signposts": [],
+   "title": "Entenent els Increïbles Beneficis de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71459",
+   "safetyAnswers": [
+    "les pauses dramàtiques",
+    "els tacos per gats",
+    "somiar despert"
+   ],
+   "signposts": [],
+   "title": "He Inventat <BLANK>. Per Què?",
+   "x": false
+  },
+  {
+   "id": "71460",
+   "safetyAnswers": [
+    "no un, però dos Godzillas",
+    "el meu desig de ser feliç",
+    "aquest estúpid puzzle que té masses peces"
+   ],
+   "signposts": [],
+   "title": "Com Vaig Aconseguir Vèncer <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71461",
+   "safetyAnswers": [
+    "un guàrdia forestal que ha lluitat amb uns quants óssos",
+    "agent immobiliari a Atlàntida",
+    "una llama"
+   ],
+   "signposts": [],
+   "title": "El Que He Après Després d'Un Any Sent <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71462",
+   "safetyAnswers": [
+    "amant dels bebés",
+    "calent pels professors",
+    "pesat amb el reggaeton"
+   ],
+   "signposts": [],
+   "title": "Per què Soc Tan <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71463",
+   "safetyAnswers": [
+    "l'alèrgia al polen",
+    "el teu nou germà... anem a parlar, fill",
+    "el teu amic de l'institut que ven olis essencials"
+   ],
+   "signposts": [],
+   "title": "Toc Toc. Qui És? <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71464",
+   "safetyAnswers": [
+    "llegir els teus tuits inspiracionals",
+    "el reggaeton",
+    "la carn"
+   ],
+   "signposts": [],
+   "title": "Ara De Debò. A Ningú Li Agrada <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71465",
+   "safetyAnswers": [
+    "la pizza amb pinya",
+    "aquell dia que vaig haver de treballar fins les tantes",
+    "el comentari que se'm va escapar al metro"
+   ],
+   "signposts": [],
+   "title": "Més Avall de l'Infern: La Història de <BLANK>",
+   "x": true
+  },
+  {
+   "id": "71466",
+   "safetyAnswers": [
+    "el formatge que fa pudor de peus",
+    "els articles de BuzzFeed",
+    "les persones que demanen hamburgueses a un restaurant de forquilla"
+   ],
+   "signposts": [],
+   "title": "Un Nou i Sorprenent Punt de Vista Sobre <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71532",
+   "safetyAnswers": [
+    "peix ballarí",
+    "melic",
+    "amic imaginari"
+   ],
+   "signposts": [],
+   "title": "Prepareu-vos Per Veure El Meu <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71542",
+   "safetyAnswers": [
+    "deixar de ser els teus veins",
+    "Appreciate His Amazing Wife",
+    "Slow Down And Enjoy Being Carl"
+   ],
+   "signposts": [],
+   "title": "La Raó Per La Qual Els Teus Veïns Han De <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71543",
+   "safetyAnswers": [
+    "Ballar! Vinga tots amunt!",
+    "aprendre què és la llet",
+    "confrontar el meu pare"
+   ],
+   "signposts": [],
+   "title": "OK Gent, És Hora de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71544",
+   "safetyAnswers": [
+    "pagar l'almoina",
+    "cagar",
+    "obeïr la Bíblia"
+   ],
+   "signposts": [],
+   "title": "Oh merda, m'he oblidat de <BLANK>",
+   "x": true
+  },
+  {
+   "id": "71546",
+   "safetyAnswers": [
+    "el fitness",
+    "el meu casament",
+    "les mates"
+   ],
+   "signposts": [],
+   "title": "Per què sóc el Mariano Rajoy de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71547",
+   "safetyAnswers": [
+    "Bebés",
+    "Pallassos",
+    "Frikis"
+   ],
+   "signposts": [],
+   "title": "<BLANK>? Treu-ho de la Meva Vista!",
+   "x": false
+  },
+  {
+   "id": "71548",
+   "safetyAnswers": [
+    "portar un pentinat tan guai",
+    "la meva piromanía",
+    "votar Vox"
+   ],
+   "signposts": [],
+   "title": "Mai Demanaré Perdó Per <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71549",
+   "safetyAnswers": [
+    "Espelmes Perfumades",
+    "Baixes Expectatives",
+    "Angoixa Adolescent"
+   ],
+   "signposts": [],
+   "title": "Poseu-vos El Cinturó, Perquè Anem de Viatge a <BLANK>-Làndia",
+   "x": false
+  },
+  {
+   "id": "71551",
+   "safetyAnswers": [
+    "els sudokus",
+    "els insectes",
+    "les pessigolles"
+   ],
+   "signposts": [],
+   "title": "Poden <BLANK> Ser El Secret de la Immortalitat?",
+   "x": false
+  },
+  {
+   "id": "71552",
+   "safetyAnswers": [
+    "Assassí",
+    "Psicòleg",
+    "Dentista"
+   ],
+   "signposts": [],
+   "title": "Com Estalviar Diners Sent El Teu Propi <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71554",
+   "safetyAnswers": [
+    "Cuinar",
+    "Arreglar-me el cotxe",
+    "Jugar a Minecraft"
+   ],
+   "signposts": [],
+   "title": "Si No Saps <BLANK>, Per Mi No Existeixes",
+   "x": false
+  },
+  {
+   "id": "71557",
+   "safetyAnswers": [
+    "Menjar Pizza",
+    "Deprimir-se",
+    "Cometre Crims"
+   ],
+   "signposts": [],
+   "title": "<BLANK> És Bufar i Fer Ampolles Amb El Meu Mètode Patentat!",
+   "x": false
+  },
+  {
+   "id": "71558",
+   "safetyAnswers": [
+    "els Imitadors de l'Elvis",
+    "les abelles",
+    "la lluna"
+   ],
+   "signposts": [],
+   "title": "Si Controlés <BLANK> Això És El Que Jo Canviaria",
+   "x": false
+  },
+  {
+   "id": "71559",
+   "safetyAnswers": [
+    "La Terra és piramidal",
+    "Els ocells no existeixen",
+    "Llegir és avorrit"
+   ],
+   "signposts": [],
+   "title": "Crideu Amb Mi: <BLANK>!",
+   "x": false
+  },
+  {
+   "id": "71560",
+   "safetyAnswers": [
+    "Em Desesperen",
+    "Internet",
+    "La meva pizzeria que també ven ocells i ordinadors",
+    "Ira"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Però per què he mencionat això per començar? La resposta és molt senzilla..."
+    },
+    {
+     "position": "end",
+     "signpost": "Un Ultim Apunt Sobre Ocells, Ordinadors, Pizza..."
+    },
+    {
+     "position": "end",
+     "signpost": "Anem a unir-nos, com a persones, de la mateixa manera que estan units aquests tres ítems, i dir..."
+    },
+    {
+     "position": "end",
+     "signpost": "Per concloure hauria de mencionar la quarta cosa que té el mateix en comú amb ocells, ordinadors i pizza..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Per contrastar, aquí teniu una cosa que és completament diferent a ocells, ordinadors, i pizza..."
+    },
+    {
+     "position": "middle",
+     "signpost": "L'aspecte comú entre els ocells, els ordinadors i la pizza es pot ilustrar amb una sola imatge..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Durant massa temps hem ignorat la relació entre els tres, resultant en aquesta horrible conseqüència..."
+    }
+   ],
+   "title": "Ocells, Ordinadors, Pizza. Què tenen en comú? <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71580",
+   "safetyAnswers": [
+    "Gasolinera",
+    "Lavabo",
+    "Organització Mafiosa"
+   ],
+   "signposts": [],
+   "title": "La Meva Increïble Aventura En Un/a <BLANK> Encantat/da",
+   "x": false
+  },
+  {
+   "id": "71582",
+   "safetyAnswers": [
+    "un armadillo",
+    "un fantasma que viu amb mi",
+    "invisible",
+    "el Super Mario"
+   ],
+   "signposts": [],
+   "title": "Us Sorprendrà Saber Que la Meva Ànima Bessona És <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71583",
+   "safetyAnswers": [
+    "calçots",
+    "una bona migdiada"
+   ],
+   "signposts": [],
+   "title": "No Facis Pena, Fes <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71584",
+   "safetyAnswers": [
+    "Humit",
+    "Llum, Foc, Destrucció",
+    "Fortnite 2"
+   ],
+   "signposts": [],
+   "title": "Oblida Tot El Que Sàpigues: El Futur És <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71585",
+   "safetyAnswers": [
+    "comprar paper de vàter",
+    "cremar-los a la foguera"
+   ],
+   "signposts": [],
+   "title": "Deixa el que estiguis fent i inverteix tots els teus estalvis a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71586",
+   "safetyAnswers": [
+    "un carret de compra desbocat",
+    "la meva sogra",
+    "extra-terrestres francesos"
+   ],
+   "signposts": [],
+   "title": "Com He Sobreviscut a un atac de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71587",
+   "safetyAnswers": [
+    "Mitjons Multicolors",
+    "Trencades de Cor Diàries",
+    "fantasmes"
+   ],
+   "signposts": [],
+   "title": "Aha! La Meva Vida Té <BLANK> i La Teva No!",
+   "x": false
+  },
+  {
+   "id": "71589",
+   "safetyAnswers": [
+    "Sortir de Casa",
+    "Saber Parlar",
+    "Socialitzar"
+   ],
+   "signposts": [],
+   "title": "Com Trobar l'Amor Sense <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71590",
+   "safetyAnswers": [
+    "Thor",
+    "Bosses de Plàstic",
+    "L'Emoji de la Caca"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "No hem pogut entrevistar el següent individu..."
+    },
+    {
+     "position": "end",
+     "signpost": "Tots sabem com acaba aquesta història..."
+    },
+    {
+     "position": "middle",
+     "signpost": "El subjecte en qüestió va passar l'adolescència cometent crims inusuals, com..."
+    },
+    {
+     "position": "middle",
+     "signpost": "La seva vida ha sigut molt complicada, com s'ilustra en aquesta famosa foto..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquest és el perquè es va negar a colaborar en aquest llibre sobre la seva vida..."
+    },
+    {
+     "position": "end",
+     "signpost": "Si no em denuncien, el meu proper llibre serà sobre..."
+    },
+    {
+     "position": "end",
+     "signpost": "El secret del seu èxit? Aquest..."
+    },
+    {
+     "position": "end",
+     "signpost": "Per sobre de tot, el seu llegat consisteix en una cosa..."
+    },
+    {
+     "position": "end",
+     "signpost": "Hi ha un gran misteri que el meu llibre no ha sapigut resoldre..."
+    }
+   ],
+   "title": "<BLANK>: La Biografia No Autoritzada",
+   "x": false
+  },
+  {
+   "id": "71628",
+   "safetyAnswers": [
+    "plorar i cridar",
+    "cuinar un molt bon pa",
+    "estar dret al mig del carrer"
+   ],
+   "signposts": [],
+   "title": "Com He Aconseguit Un Milió d'Amics i Tot El Que He Fet Ha Sigut <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71630",
+   "safetyAnswers": [
+    "Tenir Cotorres a Casa",
+    "Callar la Boca d'Una Vegada",
+    "Fer Gent Diminuta de Paper"
+   ],
+   "signposts": [],
+   "title": "El Subtil Art De <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71631",
+   "safetyAnswers": [
+    "malabars",
+    "parlar dels teus sentiments d'una vegada",
+    "escriure més ràpid"
+   ],
+   "signposts": [],
+   "title": "Per Viure Millor l'Únic que Has de Fer és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71633",
+   "safetyAnswers": [
+    "Fulles Cruixents de Tardor",
+    "Un Peix de Fira",
+    "El Seu Orgull"
+   ],
+   "signposts": [],
+   "title": "<BLANK>: Algo que Tothom Hauria de Menjar!",
+   "x": false
+  },
+  {
+   "id": "71634",
+   "safetyAnswers": [
+    "Vendre Neu",
+    "Coleccionar Insectes",
+    "Pagar-me Diners cada mes i ja està"
+   ],
+   "signposts": [],
+   "title": "No Hi Ha Negoci Com el Negoci de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71636",
+   "safetyAnswers": [
+    "Dormir de Peu",
+    "Abandonar els teus Somnis",
+    "Cuinar pa a casa"
+   ],
+   "signposts": [],
+   "title": "No us Enfadeu amb Mi quan Digui que Aquesta és la Millor Manera de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71637",
+   "safetyAnswers": [
+    "Ioga",
+    "Evasió d'Impostos",
+    "Ser YouTuber"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "No hi ha preguntes estúpides. Excepte aquesta..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Deixeu-me que us ho lletregi per les vostres ments inferiors..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Anem a començar amb les lliçons bàsiques!"
+    },
+    {
+     "position": "end",
+     "signpost": "Com puc jo, una persona normal, ajudar?"
+    },
+    {
+     "position": "end",
+     "signpost": "Tot això es pot resumir en una foto..."
+    },
+    {
+     "position": "end",
+     "signpost": "Ara que ho heu aconseguit entendre, aquí teniu un premi!"
+    },
+    {
+     "position": "middle",
+     "signpost": "Tothom sap que aquesta és la clau de l'èxit..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Com que pot ser molt difícil d'entendre, explicaré aquesta següent part com si estigués parlant amb un bebé..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Solia ser una persona ordinària, com vosaltres, fins que vaig fer això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Ara que ja sou uns expert, hauríeu de fer això..."
+    }
+   ],
+   "title": "<BLANK> per Dummies: Una Introducció Per gent Ordinària",
+   "x": false
+  },
+  {
+   "id": "71638",
+   "safetyAnswers": [
+    "Un bon Casament",
+    "Dos Ganivets Rovellats",
+    "Tots els teus DVDs preferits"
+   ],
+   "signposts": [],
+   "title": "Fent Servir <BLANK> per Sobreviure a la Fi del Mon",
+   "x": false
+  },
+  {
+   "id": "71639",
+   "safetyAnswers": [
+    "un somriure fals",
+    "una bona herència",
+    "quantitats industrials de cafè"
+   ],
+   "signposts": [],
+   "title": "Duplica els teus ingressos amb dedicació, perseverància, i <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71645",
+   "safetyAnswers": [
+    "El meu pare",
+    "Un Elefant Cridaner"
+   ],
+   "signposts": [],
+   "title": "<BLANK>: El Cervantes dels Nostres Dies",
+   "x": false
+  },
+  {
+   "id": "71657",
+   "safetyAnswers": [
+    "Miniature Golf Course",
+    "Snack Tray",
+    "Front Lawn",
+    "bathroom"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Els meus plans inicials eren així..."
+    },
+    {
+     "position": "end",
+     "signpost": "Com sé que ho he clavat?"
+    },
+    {
+     "position": "middle",
+     "signpost": "L'error que tothom comet al principi és..."
+    },
+    {
+     "position": "end",
+     "signpost": "Ara hauríeu de destruïr-ho tot i tornar a començar, però aquest cop..."
+    },
+    {
+     "position": "middle",
+     "signpost": "He utilitzat els materials de més alta qualitat..."
+    },
+    {
+     "position": "end",
+     "signpost": "Un cop hagueu acabat, podreu fer això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aneu amb compte per evitar aquest error comú..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Necessites ajuda? Espero que això et sigui útil..."
+    },
+    {
+     "position": "end",
+     "signpost": "Ara que ja he acabat, aquest és el meu següent projecte..."
+    }
+   ],
+   "title": "Construïnt un/a <BLANK> perfecte de principi a fi",
+   "x": false
+  },
+  {
+   "id": "71658",
+   "safetyAnswers": [
+    "Un maniquí",
+    "Un escarabat",
+    "En Tarzan"
+   ],
+   "signposts": [],
+   "title": "Viu la teva vida com <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71659",
+   "safetyAnswers": [
+    "Goooooolllll",
+    "AAAAAAAAAAAAAAHHHH!!",
+    "Nyam Nyam Nyam"
+   ],
+   "signposts": [],
+   "title": "Comença cada dia mirant-te al mirall i cridant el següent mantra: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71661",
+   "safetyAnswers": [
+    "Gats",
+    "Botigues Online",
+    "Amor no Correspost",
+    "Llaminadures! Mmmm!"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "No hi ha escapatòria de..."
+    },
+    {
+     "position": "end",
+     "signpost": "Però aquesta és la clau de la cel·la..."
+    },
+    {
+     "position": "middle",
+     "signpost": "És hora de que coneixeu els vigilants..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Qui ha fet aquesta presó?"
+    },
+    {
+     "position": "end",
+     "signpost": "Aquesta és l'única manera d'escapar..."
+    },
+    {
+     "position": "end",
+     "signpost": "Si ho penses, això és tot una metàfora, però també és..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Per què esteu atrapats allà? Ara us ho explico..."
+    }
+   ],
+   "title": "Esteu Atrapats en una presó feta de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71662",
+   "safetyAnswers": [
+    "El Jutge",
+    "Una Vaca",
+    "L'Ex",
+    "Tu mateix/a"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "La millor ubicació per la cita és..."
+    },
+    {
+     "position": "end",
+     "signpost": "Assegura't d'acabar el vespre amb..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Impressiona la teva cita amb aquest regal..."
+    },
+    {
+     "position": "end",
+     "signpost": "En comptes d'un petó de bona nit, proveu això..."
+    },
+    {
+     "position": "end",
+     "signpost": "La manera infalible de garantir una segona cita és..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Només hi ha una veritable manera de guanyar-te el cor de l'altre..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Recorda, només és natural estar nerviós per..."
+    }
+   ],
+   "title": "Com preparar-se per una cita amb <BLANK>!",
+   "x": true
+  },
+  {
+   "id": "71672",
+   "safetyAnswers": [
+    "Socialitzar",
+    "Un blíster de formatge",
+    "Oceans"
+   ],
+   "signposts": [],
+   "title": "No necessito sort perquè tinc <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71680",
+   "safetyAnswers": [
+    "Refrescos",
+    "Bicicletes",
+    "Peix"
+   ],
+   "signposts": [],
+   "title": "Obriu els ulls, ovelles, no necessitem <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71703",
+   "safetyAnswers": [
+    "ballar a la dutxa",
+    "menjar més calçots",
+    "somiar mentre estic despert"
+   ],
+   "signposts": [],
+   "title": "La meva vida serà millor quan comenci a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71704",
+   "safetyAnswers": [
+    "les gàbies d'ocell antigues aquelles",
+    "Keanu Reeves",
+    "somiar despert"
+   ],
+   "signposts": [],
+   "title": "I Què?! Estic obsessionat amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71705",
+   "safetyAnswers": [
+    "una pila de tots els meus remordiments",
+    "un somni on vaig despullat a l'escola",
+    "el lavabo de la gasolinera"
+   ],
+   "signposts": [],
+   "title": "Ajuda! Estic Atrapat en <BLANK>",
+   "x": true
+  },
+  {
+   "id": "71706",
+   "safetyAnswers": [
+    "els núvols",
+    "el Puigdemont",
+    "comprar-vos un Monster Truck"
+   ],
+   "signposts": [],
+   "title": "Deixeu de parlar sobre <BLANK>! Ho dic en serio!",
+   "x": false
+  },
+  {
+   "id": "71707",
+   "safetyAnswers": [
+    "les línies dels ulls",
+    "uns entrepans d'espaguetis",
+    "unes escultures de Mariano Rajoy"
+   ],
+   "signposts": [],
+   "title": "Com Aconsegueixo fer <BLANK> perfectes",
+   "x": false
+  },
+  {
+   "id": "71708",
+   "safetyAnswers": [
+    "homes llop",
+    "la compra d'un Zoo",
+    "una bona dosi de temor"
+   ],
+   "signposts": [],
+   "title": "Fes el teu matrimoni més picant amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71709",
+   "safetyAnswers": [
+    "Amanida de Tonyina",
+    "La Senyoreta Dinars",
+    "Capità Bogeria"
+   ],
+   "signposts": [],
+   "title": "La Raó per la qual tothom em diu <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71711",
+   "safetyAnswers": [
+    "Cacaolat",
+    "Aigua de l'aixeta",
+    "Els Seus Enormes Egos"
+   ],
+   "signposts": [],
+   "title": "Els Humans Podrien Sobreviure Alimentant-se Només amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71712",
+   "safetyAnswers": [
+    "menjar un entrepà gegant",
+    "trencar-se una cama",
+    "ballar cha-cha-cha"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> Com el tio més guai del barri",
+   "x": false
+  },
+  {
+   "id": "71715",
+   "safetyAnswers": [
+    "menjat un entrepà gegant",
+    "aconseguit un segon divorci",
+    "anat a la mani del 11S amb una banera espanyola"
+   ],
+   "signposts": [],
+   "title": "No has viscut la vida fins que no has <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71719",
+   "safetyAnswers": [
+    "un salmó salvatge",
+    "una truita caducada",
+    "ser un assassí"
+   ],
+   "signposts": [],
+   "title": "La història de com <BLANK> m'ha deixat seqüeles de per vida",
+   "x": false
+  },
+  {
+   "id": "71721",
+   "safetyAnswers": [
+    "el meu pare no sap cuinar",
+    "els ocells estan controlats pel govern",
+    "soc el pana més guai del barri"
+   ],
+   "signposts": [],
+   "title": "Podem fer pinya i estar d'acord amb que <BLANK>?",
+   "x": false
+  },
+  {
+   "id": "71723",
+   "safetyAnswers": [
+    "un seguit de doloroses injeccions",
+    "formigues triturades",
+    "una pregària al dia"
+   ],
+   "signposts": [],
+   "title": "Alerta senyores i senyors! Aconseguiu una pell més fina amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71736",
+   "safetyAnswers": [
+    "rentar la vostra roba",
+    "trucar els pares",
+    "que existeixin les fades de la cuina"
+   ],
+   "signposts": [],
+   "title": "Obriu la vostra ment a la possibilitat de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71739",
+   "safetyAnswers": [
+    "ballar",
+    "tenir un cocodril de mascota",
+    "fer castellers"
+   ],
+   "signposts": [],
+   "title": "La por és l'únic que t'impedeix <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71740",
+   "safetyAnswers": [
+    "el blat de moro",
+    "les taules de billar",
+    "els peus"
+   ],
+   "signposts": [],
+   "title": "Heu estat fent servir <BLANK> malament tota la vostra vida, gamarussos",
+   "x": false
+  },
+  {
+   "id": "71751",
+   "safetyAnswers": [
+    "L'Esmorzar de l'Apocalipsi",
+    "Espasa de Lava",
+    "Assassí de Lloguer"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Però tota la història fa un gir de 180 graus amb l'aparició d'aquest nou personatge..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Però prepareu-vos, perquè no estaveu esperant aquest increïble gir de guió..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Mentrestant, en un racó molt llunyà de l'univers..."
+    },
+    {
+     "position": "middle",
+     "signpost": "De sobte la història fa un salt vint anys al futur..."
+    },
+    {
+     "position": "end",
+     "signpost": "Sembla que no hi hagi manera que aquesta pel·lícula tingui un final satisfactori, però sabeu què? El té!"
+    },
+    {
+     "position": "end",
+     "signpost": "L'escena final us posarà tots i cada un dels pèls de punta!"
+    },
+    {
+     "position": "end",
+     "signpost": "Bueno, i segueix així durant una bona estona. Però m'agradaria acabar parlant de propostes de merchandising..."
+    },
+    {
+     "position": "end",
+     "signpost": "He mencionat que hi ha vampirs? Són importants pel final."
+    },
+    {
+     "position": "middle",
+     "signpost": "De sobte arriba un cotxe, i d'ell surt..."
+    },
+    {
+     "position": "end",
+     "signpost": "De sobte apareixen els crèdits abruptament. Però llavors després dels crèdits..."
+    }
+   ],
+   "title": "Seguidament us explicaré l'argument de la meva propera pel·lícula d'acció, titulada, \"<BLANK>\"",
+   "x": false
+  },
+  {
+   "id": "71755",
+   "safetyAnswers": [
+    "els homes llop són reals",
+    "si aneu massa ben vestits us pegaràn",
+    "no us fieu d'en Kevin"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Quan tenia la vostra edat tenia una idea equivocada de moltes coses del món universitari..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Alguns us preguntareu per què us estic donant aquests consells, aquest és el perquè..."
+    },
+    {
+     "position": "end",
+     "signpost": "He vist al campus moltes coses que mai hauríeu imaginat..."
+    },
+    {
+     "position": "end",
+     "signpost": "M'agradaria acabar amb una frase de la meva cançó preferida..."
+    },
+    {
+     "position": "end",
+     "signpost": "Per acabar, ara que comença una nova etapa, heu de ser molt conscients d'una cosa..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Espero que us ho passeu bé aquí, i conegueu la nostra mascota del campus..."
+    },
+    {
+     "position": "end",
+     "signpost": "Per acabar, us diré el lema de la universitat en llatí, i després explicaré què significa..."
+    },
+    {
+     "position": "end",
+     "signpost": "Per concloure, anem a cantar l'himne de la UAB tots junts, composat per els Catarres"
+    },
+    {
+     "position": "middle",
+     "signpost": "I ara un fort aplaudiment pel vostre proper professor..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Tothom s'acaba saltant aquesta classe..."
+    }
+   ],
+   "title": "El meu consell per tots aquells que començareu aquest any a la UAB: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71763",
+   "safetyAnswers": [
+    "els emojis",
+    "els gofres",
+    "els lampistes"
+   ],
+   "signposts": [],
+   "title": "Subestima <BLANK> Sota la teva responsabilitat!",
+   "x": false
+  },
+  {
+   "id": "71764",
+   "safetyAnswers": [
+    "els texans còmodes",
+    "els pastissos de pasta de full",
+    "-me"
+   ],
+   "signposts": [],
+   "title": "És hora que la societat deixi d'ignorar <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71765",
+   "safetyAnswers": [
+    "la llet d'avena",
+    "el Tinder",
+    "fer-se petons"
+   ],
+   "signposts": [],
+   "title": "Crec que <BLANK> és un miracle de l'era moderna",
+   "x": false
+  },
+  {
+   "id": "71766",
+   "safetyAnswers": [
+    "les llesques de formatge",
+    "els germans Super Mario",
+    "les sargantanes"
+   ],
+   "signposts": [],
+   "title": "Com he après a ignorar les crítiques i estimar <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71767",
+   "safetyAnswers": [
+    "Capitalisme",
+    "Una bona taronja madura",
+    "Sucre"
+   ],
+   "signposts": [],
+   "title": "<BLANK>: Fa funcionar el món",
+   "x": false
+  },
+  {
+   "id": "71768",
+   "safetyAnswers": [
+    "un paquet de llumins",
+    "entrades per una exhibició de Monster Truck",
+    "dos cavalls"
+   ],
+   "signposts": [],
+   "title": "<BLANK>: El regal perfecte per qualsevol ocasió",
+   "x": false
+  },
+  {
+   "id": "71769",
+   "safetyAnswers": [
+    "ensenyar el meu gat a fer servir el vàter",
+    "jugar al LOL tota la tarda",
+    "portar-nos a Disneyland"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Per tota la gent que m'està intentant aturar..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Com he aconseguit tan poder?"
+    },
+    {
+     "position": "end",
+     "signpost": "I ara, la joia de la corona del meu pla..."
+    },
+    {
+     "position": "end",
+     "signpost": "Que si té ALGUNA fissura el meu pla?"
+    },
+    {
+     "position": "end",
+     "signpost": "Què faré quan ho hagi aconseguit?"
+    },
+    {
+     "position": "middle",
+     "signpost": "Deixeu-me explicar el meu intricat esquema..."
+    },
+    {
+     "position": "end",
+     "signpost": "El meu pla té una fissura. AQUESTA..."
+    },
+    {
+     "position": "end",
+     "signpost": "Uniu-vos a mi, o això us passarà a vosaltres..."
+    },
+    {
+     "position": "end",
+     "signpost": "I per assegurar-me que res va malament, el meu pla té una mesura de seguretat incorporada..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquest pla funcionarà molt millor que el meu objectiu anterior..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Deien que no era possible, però ara m'admiren bocabadats..."
+    }
+   ],
+   "title": "És massa tard! El meu pla per <BLANK> ja està en marxa!",
+   "x": false
+  },
+  {
+   "id": "71770",
+   "safetyAnswers": [
+    "el festival culinari",
+    "el banc",
+    "McDonalds"
+   ],
+   "signposts": [],
+   "title": "Com vaig fer que tothom a <BLANK> s'enamorés de mi",
+   "x": false
+  },
+  {
+   "id": "71771",
+   "safetyAnswers": [
+    "la TV per cable",
+    "les mates",
+    "parlar amb algú més gran que tu"
+   ],
+   "signposts": [],
+   "title": "Per què <BLANK> és una pèrdua total de temps",
+   "x": false
+  },
+  {
+   "id": "71772",
+   "safetyAnswers": [
+    "-me",
+    "en Jared Leto interpretant el Joker",
+    "un refrescant got de llimonada"
+   ],
+   "signposts": [],
+   "title": "Qui ens salvarà? <BLANK>, evidentment!",
+   "x": false
+  },
+  {
+   "id": "71773",
+   "safetyAnswers": [
+    "el propietari d'una moto aqüàtica",
+    "una planta conscient",
+    "un assassí en sèrie"
+   ],
+   "signposts": [],
+   "title": "Els avantatges de ser <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71774",
+   "safetyAnswers": [
+    "el dia que vaig entrenar el meu gat a pixar al vàter",
+    "tres dies abans de Nadal",
+    "el meu aniversari"
+   ],
+   "signposts": [],
+   "title": "Per què <BLANK> hauria de ser una diada nacional",
+   "x": false
+  },
+  {
+   "id": "71775",
+   "safetyAnswers": [
+    "un bebé elefant",
+    "una important crisis interna",
+    "un màster"
+   ],
+   "signposts": [],
+   "title": "Sorpresa! Estic a punt de tenir <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71777",
+   "safetyAnswers": [
+    "xocar la mà",
+    "pintar cases",
+    "robar bancs"
+   ],
+   "signposts": [],
+   "title": "Una guia per inciar-se a les competicions de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71783",
+   "safetyAnswers": [
+    "una tragèdia",
+    "una marató",
+    "un incendi"
+   ],
+   "signposts": [],
+   "title": "Com convertir qualsevol festa en <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71791",
+   "safetyAnswers": [
+    "barbes frondoses",
+    "increïbles passes de ball",
+    "abelles"
+   ],
+   "signposts": [],
+   "title": "Heu de deixar d'amagar-vos darrere d'aquestes <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71808",
+   "safetyAnswers": [
+    "els hivernacles",
+    "el dadaisme",
+    "cuidar ocells"
+   ],
+   "signposts": [],
+   "title": "Tot el que sabeu sobre <BLANK> és completament fals",
+   "x": false
+  },
+  {
+   "id": "71810",
+   "safetyAnswers": [
+    "a nice iced tea",
+    "actually doing my laundry",
+    "musical theater"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> Em Va Treure de la misèria i em va posar en una nova vida",
+   "x": false
+  },
+  {
+   "id": "71811",
+   "safetyAnswers": [
+    "Semi-saviesa",
+    "ser una persona normal",
+    "el salt mortal perfecte",
+    "la dominació mundial",
+    "ser guai en general"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "I aquest era el primer pas. Ara ve el segon..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquí teniu un petit pas secret..."
+    },
+    {
+     "position": "middle",
+     "signpost": "El següent pas és una mica perillós..."
+    },
+    {
+     "position": "end",
+     "signpost": "I ens queda, ho heu encertat, el pas tres..."
+    },
+    {
+     "position": "end",
+     "signpost": "En quin pas estava? És igual, aquesta és la última part..."
+    },
+    {
+     "position": "end",
+     "signpost": "El tercer pas és el més difícil..."
+    },
+    {
+     "position": "end",
+     "signpost": "Deixeu-me ensenyar-vos la millor part de l'últim pas..."
+    }
+   ],
+   "title": "Tres senzills passos per aconseguir <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71813",
+   "safetyAnswers": [
+    "ser un desastre continuament",
+    "els realities",
+    "una llesca de pa en mal estat"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> em va convèncer finalment per abandonar la civilització",
+   "x": false
+  },
+  {
+   "id": "71814",
+   "safetyAnswers": [
+    "la Reina d'Anglaterra",
+    "una càrrega pels meus pares",
+    "Superman"
+   ],
+   "signposts": [],
+   "title": "Per què vaig deixar la meva feina per esdevenir <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71815",
+   "safetyAnswers": [
+    "taco",
+    "tuba",
+    "mongeta"
+   ],
+   "signposts": [],
+   "title": "Una paraula va canviar la meva vida, i aquesta és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71818",
+   "safetyAnswers": [
+    "un mal espia",
+    "un fan de la música country",
+    "un vampir"
+   ],
+   "signposts": [],
+   "title": "És cert, secretament sóc <BLANK>. No ho diguis a ningú!",
+   "x": false
+  },
+  {
+   "id": "71819",
+   "safetyAnswers": [
+    "xocolata infinita",
+    "abraçades si us plau!",
+    "barrets més elegants",
+    "una festa de ball!"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Això és el que he fet per vosaltres, plebeus desagraïts!"
+    },
+    {
+     "position": "middle",
+     "signpost": "Com beneficiarà això al meu regne?"
+    },
+    {
+     "position": "end",
+     "signpost": "No oblideu les paraules sagrades de la meva casa reial..."
+    },
+    {
+     "position": "end",
+     "signpost": "Què els hi passarà a aquells que es rebel·lin?"
+    },
+    {
+     "position": "end",
+     "signpost": "Obeiu les meves ordres i sereu recompensats amb..."
+    },
+    {
+     "position": "end",
+     "signpost": "Deixeu-me ensenyar-vos per què sóc diferent que altres reis..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Observeu, vaig rebre aquest regal..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Vinga, no es tan difícil com la meva última demanda reial..."
+    }
+   ],
+   "title": "Com el vostre rei, necessito només una cosa: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "71820",
+   "safetyAnswers": [
+    "el meu comportament",
+    "l'accident de Txernòbil",
+    "aquesta muntanya de merda"
+   ],
+   "signposts": [],
+   "title": "Per què <BLANK> És Culpa Vostra",
+   "x": false
+  },
+  {
+   "id": "71821",
+   "safetyAnswers": [
+    "taxidèrmia",
+    "les relacions de l'altre gent",
+    "aparentar"
+   ],
+   "signposts": [],
+   "title": "Converteix-te en un expert en <BLANK> en menys de cinc minuts",
+   "x": false
+  },
+  {
+   "id": "72058",
+   "safetyAnswers": [
+    "soterrani secret",
+    "fantasmes",
+    "muntanya russa"
+   ],
+   "signposts": [],
+   "title": "El secret per una casa perfecta? <BLANK>!",
+   "x": false
+  },
+  {
+   "id": "72061",
+   "safetyAnswers": [
+    "com ser un pirata",
+    "tristesa",
+    "quina pizza és la millor"
+   ],
+   "signposts": [],
+   "title": "La única cosa que vaig aprendre a la universitat va ser <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72062",
+   "safetyAnswers": [
+    "El meu tiet Jordi",
+    "El meu barista",
+    "una pila de fantasmes"
+   ],
+   "signposts": [],
+   "title": "Com em vaig fer millors amics amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72065",
+   "safetyAnswers": [
+    "les plantes carnívores",
+    "fer un bon pastís",
+    "fer abraçades"
+   ],
+   "signposts": [],
+   "title": "La guia de <BLANK> per gent rebel",
+   "x": false
+  },
+  {
+   "id": "72131",
+   "safetyAnswers": [
+    "un rusc d'abelles",
+    "una bona cullerada de gelat",
+    "la versió maligna de mi"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Què va portar a aquest ultimàtum?"
+    },
+    {
+     "position": "middle",
+     "signpost": "Com podria descriure el nostre amor?"
+    },
+    {
+     "position": "middle",
+     "signpost": "Com em podeu culpar a mi si la meva parella s'ha obsessionat amb això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Hi ha una tercera opció?"
+    },
+    {
+     "position": "end",
+     "signpost": "L'única contraoferta que acceptaré és..."
+    },
+    {
+     "position": "end",
+     "signpost": "Què faré jo ara?"
+    },
+    {
+     "position": "end",
+     "signpost": "Ara em sento més lliure. Mireu-me com sóc ara..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Quin va ser el senyal més evident que les coses no estaven funcionant?"
+    }
+   ],
+   "title": "Li he dit a la meva parella que es decidís: O jo o <BLANK>",
+   "x": true
+  },
+  {
+   "id": "72132",
+   "safetyAnswers": [
+    "un despertador",
+    "una ampolla de Whisky",
+    "una depressió constant"
+   ],
+   "signposts": [],
+   "title": "Fent servir <BLANK> per ser la millor versió de tu",
+   "x": false
+  },
+  {
+   "id": "72134",
+   "safetyAnswers": [
+    "bebés",
+    "pots de iogurt buits",
+    "culturistes"
+   ],
+   "signposts": [],
+   "title": "Ningú ho sap, però casa meva està plena de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72135",
+   "safetyAnswers": [
+    "els impostos",
+    "les crispetes dolces",
+    "tota la història de la humanitat"
+   ],
+   "signposts": [],
+   "title": "La repugnant veritat sobre <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72136",
+   "safetyAnswers": [
+    "la pau interior",
+    "una pista de l'assassinat",
+    "un propòsit per la meva vida"
+   ],
+   "signposts": [],
+   "title": "Trobant <BLANK> mentres buscava els meus mitjons",
+   "x": false
+  },
+  {
+   "id": "72138",
+   "safetyAnswers": [
+    "un funcionari",
+    "un tomàquet madur",
+    "una persona molt trista"
+   ],
+   "signposts": [],
+   "title": "D'aquí poc, em transformaré en la meva forma final: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72142",
+   "safetyAnswers": [
+    "escapar-te d'una festa",
+    "cordar-te les sabates",
+    "rentar els plats"
+   ],
+   "signposts": [],
+   "title": "La guia completa per <BLANK> sense gastar ni un duro!",
+   "x": false
+  },
+  {
+   "id": "72143",
+   "safetyAnswers": [
+    "pirate",
+    "billionaire",
+    "fish kisser"
+   ],
+   "signposts": [],
+   "title": "Mai és massa tard per esdevenir un/a <BLANK> professional",
+   "x": false
+  },
+  {
+   "id": "72145",
+   "safetyAnswers": [
+    "Sonic: La película",
+    "en Toni Cruanyes",
+    "Garfield",
+    "el meu pentinat"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Prepareu-vos per la increïble bellesa que us estic a punt d'ensenyar..."
+    },
+    {
+     "position": "middle",
+     "signpost": "No sóc cap crític d'art, però aquí estan les meves credencials..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Això és el que està exposat en el nostre museu local..."
+    },
+    {
+     "position": "end",
+     "signpost": "El que ens diu això sobre el futur de la nostra cultura és això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Estareu d'acord amb mi que aquella peça d'art té almenys el mateix valor que aquesta..."
+    },
+    {
+     "position": "end",
+     "signpost": "La resta d'art és una merda! Sobretot aquest..."
+    }
+   ],
+   "title": "Per què <BLANK> és l'obra d'art més grandiosa de tots els temps",
+   "x": false
+  },
+  {
+   "id": "72482",
+   "safetyAnswers": [
+    "les trucades telefòniques",
+    "els cucs",
+    "la història de l'art",
+    "les bitlles",
+    "els tazos"
+   ],
+   "signposts": [],
+   "title": "Ara és el moment d'entrar en pànic per <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72504",
+   "safetyAnswers": [
+    "tenir una mica de pau i tranquilitat",
+    "uns quants elogis d'uns extranys",
+    "una safata de galetes"
+   ],
+   "signposts": [],
+   "title": "Per què ho vaig abandonar absolutament tot per <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72506",
+   "safetyAnswers": [
+    "la societat",
+    "la meva cangur",
+    "el meu gat"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Soliem passar-ho genial, com en aquesta foto..."
+    },
+    {
+     "position": "end",
+     "signpost": "Ara ha trobat una millor vida amb..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquesta és la gota que va fer vessar el got..."
+    },
+    {
+     "position": "end",
+     "signpost": "He trobat el nou amor de la meva vida..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Ja sabeu la dita, \"qui es baralla es desitja,\" però en realitat la dita hauria de ser..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Deixeu-me ensenyar-vos aquest moment del nostre àlbum..."
+    },
+    {
+     "position": "end",
+     "signpost": "Això m'allibera temps per la meva passió real..."
+    }
+   ],
+   "title": "Per què he trencat amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72507",
+   "safetyAnswers": [
+    "les xarxes socials",
+    "el llapis",
+    "el Netflix"
+   ],
+   "signposts": [],
+   "title": "Això és el que faré si em robes <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72509",
+   "safetyAnswers": [
+    "la ramaderia en massa",
+    "la Coca-Cola",
+    "la meva nova novela"
+   ],
+   "signposts": [],
+   "title": "Un emocionant viatge pel món de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72510",
+   "safetyAnswers": [
+    "que els gossos caminin a dues potes",
+    "la trigonometria",
+    "l'aigua amb gas"
+   ],
+   "signposts": [],
+   "title": "<BLANK> m'aterroritza i us diré el perquè",
+   "x": false
+  },
+  {
+   "id": "72511",
+   "safetyAnswers": [
+    "en Carles Puigdemont",
+    "un tio que només portava roba texana",
+    "el pa"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Aquí ve una metàfora que descriu l'amor perfectament..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Encara que el meu cor estigui ple d'amor, em segueix molestant això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Com definiria l'amor?"
+    },
+    {
+     "position": "end",
+     "signpost": "Em moro de ganes de passar la resta dels meus dies fent la nostra cosa preferida..."
+    },
+    {
+     "position": "end",
+     "signpost": "Com se sent quan estem junts?"
+    },
+    {
+     "position": "end",
+     "signpost": "Busqueu-vos algú que us tracti així..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Quan estimes algo, això és el que fas..."
+    },
+    {
+     "position": "end",
+     "signpost": "Si no hi ha amor a la vostra vida, això és el que podeu fer per solucionar-ho..."
+    },
+    {
+     "position": "end",
+     "signpost": "Hi ha una altra cosa que estimo també..."
+    }
+   ],
+   "title": "No sabia què era l'amor verdader fins que vaig conèixer <BLANK>",
+   "x": true
+  },
+  {
+   "id": "72512",
+   "safetyAnswers": [
+    "com agafar els coberts",
+    "l'evasió de taxes",
+    "perquè s'ha comprat una furgoneta"
+   ],
+   "signposts": [
+    {
+     "position": "end",
+     "signpost": "Abans d'anar-me'n, la vostra mare volia que us digués una última cosa..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Jo vaig ser com vosaltres un dia..."
+    },
+    {
+     "position": "end",
+     "signpost": "És una mica incòmode treure el tema, però la vostre mare no deixarà mai de parlar de..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Esteu anant per mal camí, un camí que us portarà aquí..."
+    },
+    {
+     "position": "end",
+     "signpost": "Per què sóc jo qui us ho ha d'explicar? La vostre mare i jo estem conectats d'aquesta manera..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Això potser és massa confús per vosaltres. Deixeu-me simplificar-ho amb una petita història..."
+    }
+   ],
+   "title": "Nens, la vostre mare m'ha portat aquí perquè us parli de <BLANK>",
+   "x": true
+  },
+  {
+   "id": "72514",
+   "safetyAnswers": [
+    "una gateta",
+    "el respecte dels meus companys de feina",
+    "una Nintendo Switch"
+   ],
+   "signposts": [],
+   "title": "Solia ser una persona molt tancada. Encara ho sóc, però ara tinc <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72515",
+   "safetyAnswers": [
+    "cowboy",
+    "gran decepció",
+    "encantador de gossos"
+   ],
+   "signposts": [],
+   "title": "Seigues el/la <BLANK> que sempre has somiat ser",
+   "x": false
+  },
+  {
+   "id": "72516",
+   "safetyAnswers": [
+    "la teva colecció d'espases",
+    "el meu enorme ego",
+    "el podcast sobre tu"
+   ],
+   "signposts": [],
+   "title": "El problema no ets tu, és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72518",
+   "safetyAnswers": [
+    "que els gofres són millors que les creps",
+    "on estava amagat quan jugavem al fet i amagar",
+    "com de bé que van els olis essencials"
+   ],
+   "signposts": [],
+   "title": "Sóc un fantasma, i per poder descansar en pau us he de dir <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72646",
+   "safetyAnswers": [
+    "la independència",
+    "robar pastissos",
+    "riure"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Parareu de partir-vos quan us ensenyi això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Ara us ensenyaré una cosa que sí que és una mica graciosa..."
+    },
+    {
+     "position": "end",
+     "signpost": "També, pareu de plorar. I pareu de..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Del que us hauríeu de riure és això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Us diré quatre coses sobre la gent que troba això graciós..."
+    },
+    {
+     "position": "end",
+     "signpost": "Espereu, he canviat d'opinió. Sí que és graciós i aquí ve el perquè..."
+    }
+   ],
+   "title": "<BLANK> no és una broma, així que pareu de riure",
+   "x": false
+  },
+  {
+   "id": "72647",
+   "safetyAnswers": [
+    "el destí",
+    "la COVID",
+    "la felicitat"
+   ],
+   "signposts": [],
+   "title": "<BLANK> no existeix. No et pot fer mal.",
+   "x": false
+  },
+  {
+   "id": "72650",
+   "safetyAnswers": [
+    "un hotel per gossos",
+    "menjar xiclet",
+    "visitar mansions abandonades"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Què fa que jo sigui un adolescent tan guai?"
+    },
+    {
+     "position": "end",
+     "signpost": "Com pot la gent gran com vosaltres aprendre sobre això?"
+    },
+    {
+     "position": "end",
+     "signpost": "Assegureu-vos de dir-li a l'adolescent guai de la vostre vida el següent..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Estic fent una pausa de l'skate per dir-vos això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquí venen unes quantes paraules guais que els vells com vosaltres no coneixeu..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquesta propera cosa no mola gens..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Tothom de l'insti està enviant aquesta següent foto a tothom..."
+    },
+    {
+     "position": "end",
+     "signpost": "Si li dieu a algú el que us he explicat avui, només us dic..."
+    },
+    {
+     "position": "end",
+     "signpost": "Ja us agradaria ser així..."
+    },
+    {
+     "position": "end",
+     "signpost": "Fins una altra pringats, haig d'anar a fer aquesta cosa tan guai..."
+    }
+   ],
+   "title": "Per què ara tots els adolescents guais parlen de <BLANK>? Sóc un adolescent guai així que us ho explicaré.",
+   "x": true
+  },
+  {
+   "id": "72652",
+   "safetyAnswers": [
+    "l'hamburguesa del McDonalds",
+    "un niu de formigues",
+    "on està Wally"
+   ],
+   "signposts": [],
+   "title": "<BLANK> és un misteri que val la pena resoldre",
+   "x": false
+  },
+  {
+   "id": "72698",
+   "safetyAnswers": [
+    "metalls preciosos",
+    "Insults",
+    "caramels"
+   ],
+   "signposts": [],
+   "title": "Per què em mereixo tots els <BLANK> del món",
+   "x": false
+  },
+  {
+   "id": "72747",
+   "safetyAnswers": [
+    "ballaré claqué",
+    "criaré gossos corgi",
+    "sortejaré milions d'euros"
+   ],
+   "signposts": [],
+   "title": "Em sap greu anunciar que ja no <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72748",
+   "safetyAnswers": [
+    "les sabates per bebés",
+    "els quilòmetres de paper de bombolles",
+    "els assassins"
+   ],
+   "signposts": [],
+   "title": "Què ha passat amb <BLANK>? La resposta us sorprendrà",
+   "x": false
+  },
+  {
+   "id": "72749",
+   "safetyAnswers": [
+    "soportar llargues converses sobre vaixells",
+    "ser d'un barri pijo",
+    "menjar tomàquets"
+   ],
+   "signposts": [],
+   "title": "Si vols que t'estimi, hauràs de <BLANK>",
+   "x": true
+  },
+  {
+   "id": "72750",
+   "safetyAnswers": [
+    "una cuidadosa microgestió",
+    "una sèrie de males decisions",
+    "la llet de civada"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> m'ha convertit en la persona que sóc avui",
+   "x": false
+  },
+  {
+   "id": "72754",
+   "safetyAnswers": [
+    "Groot",
+    "uns quants conills",
+    "el president de la generalitat",
+    "un llop amb un ordinador"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Per què no ho he revelat abans?"
+    },
+    {
+     "position": "end",
+     "signpost": "Només espero que encara pugui aturar el meu major enemic..."
+    },
+    {
+     "position": "middle",
+     "signpost": "NO us sorprèn? Bé, llavors això us pot sorprendre bastant..."
+    },
+    {
+     "position": "end",
+     "signpost": "En el fons encara sóc jo, per aquesta raó..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquesta és la raó per la qual he ocultat la meva identitat..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Sincerament, la primera pista de la meva identitat hauria d'haver sigut aquesta..."
+    },
+    {
+     "position": "end",
+     "signpost": "Sorpresa! Tinc una altra identitat encara més secreta..."
+    },
+    {
+     "position": "end",
+     "signpost": "També tinc una veu secreta que ara faré servir per acabar la presentació..."
+    }
+   ],
+   "title": "És hora de revelar la meva identitat secreta... Sóc <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72756",
+   "safetyAnswers": [
+    "horrible",
+    "menjar llavors com un ocell",
+    "principalment xampinyons"
+   ],
+   "signposts": [],
+   "title": "He trobat el secret de la joventut eterna, i és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72761",
+   "safetyAnswers": [
+    "tv per cable",
+    "els cucs",
+    "entrepans"
+   ],
+   "signposts": [],
+   "title": "Els plaers prohibits d'incorporar <BLANK> al dormitori",
+   "x": true
+  },
+  {
+   "id": "72763",
+   "safetyAnswers": [
+    "us heu de rentar les mans",
+    "la vostra mare vol que la truqueu",
+    "el plat del dia està deliciós"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Aquest proper punt podria fer que digueu, \"Yeehaw\" per estar d'acord..."
+    },
+    {
+     "position": "end",
+     "signpost": "Una última cosa abans que fugi per aquell sender solitari..."
+    },
+    {
+     "position": "middle",
+     "signpost": "La vida al camp fa que et trobis molts... Bé, deixeu-me que us ho ensenyi..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Ara, l'últim que t'agradaria veure mentre cavalques pels senders és..."
+    },
+    {
+     "position": "end",
+     "signpost": "Un bon vaquer necessita tres coses. 1. Barret. 2. Botes. 3..."
+    },
+    {
+     "position": "end",
+     "signpost": "Fins la propera, forasters, espero que la vostra vida estigui plena d'això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Estava cavalcant amb el meu fidel cavall quan vaig presenciar això, causa de la meva consternació..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Veieu aquesta placa que porto al pit? No sóc el sheriff, però m'encarrego d'això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquesta és una cosa que només es veu a l'oest..."
+    },
+    {
+     "position": "end",
+     "signpost": "La frontera està plena d'això, si saps on buscar-ho..."
+    },
+    {
+     "position": "end",
+     "signpost": "Bon viatge, amics, i recordeu aquest petit bocinet de saviesa..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Us he d'advertir, hi ha una cosa que em farà retar-vos a un duel al migdia..."
+    }
+   ],
+   "title": "Bones. Sóc només un vaquer que ha vingut aquí per dir-vos que <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72770",
+   "safetyAnswers": [
+    "decebedor professional",
+    "pallaso de carnestoltes",
+    "rei del Burger King"
+   ],
+   "signposts": [],
+   "title": "Sang, suor i llàgrimes: La meva vida com un/a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72773",
+   "safetyAnswers": [
+    "menjar-se els rics",
+    "la migdiada",
+    "la jardinaria de teulades competitiva"
+   ],
+   "signposts": [],
+   "title": "Per què <BLANK> hauria de ser el nou passatemps nacional",
+   "x": false
+  },
+  {
+   "id": "72774",
+   "safetyAnswers": [
+    "una cafetera buida",
+    "una dessuadora suau",
+    "un parell de sabates sense cordar"
+   ],
+   "signposts": [],
+   "title": "Sincerament, la única cosa que em pot fer plorar és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72776",
+   "safetyAnswers": [
+    "les ulleres graduades de tamany mundial",
+    "la meva mare",
+    "aquesta web mal feta"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> està canviant la manera en què veiem el món",
+   "x": false
+  },
+  {
+   "id": "72777",
+   "safetyAnswers": [
+    "les meves barbies",
+    "els bebés del soterrani",
+    "la meva contrasenya del Club Penguin"
+   ],
+   "signposts": [],
+   "title": "Ja m'he cansat! Pareu de preguntar-me sobre <BLANK>!",
+   "x": false
+  },
+  {
+   "id": "72785",
+   "safetyAnswers": [
+    "formiga",
+    "coleccionista de monedes",
+    "trompetista"
+   ],
+   "signposts": [],
+   "title": "Els meus anys vivint camuflat com a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72787",
+   "safetyAnswers": [
+    "plorar",
+    "els tomàquets",
+    "la ópera"
+   ],
+   "signposts": [],
+   "title": "Els científics es solien riure de mi, però ara necessiten els meus coneixements sobre <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72823",
+   "safetyAnswers": [
+    "un pringat",
+    "un piròman",
+    "un pare terrible"
+   ],
+   "signposts": [],
+   "title": "Després de 25 anys siguent <BLANK>, he après algunes coses importants",
+   "x": false
+  },
+  {
+   "id": "72833",
+   "safetyAnswers": [
+    "arruinar la meva vida",
+    "posar-me trist",
+    "trobar casa meva"
+   ],
+   "signposts": [],
+   "title": "He fet servir Internet per <BLANK> i tu també pots",
+   "x": false
+  },
+  {
+   "id": "72838",
+   "safetyAnswers": [
+    "una excursió a un pantà",
+    "menjar podrit",
+    "un vàter espatllat"
+   ],
+   "signposts": [],
+   "title": "Transforma tota la teva vida en una hora amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72967",
+   "safetyAnswers": [
+    "pare",
+    "mort",
+    "bona gent"
+   ],
+   "signposts": [],
+   "title": "La vida és massa curta per gastar-la sent <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72970",
+   "safetyAnswers": [
+    "un botó d'autodestrucció",
+    "un gos per l'oficina",
+    "un director bebé"
+   ],
+   "signposts": [],
+   "title": "Tota empresa necessita <BLANK>",
+   "x": false
+  },
+  {
+   "id": "72985",
+   "safetyAnswers": [
+    "és molt mono",
+    "és una morsa",
+    "està cabrejat"
+   ],
+   "signposts": [],
+   "title": "He vist a Déu i vinc aquí a dir-vos que Déu <BLANK>",
+   "x": true
+  },
+  {
+   "id": "73013",
+   "safetyAnswers": [
+    "les llibreries",
+    "els Pretzels",
+    "les endevinalles"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Per què fan tanta por?"
+    },
+    {
+     "position": "end",
+     "signpost": "Aquí teniu algunes maneres de combatre aquesta por..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aaaah! Ho sento, estava pensant en això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "D'on vé tot aquest terror?"
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquí ve el perquè és molt pitjor del que us penseu..."
+    },
+    {
+     "position": "end",
+     "signpost": "Un cop ens alliberem d'aquesta port, podrem tenir un nou, pròsper futur ple d'això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Però la bona notícia és que també tenim una cosa per la que alegrar-nos..."
+    },
+    {
+     "position": "end",
+     "signpost": "La millor manera de guanyar valentia és..."
+    }
+   ],
+   "title": "Només hem de tèmer una cosa: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73016",
+   "safetyAnswers": [
+    "el meu consum de fruites",
+    "la meva colecció de segells",
+    "l'accés als xiclets"
+   ],
+   "signposts": [],
+   "title": "He maximitzat la meva vida maximitzant <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73017",
+   "safetyAnswers": [
+    "una família de llangardaixos",
+    "el carregador del mòbil",
+    "el meu drac imaginari"
+   ],
+   "signposts": [],
+   "title": "Passeu de les modes! <BLANK> és la mascota ideal",
+   "x": false
+  },
+  {
+   "id": "73018",
+   "safetyAnswers": [
+    "els llibres de la biblioteca",
+    "la macroeconomia",
+    "qui s'ha tirat un pet"
+   ],
+   "signposts": [],
+   "title": "Una discussió íntima sobre <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73019",
+   "safetyAnswers": [
+    "la meva colecció d'espases",
+    "la meva personalitat",
+    "els objectes maleïts"
+   ],
+   "signposts": [],
+   "title": "Per què no penso llençar <BLANK> diguis el que diguis, mama",
+   "x": false
+  },
+  {
+   "id": "73020",
+   "safetyAnswers": [
+    "quedar-se sense patates",
+    "tot el nostre món",
+    "un entrepà moll"
+   ],
+   "signposts": [],
+   "title": "Acceptant l'aterradora realitat de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73021",
+   "safetyAnswers": [
+    "ossets Haribo",
+    "ossos",
+    "fusta"
+   ],
+   "signposts": [],
+   "title": "Com fer la transició a una dieta basada en <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73022",
+   "safetyAnswers": [
+    "el meu divorci",
+    "Aquesta recepta de lasanya",
+    "l'estat de la meva habitació"
+   ],
+   "signposts": [],
+   "title": "La única explicació per <BLANK> son els alienígenes",
+   "x": false
+  },
+  {
+   "id": "73023",
+   "safetyAnswers": [
+    "menjar piles de formatge",
+    "una nova esponja",
+    "tornar a dormir"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> m'ha ajudat a recuperar-me d'un cor trencat",
+   "x": false
+  },
+  {
+   "id": "73025",
+   "safetyAnswers": [
+    "minding your business",
+    "tootsie rolls",
+    "secret bagel bites"
+   ],
+   "signposts": [],
+   "title": "<BLANK>: La clau per una millor ment, cos, i ànima",
+   "x": false
+  },
+  {
+   "id": "73026",
+   "safetyAnswers": [
+    "la meva vida amorosa",
+    "l'arribada a la lluna",
+    "ascensors"
+   ],
+   "signposts": [],
+   "title": "<BLANK>: realitat o ficció?",
+   "x": false
+  },
+  {
+   "id": "73027",
+   "safetyAnswers": [
+    "sorra",
+    "roba esportiva",
+    "pessigolles"
+   ],
+   "signposts": [],
+   "title": "Que tothom entri en pànic! Gairebé ens hem quedat sense <BLANK>!!!",
+   "x": false
+  },
+  {
+   "id": "73028",
+   "safetyAnswers": [
+    "com fer realities",
+    "a matar insectes",
+    "com carregar un rentaplats"
+   ],
+   "signposts": [],
+   "title": "S'hauria d'estar ensenyant <BLANK> a les escoles i us diré per què",
+   "x": false
+  },
+  {
+   "id": "73029",
+   "safetyAnswers": [
+    "el meu pati",
+    "un abocador bonic",
+    "algun altre planeta"
+   ],
+   "signposts": [],
+   "title": "En serio! Mudem-nos tots a <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73031",
+   "safetyAnswers": [
+    "un artista de sandvitxos",
+    "una mala persona per internet",
+    "el Joker"
+   ],
+   "signposts": [],
+   "title": "Així que has decidit ser <BLANK>, eh? Això és tot el que has de saber!",
+   "x": false
+  },
+  {
+   "id": "73032",
+   "safetyAnswers": [
+    "rendir-se",
+    "construïr una caseta pels ocells",
+    "entrenar un equip de bàsquet"
+   ],
+   "signposts": [],
+   "title": "L'única manera de ser realment feliç és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73034",
+   "safetyAnswers": [
+    "en Legolas",
+    "aquest entrepà de pernil",
+    "un espantaocells"
+   ],
+   "signposts": [],
+   "title": "Per què <BLANK> és la parella romàntica perfecta",
+   "x": true
+  },
+  {
+   "id": "73035",
+   "safetyAnswers": [
+    "imitadors de Jack Black",
+    "un kètxup agre",
+    "un ordinador que olori malament"
+   ],
+   "signposts": [],
+   "title": "M'és igual el que diguin, el món necessita <BLANK>!",
+   "x": false
+  },
+  {
+   "id": "73036",
+   "safetyAnswers": [
+    "el meu pare",
+    "el McDonalds de l'aeroport",
+    "una targeta regal de 25€"
+   ],
+   "signposts": [],
+   "title": "Com <BLANK> és l'experiència gastronòmica definitiva",
+   "x": false
+  },
+  {
+   "id": "73037",
+   "safetyAnswers": [
+    "robar la \"Mona Lisa\"",
+    "ser un tontet adorable",
+    "menjar insectes"
+   ],
+   "signposts": [],
+   "title": "No cometeu el mateix error: he arruïnat la meva vida per <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73038",
+   "safetyAnswers": [
+    "cinta adhesive",
+    "un home molt alt",
+    "cucs"
+   ],
+   "signposts": [],
+   "title": "Per què aconseguir <BLANK> ho pot arreglar tot a la teva vida",
+   "x": false
+  },
+  {
+   "id": "73039",
+   "safetyAnswers": [
+    "música Disco",
+    "una nova societat",
+    "uns quants tambors"
+   ],
+   "signposts": [],
+   "title": "És hora de destruïr-ho tot i reemplaçar-ho per <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73043",
+   "safetyAnswers": [
+    "El meu pare",
+    "la indústria dels hot dogs",
+    "un ratolí intel·ligent"
+   ],
+   "signposts": [],
+   "title": "Sóc l'escollit: Una profecia diu que sóc <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73048",
+   "safetyAnswers": [
+    "magdalenes",
+    "plastidecors",
+    "cotxets de bebé",
+    "Socialitzar"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Imagineu-vos aquesta escena clau..."
+    },
+    {
+     "position": "end",
+     "signpost": "El que ens porta a aquest emocionant clímax!"
+    },
+    {
+     "position": "end",
+     "signpost": "Si decidiu invertir en la meva pel·lícula, això és el que us donaré..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Van dir que aquesta següent part costaria masses diners..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Mireu aquest storyboard que he creat..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquest següent punt de la trama és bastant cliché, però funciona perfectament..."
+    },
+    {
+     "position": "end",
+     "signpost": "Si us ha agradat aquesta presentació, us encantarà aquest altre guió que tinc sobre..."
+    },
+    {
+     "position": "end",
+     "signpost": "La peli és només el començament. Aquesta és la meva idea per fer-ne després una serie de televisió..."
+    },
+    {
+     "position": "end",
+     "signpost": "També tinc una idea per una preqüela..."
+    }
+   ],
+   "title": "A Hollywood li fa massa por fer la meva pel·lícula sobre <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73049",
+   "safetyAnswers": [
+    "les ganes de dormir",
+    "Sant Valentí",
+    "Sucre"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Què menja aquest tauró?"
+    },
+    {
+     "position": "end",
+     "signpost": "Quin és el teu bot salvavides emocional?"
+    },
+    {
+     "position": "middle",
+     "signpost": "Imagineu-vos això atacant-vos a sota l'aigua..."
+    },
+    {
+     "position": "end",
+     "signpost": "Oh no! Necessitem reforços! Com aquest..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Però qui són els peixos pallasso en aquest escenari? La resposta us sorprendrà..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquest és el vostre equip de submarinisme..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquest tauró no et mossega. Et fa algo encara pitjor..."
+    },
+    {
+     "position": "end",
+     "signpost": "M'he quedat sense idees per aquesta metàfora, així que la següent imatge és de les meves últimes vacances..."
+    },
+    {
+     "position": "end",
+     "signpost": "I qui soc jo en aquesta metàfora? Sóc aquesta bonica criatura..."
+    },
+    {
+     "position": "end",
+     "signpost": "Si voleu nedar a través del oceà de la vida, això és el que heu de fer..."
+    },
+    {
+     "position": "middle",
+     "signpost": "No podeu nedar més ràpid que el tauró, però sí que podeu..."
+    }
+   ],
+   "title": "La vida és un oceà i <BLANK> és el tauró",
+   "x": false
+  },
+  {
+   "id": "73050",
+   "safetyAnswers": [
+    "el ritme",
+    "les alèrgies de primavera",
+    "un home súper musculat"
+   ],
+   "signposts": [],
+   "title": "En comptes de deixar-te vèncer per la desesperació, deixa't vèncer per <BLANK>!",
+   "x": false
+  },
+  {
+   "id": "73051",
+   "safetyAnswers": [
+    "treballar des de casa",
+    "comprar una granja de formigues",
+    "un subministrament infinit d'olives"
+   ],
+   "signposts": [],
+   "title": "<BLANK> semblava un somni fet realitat, però es va convertir en un malson",
+   "x": false
+  },
+  {
+   "id": "73056",
+   "safetyAnswers": [
+    "ser un adult",
+    "pentinar adequadament un cavall",
+    "fer esport"
+   ],
+   "signposts": [],
+   "title": "No vull xulejar, però sóc l'única persona del món que pot <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73059",
+   "safetyAnswers": [
+    "cuidar el meu fill",
+    "conduïr un monster truck",
+    "unir-te al meu quartet de veu"
+   ],
+   "signposts": [],
+   "title": "Tu que et creus tan savi, creus que ets massa bo per <BLANK>?",
+   "x": false
+  },
+  {
+   "id": "73062",
+   "safetyAnswers": [
+    "els óssos",
+    "les patates de bossa",
+    "les pelis de Tom Hanks"
+   ],
+   "signposts": [],
+   "title": "Alerta: no siguis víctima de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73063",
+   "safetyAnswers": [
+    "trobar aparcament els caps de setmana",
+    "un mal dia a la platja",
+    "el gnom del meu lavabo"
+   ],
+   "signposts": [],
+   "title": "Poseu-vos en rotllana i escolteu la meva dolorosa història sobre <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73066",
+   "safetyAnswers": [
+    "el meu fill Gregory",
+    "lo bons que sou jugant a la xarranca",
+    "dofins"
+   ],
+   "signposts": [],
+   "title": "Oh No, cada aspecte de la vostra vida està controlat per <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73068",
+   "safetyAnswers": [
+    "començar a gatejar com un bebé",
+    "cobrir-me de greix",
+    "posar els dits en una ratera"
+   ],
+   "signposts": [],
+   "title": "Ningú em solia fer cas, però vaig <BLANK> i ara soc la reina de la festa",
+   "x": false
+  },
+  {
+   "id": "73070",
+   "safetyAnswers": [
+    "l'home llop",
+    "el cordó de les meves sabates",
+    "el meu germà"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Aquella sensació esgarrifosa que tenieu podia haver sigut deguda a això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Com podem acabar amb aquesta bèstia?"
+    },
+    {
+     "position": "middle",
+     "signpost": "Ni el foc pot destruïr aquesta criatura..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquest següent punt us donarà els calfreds més esgarrifosos..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Pot semblar adorable, però aquesta és la amenaça real..."
+    },
+    {
+     "position": "end",
+     "signpost": "Debem una gran disculpa a la cosa que ens pensàvem que era el monstre..."
+    },
+    {
+     "position": "end",
+     "signpost": "La nostre millor protecció és probablement aquesta..."
+    },
+    {
+     "position": "end",
+     "signpost": "Cridaré a l'únic assassí capaç de salvar-nos d'aquesta monstruositat..."
+    },
+    {
+     "position": "end",
+     "signpost": "Avui hem après una valuosa lliçó sobre jutjar un llibre per la portada..."
+    }
+   ],
+   "title": "Resulta que tot el temps <BLANK> havia sigut realment el monstre",
+   "x": false
+  },
+  {
+   "id": "73072",
+   "safetyAnswers": [
+    "portar texans",
+    "menjar pedres",
+    "la llet de civada"
+   ],
+   "signposts": [],
+   "title": "Sembla innocent, però en realitat <BLANK> és increïblement perillós/a",
+   "x": false
+  },
+  {
+   "id": "73073",
+   "safetyAnswers": [
+    "el tornadopocalipsi",
+    "un atac d'en Bigfoot",
+    "ser atacat per milers de coloms"
+   ],
+   "signposts": [],
+   "title": "Si voleu sobreviure a <BLANK>, haureu de fer exactament el que us diré",
+   "x": false
+  },
+  {
+   "id": "73074",
+   "safetyAnswers": [
+    "la meva sopa",
+    "el meu nou pas de vall",
+    "el meu pla per extingir els elefants"
+   ],
+   "signposts": [],
+   "title": "Ignoreu todes les crítiques sobre <BLANK>, tothom està equivocat",
+   "x": false
+  },
+  {
+   "id": "73076",
+   "safetyAnswers": [
+    "que els gossos planejen acabar amb la humanitat",
+    "que Peter Parker i Spider-Man són la mateixa persona",
+    "que els meus pares surten a un calendari nudista"
+   ],
+   "signposts": [],
+   "title": "Ho sento si semblo alterat/da. Acabo d'enterar-me de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73077",
+   "safetyAnswers": [
+    "Podcast",
+    "Cactus",
+    "colze"
+   ],
+   "signposts": [],
+   "title": "No és res personal, però aquí vé una dura veritat sobre el teu <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73079",
+   "safetyAnswers": [
+    "optimus prime petonejant-me",
+    "el Mic i el Cincsegons",
+    "My Little Pony"
+   ],
+   "signposts": [],
+   "title": "El meu fànfic sobre <BLANK> no és només entretingut, et canvia la vida",
+   "x": false
+  },
+  {
+   "id": "73080",
+   "safetyAnswers": [
+    "la meva agresivitat",
+    "els cereals per esmorzar",
+    "l'economia de Finlàndia"
+   ],
+   "signposts": [],
+   "title": "Què passa amb <BLANK>? Tranquils, us ho explicaré.",
+   "x": false
+  },
+  {
+   "id": "73082",
+   "safetyAnswers": [
+    "My shampoo bottle",
+    "My special Bible",
+    "A Buca Di Beppo menu"
+   ],
+   "signposts": [],
+   "title": "<BLANK> potser no és ben bé un llibre, però és l'únic llibre que necessitareu llegir",
+   "x": false
+  },
+  {
+   "id": "73084",
+   "safetyAnswers": [
+    "YouTube",
+    "tatuatges a l'aixella",
+    "periodisme"
+   ],
+   "signposts": [],
+   "title": "<BLANK>: la manera definitiva de decepcionar els teus pares",
+   "x": true
+  },
+  {
+   "id": "73086",
+   "safetyAnswers": [
+    "texans de Calvin Klein",
+    "un barret de granger",
+    "els meus propis cabells"
+   ],
+   "signposts": [],
+   "title": "Calleu-vos... A partir d'ara només amb vestiré amb <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73088",
+   "safetyAnswers": [
+    "les biblioteques",
+    "els barrets de copa",
+    "els autos de xoc"
+   ],
+   "signposts": [],
+   "title": "Hi ha una guerra per <BLANK> i jo soc el general",
+   "x": false
+  },
+  {
+   "id": "73089",
+   "safetyAnswers": [
+    "una bèstia amb els videojocs",
+    "l'amo d'una moto",
+    "una miqueta més alt que ell"
+   ],
+   "signposts": [],
+   "title": "Millor que ell: L'Albert Einstein era llest però jo sóc <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73090",
+   "safetyAnswers": [
+    "Els hot dogs poden ser unes postres",
+    "no siguis devorat per llops",
+    "cridar"
+   ],
+   "signposts": [],
+   "title": "La meva vida es basa en un simple i únic principi: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73093",
+   "safetyAnswers": [
+    "la botiga de pretzels",
+    "la fàbrica de trompetes",
+    "un parc d'atraccions amb temàtica de bolquers"
+   ],
+   "signposts": [],
+   "title": "Com a antic treballador de <BLANK>, això és el que no volen que els clients sàpiguen",
+   "x": false
+  },
+  {
+   "id": "73096",
+   "safetyAnswers": [
+    "entris a la meva habitació",
+    "et tornis barber",
+    "entris a LinkedIn"
+   ],
+   "signposts": [],
+   "title": "Ho sento, però la propera vegada que <BLANK>, se't caurà la cara",
+   "x": false
+  },
+  {
+   "id": "73097",
+   "safetyAnswers": [
+    "tenir tots els pokémons",
+    "el vincle entre un vaquer i el seu cavall",
+    "anar al parc aqüàtic"
+   ],
+   "signposts": [],
+   "title": "Idiotes, el tresor més gran del món no és la riquesa, és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73101",
+   "safetyAnswers": [
+    "la NASA",
+    "un gat i un ratolí que han unit forces contra mi",
+    "els ascensors"
+   ],
+   "signposts": [],
+   "title": "Un joc del gat i el ratolí: la meva batalla contra <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73102",
+   "safetyAnswers": [
+    "el cafè descafeinat",
+    "com funcionen els mòbils",
+    "l'amor verdader"
+   ],
+   "signposts": [],
+   "title": "Els científics no poden explicar <BLANK>, però jo ho he descobert pel meu compte",
+   "x": false
+  },
+  {
+   "id": "73109",
+   "safetyAnswers": [
+    "fer un ordinador amb cames",
+    "inventar un millor obrellaunes",
+    "donar-me un milió d'euros"
+   ],
+   "signposts": [],
+   "title": "Tot i les seves proeses tecnològiques, Silicon Valley encara no pot <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73114",
+   "safetyAnswers": [
+    "un atleta",
+    "un membre de la casa real",
+    "un idiota"
+   ],
+   "signposts": [],
+   "title": "D'acord, sóc patètic, però i si et digués que també vaig ser <BLANK>?",
+   "x": false
+  },
+  {
+   "id": "73129",
+   "safetyAnswers": [
+    "que si us plau inventeu patates de bossa impermeables",
+    "que pareu de pixar al mar",
+    "que l'Atlàntida és pels amants",
+    "que els ocells són malvats"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Vigileu, per què jo controlo el vent, les onades i..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Les profunditats de l'oceà contenen vistes més enllà de la comprensió humana, com per exemple..."
+    },
+    {
+     "position": "middle",
+     "signpost": "El meu trident encantat pot fer això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "La llei sumbarina del regne oceànic dicta clarament això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Poden coexistir la humanitat i els tritons?"
+    },
+    {
+     "position": "end",
+     "signpost": "Ara procediré a traduir-vos el cant de les balenes..."
+    },
+    {
+     "position": "end",
+     "signpost": "Tinc una última pregunta sobre el món de la superfície..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Però per què li importen els problemes de la terra a un déu aqüàtic com jo? Teniu una cosa que desitjo..."
+    },
+    {
+     "position": "end",
+     "signpost": "Us deixaré amb un últim secret sobre el mar..."
+    }
+   ],
+   "title": "Sóc el Déu de l'Atlàntida i el meu missatge per vosaltres, habitants de la superfície, és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73130",
+   "safetyAnswers": [
+    "us renti la roba",
+    "us deixi el meu tallagespa",
+    "cuidi els vostres fills",
+    "us ensenyi a ballar"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "El meu codi d'honor exigeix que us digui això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Malgrat tot el que heu sentit sobre mi, no sóc un monstre. De fet sóc..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Aquí vé el perquè sóc un valuós amic..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Per que hauria d'acceptar?"
+    },
+    {
+     "position": "end",
+     "signpost": "Ara em debeu un deute, que és aquest..."
+    },
+    {
+     "position": "end",
+     "signpost": "M'alegra que haguem arribat al següent acord..."
+    },
+    {
+     "position": "end",
+     "signpost": "Molt bé, molt bé. Ara beseu el meu anell i feu això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Us he explicat la història del que li va passar a l'última persona que em va demanar això?"
+    },
+    {
+     "position": "end",
+     "signpost": "Marxeu d'aquí, i digueu això als vostres amics i família..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Això és el que no enteneu dels meus negocis..."
+    },
+    {
+     "position": "middle",
+     "signpost": "No sóc un criminal de pacotilla, així és com dirigeixo la meva operació..."
+    },
+    {
+     "position": "end",
+     "signpost": "Parleu amb el meu executor principal, i dieu-li això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Al meu país hi ha una vella dita, un principi que tots els mafiosos seguim..."
+    }
+   ],
+   "title": "Sóc un poderós alt càrrec de la màfia i m'heu demanat com a favor que <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73136",
+   "safetyAnswers": [
+    "la meva tortuga mascota",
+    "quan els dinosaures controlaven la terra",
+    "indigestió"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "\"Sota la llum del cel matinal, vegé quelcom pel meu finestral...\""
+    },
+    {
+     "position": "middle",
+     "signpost": "\"El somriure em manca, com veureu, el motiu del qual tot seguit descobrireu...\""
+    },
+    {
+     "position": "middle",
+     "signpost": "\"El meu amor és pur, com el meu coratge, i això es pot apreciar a la següent imatge...\""
+    },
+    {
+     "position": "end",
+     "signpost": "\"La meva vida, empresonada pel destí, és una història en la que no es pot canviar de camí...\""
+    },
+    {
+     "position": "end",
+     "signpost": "\"Fins aviat amics, amb pressa he de marxar. Però la vostra memòria al meu cor es mantindrà...\""
+    },
+    {
+     "position": "end",
+     "signpost": "\"Enmig d'una intensa foscor, xiuxiuejo aquests mots dins la meva habitació...\""
+    },
+    {
+     "position": "middle",
+     "signpost": "\"Quelcom de molta rellevància, és aquest fet sobre la meva infància...\""
+    },
+    {
+     "position": "end",
+     "signpost": "Si aquesta última part s'assembla a la lletra d'alguna cançó popular, és simplement una coincidencia"
+    },
+    {
+     "position": "end",
+     "signpost": "Ara trencaré la mètrica per formular uns curts versos..."
+    },
+    {
+     "position": "middle",
+     "signpost": "\"Fou una noció poderosa, que m'omplí l'ànima de pètals i roses...\""
+    },
+    {
+     "position": "end",
+     "signpost": "\"Ara per fi veig, amb claretat, una gran veritat de la humanitat...\""
+    }
+   ],
+   "title": "Ara us llegiré el meu poema sobre amor, pèrdua, i <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73143",
+   "safetyAnswers": [
+    "El guia de l'aqüari",
+    "Casa Tarradellas",
+    "El meu superior"
+   ],
+   "signposts": [],
+   "title": "Ja n'he tingut prou! Penso denunciar <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73164",
+   "safetyAnswers": [
+    "en Patufet",
+    "una llit per gossos",
+    "alcohòlic"
+   ],
+   "signposts": [],
+   "title": "La meva història: La meva mare és una espelma perfumada i el meu pare és <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73165",
+   "safetyAnswers": [
+    "suricates",
+    "dones riques",
+    "lluitadors professionals"
+   ],
+   "signposts": [],
+   "title": "Història real: Em vaig sentir com a casa en una colònia de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73288",
+   "safetyAnswers": [
+    "la meva pròpia incompetència",
+    "les illes balears",
+    "l'escalfament global",
+    "les xarxes socials"
+   ],
+   "signposts": [
+    {
+     "position": "end",
+     "signpost": "No em subestimeu, ja que no esteu preparats pel meu PROPER pla..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Càsum l'olla! La pitjor part va ser quan..."
+    },
+    {
+     "position": "middle",
+     "signpost": "M'hauria d'haver imaginat que m'havien descobert quan..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Maleït siga! Com em recuperaré de la pitjor humiliació de totes..."
+    },
+    {
+     "position": "end",
+     "signpost": "Com l'ignorant que era, encara tenia esperança en el meu pla quan vaig veure això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Aquest és només un contratemps momentani abans del meu gran triomf!"
+    },
+    {
+     "position": "middle",
+     "signpost": "No hauria d'haver confiat aquest pla al meu sequaç més incompetent..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Mireu què li han fet a la meva base secreta!"
+    },
+    {
+     "position": "middle",
+     "signpost": "Oh no, la meva arma súper secreta està en ruïnes!"
+    },
+    {
+     "position": "end",
+     "signpost": "Potser aquest cop heu guanyat, però tornaré! I el proper cop..."
+    }
+   ],
+   "title": "Redimonis! El meu malèvol pla se n'ha anat en òrris, i tot per culpa de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73289",
+   "safetyAnswers": [
+    "mineria de bitcoin",
+    "un parc d'atraccions",
+    "una bomba atòmica"
+   ],
+   "signposts": [],
+   "title": "Per què heu d'invertir en el meu nou projecte: <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73290",
+   "safetyAnswers": [
+    "les girafes",
+    "les llargues cues dels lavabos",
+    "aquestes maquinetes que tornen tonto el jovent"
+   ],
+   "signposts": [],
+   "title": "Uniu-vos a la meva lluita contra la tirania, la opressió, i <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73295",
+   "safetyAnswers": [
+    "hem comprat un descapotable",
+    "ens fem tants petons",
+    "vendrem el gos"
+   ],
+   "signposts": [
+    {
+     "position": "end",
+     "signpost": "Alegra aquesta cara, campió. Sé una cosa que et farà sentir millor..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Necesitaré que siguis valent, perquè..."
+    },
+    {
+     "position": "middle",
+     "signpost": "No passa res per plorar en aquesta part..."
+    },
+    {
+     "position": "end",
+     "signpost": "Recorda dues coses. 1. T'estimem, i 2. ...."
+    },
+    {
+     "position": "middle",
+     "signpost": "Canviarà el teu dia a dia? Sí, i així és com..."
+    },
+    {
+     "position": "end",
+     "signpost": "Tot anirà bé, petit, gràcies a això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Hem demanat una última opinió als teus avis i han dit..."
+    },
+    {
+     "position": "end",
+     "signpost": "Quan siguis més grandet entendràs aquesta última part..."
+    }
+   ],
+   "title": "T'explicaré per què la teva mare i jo <BLANK>",
+   "x": true
+  },
+  {
+   "id": "73298",
+   "safetyAnswers": [
+    "guanyar el concurs de menjar hot dogs",
+    "ser la mare més jove del món",
+    "deprimir-me"
+   ],
+   "signposts": [],
+   "title": "Fora de la meva vista! Ningú s'interposarà entre mi i el meu somni de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73299",
+   "safetyAnswers": [
+    "'Bee Movie'",
+    "'El Padrí III'",
+    "'La Bíblia: La Pel·lícula'"
+   ],
+   "signposts": [],
+   "title": "Cinc cèntims de tot el que recordo de la pel·lícula <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73300",
+   "safetyAnswers": [
+    "els mitocondris",
+    "tots els assassinats d'aquesta nit",
+    "per què està tan bo aquest pastís"
+   ],
+   "signposts": [],
+   "title": "Ningú sortirà d'aquesta habitació fins que descobrim la veritat sobre <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73303",
+   "safetyAnswers": [
+    "una consciència neta",
+    "un gos enorme que ronca",
+    "un coixí a tamany real d'una noia anime"
+   ],
+   "signposts": [],
+   "title": "Milloreu la qualitat del vostre son amb <BLANK> al vostre llit",
+   "x": false
+  },
+  {
+   "id": "73304",
+   "safetyAnswers": [
+    "ignorar tothom",
+    "oblidar literalment tot el que has sapigut mai",
+    "corbates divertides"
+   ],
+   "signposts": [],
+   "title": "<BLANK>: La clau per una reunió eficient",
+   "x": false
+  },
+  {
+   "id": "73305",
+   "safetyAnswers": [
+    "estàs a punt d'entrebancar-te",
+    "els cavalls molen",
+    "pots viatjar en el temps"
+   ],
+   "signposts": [],
+   "title": "Com el teu advocat, estic legalment obligat a dir-te que <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73306",
+   "safetyAnswers": [
+    "Heinz",
+    "el basar xinès",
+    "la gent guai"
+   ],
+   "signposts": [],
+   "title": "Aquestes són totes les raons per què dimiteixo com a CEO de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73307",
+   "safetyAnswers": [
+    "un esquelet",
+    "confiança",
+    "dotze gossos"
+   ],
+   "signposts": [],
+   "title": "Com va ser créixer sense <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73310",
+   "safetyAnswers": [
+    "una revolució",
+    "veure el meu germà pinyar-se-la en el tobogan d'aigua",
+    "uns cuernos"
+   ],
+   "signposts": [],
+   "title": "No hi ha res millor que un dia assolellat, una beguda fresca, i <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73311",
+   "safetyAnswers": [
+    "feliços",
+    "viatgers en el temps",
+    "delegats de classe"
+   ],
+   "signposts": [],
+   "title": "Algú us ha de dir la veritat... Mai sereu <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73418",
+   "safetyAnswers": [
+    "menjar brunch",
+    "córrer ràpid",
+    "ser el vostre propi advocat"
+   ],
+   "signposts": [],
+   "title": "Una relació saludable us dona l'habilitat secreta de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73419",
+   "safetyAnswers": [
+    "les barbes",
+    "les festes pijama",
+    "Els 40 Principals"
+   ],
+   "signposts": [],
+   "title": "La ciència s'equivoca! EL cos humà obtén energia de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73420",
+   "safetyAnswers": [
+    "dir frases de pelis",
+    "cuidar nens",
+    "fer rebotar pedres a l'aigua"
+   ],
+   "signposts": [],
+   "title": "La intel·ligència artificial mai substituirà l'habilitat humana de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73423",
+   "safetyAnswers": [
+    "viu",
+    "antisocial",
+    "Magnètic"
+   ],
+   "signposts": [],
+   "title": "Ei cultura juvenil, ser guai no és tan important com ser <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73424",
+   "safetyAnswers": [
+    "portar pantalons de pana",
+    "un ocell al meu cap",
+    "l'amor per les verdures"
+   ],
+   "signposts": [],
+   "title": "<BLANK> no és una debilitat, és el millor tema per començar una conversa!",
+   "x": false
+  },
+  {
+   "id": "73426",
+   "safetyAnswers": [
+    "gent nua",
+    "dents que estan a punt de caure",
+    "robots sense cara"
+   ],
+   "signposts": [],
+   "title": "Persegueix els teus somnis i rodeja't de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73428",
+   "safetyAnswers": [
+    "el savatge oest",
+    "una bola de hàmster gegant",
+    "un laberint de blat de moro"
+   ],
+   "signposts": [],
+   "title": "Vaig trobar l'amor de la meva vida en <BLANK> i tu també pots",
+   "x": false
+  },
+  {
+   "id": "73449",
+   "safetyAnswers": [
+    "cavall",
+    "paquet de pèsols",
+    "llançaflames",
+    "cubell d'escombraries"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Heu estat mai en aquesta situació?"
+    },
+    {
+     "position": "middle",
+     "signpost": "Hi ha d'haver una manera millor!"
+    },
+    {
+     "position": "middle",
+     "signpost": "Us agrada el que veieu? Doncs bé, tinc bones notícies per vosaltres..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Solia ser tan difícil i frustrant..."
+    },
+    {
+     "position": "end",
+     "signpost": "Simplement conteu fins a deu... i ja ho tindreu!"
+    },
+    {
+     "position": "end",
+     "signpost": "Repetiu amb mi..."
+    },
+    {
+     "position": "end",
+     "signpost": "La vostra vida ara és fantàstica, gràcies a aquest producte..."
+    },
+    {
+     "position": "end",
+     "signpost": "Treieu la targeta de crèdit i feu el següent..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Què va inspirar aquest invent? És una història formidable..."
+    },
+    {
+     "position": "end",
+     "signpost": "Però espereu! Si feu una comanda en els propers cinc minuts també us emportareu això..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Una persona molt famosa ha confirmat que li encanta el nostre producte..."
+    },
+    {
+     "position": "end",
+     "signpost": "Sou d'aquells que no es conformen amb qualsevol cosa? Podeu comprar la versió PRO..."
+    }
+   ],
+   "title": "Aquest increïble <BLANK> us canviarà la vida i pot ser vostre amb 4 senzills pagaments de 39,95€",
+   "x": false
+  },
+  {
+   "id": "73454",
+   "safetyAnswers": [
+    "aquesta audiència",
+    "aquesta bellesa",
+    "el concepte de moralitat"
+   ],
+   "signposts": [],
+   "title": "Perdoneu-me, però <BLANK> és inacceptable i vull parlar amb el teu superior",
+   "x": false
+  },
+  {
+   "id": "73455",
+   "safetyAnswers": [
+    "aquell ratolí trapella",
+    "el meu grup de cant",
+    "una abella"
+   ],
+   "signposts": [],
+   "title": "Després d'anys amagant-me, finalment <BLANK> m'ha trobat!",
+   "x": false
+  },
+  {
+   "id": "73467",
+   "safetyAnswers": [
+    "paper de vàter reutilitzable",
+    "un robot que pugui plorar",
+    "clips comestibles"
+   ],
+   "signposts": [],
+   "title": "Ja estem al segle 21! Com pot ser que no hagin inventat <BLANK>?",
+   "x": false
+  },
+  {
+   "id": "73468",
+   "safetyAnswers": [
+    "una nova emoció anomenada Amor 2",
+    "un cavall que pot ballar claqué",
+    "Batman"
+   ],
+   "signposts": [],
+   "title": "M'he passat tota la vida intentant demostrar l'existència de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73469",
+   "safetyAnswers": [
+    "el porc gegant",
+    "el meu amor per tu",
+    "la vaca del ganivet"
+   ],
+   "signposts": [],
+   "title": "El monstre del llac ness és només un mite, però <BLANK> és completament real",
+   "x": false
+  },
+  {
+   "id": "73511",
+   "safetyAnswers": [
+    "cridar",
+    "un bon entrecot al punt",
+    "boxejar sense guants"
+   ],
+   "signposts": [],
+   "title": "Per què <BLANK> li dona millor gust a la vida",
+   "x": false
+  },
+  {
+   "id": "73512",
+   "safetyAnswers": [
+    "el meu soterrani",
+    "dins la meva ment",
+    "viure a Disneyland"
+   ],
+   "signposts": [],
+   "title": "Adéu, pringats! Me'n vaig a <BLANK>!",
+   "x": false
+  },
+  {
+   "id": "73513",
+   "safetyAnswers": [
+    "el meu nou llibre",
+    "l'enciclopedia sencera",
+    "organitzar l'armari"
+   ],
+   "signposts": [],
+   "title": "<BLANK> no és tan avorrit com us penseu. Mireu com m'estic divertint!",
+   "x": false
+  },
+  {
+   "id": "73514",
+   "safetyAnswers": [
+    "en George Clooney",
+    "la cuinera de l'escola",
+    "aquell Backstreet Boy"
+   ],
+   "signposts": [],
+   "title": "Per què <BLANK> i jo ja no som millors amics, encara que les nostres pulseres de Millors Amics demostrin el contrari",
+   "x": false
+  },
+  {
+   "id": "73515",
+   "safetyAnswers": [
+    "infinites motos aqüàtiques",
+    "causes benèfiques",
+    "el meu làser congelador planetari"
+   ],
+   "signposts": [],
+   "title": "Soc un potencial geni maligne, i pretenc invertir la meva herència en <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73517",
+   "safetyAnswers": [
+    "el meu nou negoci de cotxes",
+    "cuidar d'en Karl, de la feina",
+    "la meva ex que ara és la meva dona",
+    "un somni raro que vaig tenir"
+   ],
+   "signposts": [
+    {
+     "position": "middle",
+     "signpost": "Sí, Estic a punt de plorar. Aquesta és la raó..."
+    },
+    {
+     "position": "end",
+     "signpost": "Per acabar, us deixo una pregària Irlandesa que és perfecta per aquest moment..."
+    },
+    {
+     "position": "end",
+     "signpost": "Ah per cert, el DJ no podrà venir, però tenim una alternativa per la festa de després..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Per què mai havia parlat amb ningú d'això? Perquè..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Vosaltres dos no heu sigut honestos amb una cosa..."
+    },
+    {
+     "position": "middle",
+     "signpost": "Segurament us preguntareu quin paper tinc jo en la vostra relació..."
+    },
+    {
+     "position": "middle",
+     "signpost": "En comptes de tenir fills, hauríeu de fer això..."
+    },
+    {
+     "position": "end",
+     "signpost": "Abans que em feu fora, tinc una última cosa a dir..."
+    },
+    {
+     "position": "end",
+     "signpost": "Si voleu que la vostra relació funcioni, seguiu el meu consell..."
+    }
+   ],
+   "title": "Un brindis pels novios! Però també us he de parlar de <BLANK>",
+   "x": false
+  },
+  {
+   "id": "73518",
+   "safetyAnswers": [
+    "el meu cor",
+    "el Louvre sencer",
+    "les figures de porcellana de ma mare"
+   ],
+   "signposts": [],
+   "title": "És completament impossible robar <BLANK>... O no??",
+   "x": false
+  },
+  {
+   "id": "73519",
+   "safetyAnswers": [
+    "beure aigua",
+    "anar a pastar fant",
+    "menjar una sola col de Brusel·les"
+   ],
+   "signposts": [],
+   "title": "<BLANK> ha millorat la meva productivitat i m'ha fet immortal",
+   "x": false
+  },
+  {
+   "id": "73520",
+   "safetyAnswers": [
+    "per què els ossos són sexys",
+    "els dits dels peus",
+    "trucs to guapos amb l'skate"
+   ],
+   "signposts": [],
+   "title": "No sóc metge, però et donaré consell mèdic sobre <BLANK>",
+   "x": false
+  }
+ ]
+}
